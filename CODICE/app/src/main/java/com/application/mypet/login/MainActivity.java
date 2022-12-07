@@ -23,9 +23,11 @@ import com.application.mypet.services.HomeActivity;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Declaring connection variables
     Connection con;
-    String un,pass,db,ip;
+    String un,pass,db,ip,port;
     // End Declaring connection variables
 
     @Override
@@ -84,7 +86,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Declaring Server ip, username, database name and password
-        ip = "192.168.1.153:3306";
+        ip = System.getenv("IP_ADDRESS");
+        port = "3306";
         db = "mypet";
         un = "Root";
         pass = "Biblioteche.";
@@ -107,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("StaticFieldLeak")
     public class CheckLogin extends AsyncTask<String,String,String>
     {
+        private final Logger LOGGER = Logger.getLogger(CheckLogin.class.getName());
         String z = "";
         Boolean isSuccess = false; // used to check whether the login fails or not
 
@@ -127,14 +131,18 @@ public class MainActivity extends AppCompatActivity {
             }
             else {
                 Statement stmt = null;
+                PreparedStatement pstmt;
+                String query = "SELECT * FROM User WHERE Username = ? AND Password = ?";
                 try {
-                    con = connectionclass(un, pass, db, ip);     // Connect to database
+                    con = connectionclass(un, pass, db, ip, port);     // Connect to database
                     if (con == null) {
                         z = "Check Your Internet Access!";
                     } else {
-                        String query = "select * from user where Username = '" + usernam + "' and Password = '" + passwordd + "'";
                         stmt = con.createStatement();
-                        ResultSet rs = stmt.executeQuery(query);
+                        pstmt = con.prepareStatement(query);
+                        pstmt.setString(1, usernam);
+                        pstmt.setString(2, passwordd);
+                        ResultSet rs = pstmt.executeQuery();
                         if (rs.next()) {
                             z = "Login successful";
                             isSuccess = true;
@@ -152,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                         assert stmt != null;
                         stmt.close();
                     } catch (SQLException e) {
-                        e.printStackTrace();
+                        //LOGGER.log("context", e);
                     }
                 }
             }
@@ -177,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     @SuppressLint("NewApi")
-    public Connection connectionclass(String user, String password, String database, String server)
+    public Connection connectionclass(String user, String password, String database, String server, String port)
     {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
@@ -186,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            ConnectionURL = "jdbc:mysql://" + server + "/" + database /*+ ";user=" + user + ";password=" + password + ";"*/;
+            ConnectionURL = "jdbc:mysql://" + server + ":" + port + "/" + database /*+ ";user=" + user + ";password=" + password + ";"*/;
             connection = DriverManager.getConnection(ConnectionURL, user, password);
         }
         catch (SQLException se)
