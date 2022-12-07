@@ -6,179 +6,182 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml
+8-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml
+9-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:5:5-66
-11-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:6:5-78
-12-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:6:22-76
+12-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:6:5-78
+12-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:7:5-75
-13-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:7:22-73
+13-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:7:5-75
+13-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:7:22-73
 14
 15    <application
-15-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:9:5-82:19
+15-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:9:5-84:19
 16        android:allowBackup="true"
-16-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:10:9-35
+16-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:10:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 17-->[androidx.core:core:1.8.0] C:\Users\Matteo\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 18        android:dataExtractionRules="@xml/data_extraction_rules"
-18-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:11:9-65
+18-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:11:9-65
 19        android:debuggable="true"
+19-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:17:9-35
 20        android:fullBackupContent="@xml/backup_rules"
-20-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:12:9-54
+20-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:12:9-54
 21        android:icon="@mipmap/ic_launcher"
-21-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:13:9-43
+21-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:13:9-43
 22        android:label="@string/app_name"
-22-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:14:9-41
+22-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:14:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:15:9-54
+23-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:15:9-54
 24        android:supportsRtl="true"
-24-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:16:9-35
+24-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:16:9-35
 25        android:testOnly="true"
-26        android:theme="@style/Theme.MyPet" >
-26-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:17:9-43
-27        <activity
-27-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:20:9-26:20
-28            android:name="com.application.mypet.login.AccountRegistration2"
-28-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:21:13-55
-29            android:exported="false" >
-29-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:22:13-37
-30            <meta-data
-30-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:23:13-25:36
-31                android:name="android.app.lib_name"
-31-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:24:17-52
-32                android:value="" />
-32-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:25:17-33
-33        </activity>
-34        <activity
-34-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:27:9-33:20
-35            android:name="com.application.mypet.login.AccountRegistration1"
-35-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:28:13-55
-36            android:exported="false" >
-36-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:29:13-37
-37            <meta-data
-37-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:23:13-25:36
-38                android:name="android.app.lib_name"
-38-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:24:17-52
-39                android:value="" />
-39-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:25:17-33
-40        </activity>
-41        <activity
-41-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:34:9-40:20
-42            android:name="com.application.mypet.services.HomeActivity"
-42-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:35:13-50
-43            android:exported="false" >
-43-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:36:13-37
-44            <meta-data
-44-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:23:13-25:36
-45                android:name="android.app.lib_name"
-45-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:24:17-52
-46                android:value="" />
-46-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:25:17-33
-47        </activity>
-48        <activity
-48-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:41:9-48:20
-49            android:name="com.application.mypet.login.PasswordRecovery"
-49-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:42:13-51
-50            android:exported="false"
-50-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:43:13-37
-51            android:screenOrientation="portrait" >
-51-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:44:13-49
-52            <meta-data
-52-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:23:13-25:36
-53                android:name="android.app.lib_name"
-53-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:24:17-52
-54                android:value="" />
-54-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:25:17-33
-55        </activity>
-56        <activity
-56-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:49:9-63:20
-57            android:name="com.application.mypet.SplashScreen"
-57-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:50:13-41
-58            android:exported="true"
-58-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:51:13-36
-59            android:screenOrientation="portrait"
-59-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:52:13-49
-60            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-60-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:53:13-71
-61            <intent-filter>
-61-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:54:13-58:29
-62                <action android:name="android.intent.action.MAIN" />
-62-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:55:17-69
-62-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:55:25-66
-63
-64                <category android:name="android.intent.category.LAUNCHER" />
-64-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:57:17-77
-64-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:57:27-74
-65            </intent-filter>
-66
-67            <meta-data
-67-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:23:13-25:36
-68                android:name="android.app.lib_name"
-68-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:24:17-52
-69                android:value="" />
-69-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:25:17-33
-70        </activity>
-71        <activity
-71-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:64:9-77:20
-72            android:name="com.application.mypet.login.MainActivity"
-72-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:65:13-47
-73            android:exported="true"
-73-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:66:13-36
-74            android:screenOrientation="portrait" >
-74-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:67:13-49
-75            <intent-filter>
-75-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:54:13-58:29
-76                <action android:name="android.intent.action.MAIN" />
-76-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:55:17-69
-76-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:55:25-66
-77
-78                <category android:name="android.intent.category.LAUNCHER" />
-78-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:57:17-77
-78-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:57:27-74
-79            </intent-filter>
-80
-81            <meta-data
-81-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:23:13-25:36
-82                android:name="android.app.lib_name"
-82-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:24:17-52
-83                android:value="" />
-83-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:25:17-33
-84        </activity>
-85
-86        <meta-data
-86-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:79:9-81:57
-87            android:name="preloaded_fonts"
-87-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:80:13-43
-88            android:resource="@array/preloaded_fonts" />
-88-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\AndroidManifest.xml:81:13-54
-89
-90        <provider
-90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-91            android:name="androidx.startup.InitializationProvider"
-91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-92            android:authorities="com.application.mypet.androidx-startup"
-92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-93            android:exported="false" >
-93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-94            <meta-data
-94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-96                android:value="androidx.startup" />
-96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-97            <meta-data
-97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Matteo\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-98-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Matteo\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-99                android:value="androidx.startup" />
-99-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Matteo\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-100        </provider>
-101    </application>
-102
-103</manifest>
+26        android:theme="@style/Theme.MyPet"
+26-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:18:9-43
+27        android:usesCleartextTraffic="false" >
+27-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:19:9-45
+28        <activity
+28-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:22:9-28:20
+29            android:name="com.application.mypet.login.AccountRegistration2"
+29-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:23:13-55
+30            android:exported="false" >
+30-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:24:13-37
+31            <meta-data
+31-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:25:13-27:36
+32                android:name="android.app.lib_name"
+32-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:26:17-52
+33                android:value="" />
+33-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:27:17-33
+34        </activity>
+35        <activity
+35-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:29:9-35:20
+36            android:name="com.application.mypet.login.AccountRegistration1"
+36-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:30:13-55
+37            android:exported="false" >
+37-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:31:13-37
+38            <meta-data
+38-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:25:13-27:36
+39                android:name="android.app.lib_name"
+39-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:26:17-52
+40                android:value="" />
+40-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:27:17-33
+41        </activity>
+42        <activity
+42-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:36:9-42:20
+43            android:name="com.application.mypet.services.HomeActivity"
+43-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:37:13-50
+44            android:exported="false" >
+44-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:38:13-37
+45            <meta-data
+45-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:25:13-27:36
+46                android:name="android.app.lib_name"
+46-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:26:17-52
+47                android:value="" />
+47-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:27:17-33
+48        </activity>
+49        <activity
+49-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:43:9-50:20
+50            android:name="com.application.mypet.login.PasswordRecovery"
+50-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:44:13-51
+51            android:exported="false"
+51-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:45:13-37
+52            android:screenOrientation="portrait" >
+52-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:46:13-49
+53            <meta-data
+53-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:25:13-27:36
+54                android:name="android.app.lib_name"
+54-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:26:17-52
+55                android:value="" />
+55-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:27:17-33
+56        </activity>
+57        <activity
+57-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:51:9-65:20
+58            android:name="com.application.mypet.SplashScreen"
+58-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:52:13-41
+59            android:exported="true"
+59-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:53:13-36
+60            android:screenOrientation="portrait"
+60-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:54:13-49
+61            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+61-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:55:13-71
+62            <intent-filter>
+62-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:56:13-60:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:57:17-69
+63-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:57:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:59:17-77
+65-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:59:27-74
+66            </intent-filter>
+67
+68            <meta-data
+68-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:25:13-27:36
+69                android:name="android.app.lib_name"
+69-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:26:17-52
+70                android:value="" />
+70-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:27:17-33
+71        </activity>
+72        <activity
+72-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:66:9-79:20
+73            android:name="com.application.mypet.login.MainActivity"
+73-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:67:13-47
+74            android:exported="true"
+74-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:68:13-36
+75            android:screenOrientation="portrait" >
+75-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:69:13-49
+76            <intent-filter>
+76-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:56:13-60:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:57:17-69
+77-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:57:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:59:17-77
+79-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:59:27-74
+80            </intent-filter>
+81
+82            <meta-data
+82-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:25:13-27:36
+83                android:name="android.app.lib_name"
+83-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:26:17-52
+84                android:value="" />
+84-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:27:17-33
+85        </activity>
+86
+87        <meta-data
+87-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:81:9-83:57
+88            android:name="preloaded_fonts"
+88-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:82:13-43
+89            android:resource="@array/preloaded_fonts" />
+89-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:83:13-54
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+93            android:authorities="com.application.mypet.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matteo\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Matteo\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Matteo\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Matteo\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+101        </provider>
+102    </application>
+103
+104</manifest>

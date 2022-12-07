@@ -23,7 +23,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.MyPet" >
+        android:theme="@style/Theme.MyPet"
+        android:usesCleartextTraffic="false" >
         <activity
             android:name="com.application.mypet.login.AccountRegistration2"
             android:exported="false" >

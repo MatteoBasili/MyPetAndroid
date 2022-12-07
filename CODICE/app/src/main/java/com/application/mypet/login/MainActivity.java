@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Declaring Server ip, username, database name and password
-        ip = System.getenv("IP_ADDRESS");
+        ip = "192.168.1.153";
         port = "3306";
         db = "mypet";
         un = "Root";
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
             }
             else {
                 Statement stmt = null;
-                PreparedStatement pstmt;
+                PreparedStatement pstmt = null;
                 String query = "SELECT * FROM User WHERE Username = ? AND Password = ?";
                 try {
                     con = connectionclass(un, pass, db, ip, port);     // Connect to database
@@ -159,6 +159,8 @@ public class MainActivity extends AppCompatActivity {
                     try {
                         assert stmt != null;
                         stmt.close();
+                        assert pstmt != null;
+                        pstmt.close();
                     } catch (SQLException e) {
                         //LOGGER.log("context", e);
                     }
@@ -174,7 +176,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, r, Toast.LENGTH_SHORT).show();
             if(isSuccess)
             {
-                Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(i);
                 finish();
