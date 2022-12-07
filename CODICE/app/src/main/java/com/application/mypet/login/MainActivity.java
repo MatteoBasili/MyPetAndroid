@@ -125,37 +125,35 @@ public class MainActivity extends AppCompatActivity {
             {
                 z = "Please enter Username and Password";
             }
-            else
-            {
-                try
-                {
+            else {
+                Statement stmt = null;
+                try {
                     con = connectionclass(un, pass, db, ip);     // Connect to database
-                    if (con == null)
-                    {
+                    if (con == null) {
                         z = "Check Your Internet Access!";
-                    }
-                    else
-                    {
+                    } else {
                         String query = "select * from user where Username = '" + usernam + "' and Password = '" + passwordd + "'";
-                        Statement stmt = con.createStatement();
+                        stmt = con.createStatement();
                         ResultSet rs = stmt.executeQuery(query);
-                        if(rs.next())
-                        {
+                        if (rs.next()) {
                             z = "Login successful";
                             isSuccess = true;
                             con.close();
-                        }
-                        else
-                        {
+                        } else {
                             z = "Invalid Credentials!";
                             isSuccess = false;
                         }
                     }
-                }
-                catch (Exception ex)
-                {
+                } catch (Exception ex) {
                     isSuccess = false;
                     z = ex.getMessage();
+                } finally {
+                    try {
+                        assert stmt != null;
+                        stmt.close();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
             return z;
