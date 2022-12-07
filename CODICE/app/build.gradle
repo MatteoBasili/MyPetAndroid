@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.application.mypet'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.application.mypet"
+        minSdk 16
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures{
+
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src\\main\\res', 'src\\main\\res\\2', 'src\\main\\res\\layouts', 'src\\main\\res\\layouts\\toolbar', 'src\\main\\res\\layouts\\fragment', 'src\\main\\res\\layouts\\activity', 'src\\main\\res\\drawables', 'src\\main\\res\\navigation_bar_icons', 'src\\main\\res\\drawables\\navigation_bar_icons', 'src\\main\\res\\drawables\\shapes', 'src\\main\\res\\drawables\\toolbar_icons', 'src\\main\\res\\drawables\\app_images', 'src\\main\\res\\drawables\\app_launcher', 'src\\main\\res\\drawables\\other_icons'
+            }
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation files('libs/mysql-connector-java-5.1.49.jar')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+}
