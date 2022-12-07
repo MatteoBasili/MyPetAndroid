@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyPet</string>
+    <string name="nav_buttons">━━</string>
+
+    <!-- Strings for splash screen: -->
+    <string name="splash_screen_text1"><br>Do not abandon a pet…\n</br><br>rather adopt it!</br></string>
+    <string name="splash_screen_text2">My pet is your pet!</string>
+    <string name="splash_screen_center_image">Center image for Splash Screen</string>
+    <string name="splash_screen_bottom_image">Bottom image for Splash Screen</string>
+
+    <!-- Strings for log in activity: -->
+    <string name="log_in_welcome">Hello, welcome back!</string>
+    <string name="log_in_title">Log In</string>
+    <string name="log_in_username">Username*:</string>
+    <string name="log_in_password">Password*:</string>
+    <string name="log_in_forgot">Forgot password?</string>
+    <string name="log_in_alternative">Or log in with</string>
+    <string name="log_in_sign_in">Are you new here?</string>
+    <string name="button_enter">Enter</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="log_in_checkbox">Remember me</string>
+    <string name="input_username">Enter username</string>
+    <string name="input_password">Enter password</string>
+    <string name="google_description">Google Logo</string>
+    <string name="show_pwd_description">Show the password characters</string>
+
+    <!-- Strings for password recover activity: -->
+    <string name="back_arrow">Back arrow</string>
+    <string name="recover_title">Recover password</string>
+    <string name="recover_description"><br>An email with your password\n</br><br>will be sent to you</br></string>
+    <string name="recover_email">Email*:</string>
+    <string name="recover_pet_name">Name of your first pet*:</string>
+    <string name="recover_input_email">Enter email</string>
+    <string name="recover_input_pet_name">Enter name</string>
+    <string name="button_send">Send</string>
+
+    <!-- Strings for register account 1: -->
+    <string name="register1_title">Create an account</string>
+    <string name="register1_subtitle" tools:ignore="TypographyFractions">Register (1/2)</string>
+    <string name="register1_name">Name*:</string>
+    <string name="register1_name_input">Enter name</string>
+    <string name="register1_surname">Surname*:</string>
+    <string name="register1_surname_input">Enter surname</string>
+    <string name="register1_email">Email*:</string>
+    <string name="register1_email_input">Enter email</string>
+    <string name="register1_pwd">Password*:</string>
+    <string name="register1_pwd_input">Enter password</string>
+    <string name="register1_pwd_confirm">Confirm Password*:</string>
+    <string name="register1_continue_button">Continue</string>
+
+    <!-- Strings for register account 2: -->
+    <string name="register2_title">Create an account</string>
+    <string name="register2_subtitle">Register (2/2)</string>
+    <string name="register2_username">Username*:</string>
+    <string name="register2_username_input">Enter username</string>
+    <string name="register2_address">Home address:</string>
+    <string name="register2_address_input">Enter address</string>
+    <string name="register2_home_numb">Home number:</string>
+    <string name="register2_home_numb_input"><br>Enter\n</br><br>number</br></string>
+    <string name="register2_postal_code">Postal code:</string>
+    <string name="register2_postal_code_input"><br>Enter\n</br><br>code</br></string>
+    <string name="register2_place">Place:</string>
+    <string name="register2_place_input">Enter place</string>
+    <string name="register2_province">Province:</string>
+    <string name="register2_province_input">Enter province</string>
+    <string name="register2_phone_numb">Phone number*:</string>
+    <string name="register2_phone_numb_input">Enter number</string>
+    <string name="register2_pet_sitter">I am a Pet Sitter</string>
+    <string name="register2_cared_pets">Pets taken care of:</string>
+    <string name="register2_cared_pet1">Dog</string>
+    <string name="register2_cared_pet2">Cat</string>
+    <string name="register2_cared_pet3">Other pets</string>
+    <string name="register2_services">Offered services:</string>
+    <string name="register2_serv1">Pet Sitting at home</string>
+    <string name="register2_serv2">Pet Sitting at the pet sitter’s home</string>
+    <string name="register2_serv3">Home visit</string>
+    <string name="register2_serv4">Walk</string>
+    <string name="register2_serv5">Change of litter</string>
+    <string name="register2_create_account_button">Register</string>
+
+    <!-- Strings for info app fragment: -->
+    <string name="info_app_title">About us</string>
+    <string name="info_app_par1">Authors:</string>
+    <string name="info_app_authors"><br>Matteo Basili\n</br><br>Alessandro Zunica</br></string>
+    <string name="info_app_par2">Description:</string>
+    <string name="info_app_desc"><br>We are a couple of students who\n</br><br>love to pamper pets!</br></string>
+    <string name="info_app_par3">Emails:</string>
+    <string name="info_app_emails"><br>matteo.basili@gmail.com\n</br><br>alessandro.zunica@gmail.com</br></string>
+
+    <!-- Strings for search fragment: -->
+    <string name="search_frag_title">Home</string>
+    <string name="search_frag_pet">Find Pet</string>
+    <string name="search_frag_pet_desc">Image for pet adoption</string>
+    <string name="search_frag_pet_sitter"><br>Find\n</br><br>Pet Sitter</br></string>
+    <string name="search_frag_pet_sitter_desc">Image for pet sitter adoption</string>
+    <string name="search_frag_vet">Find Veterinarian</string>
+    <string name="search_frag_shop">Find Pets Shop</string>
+
+    <!-- Strings for map fragment: -->
+    <string name="map_frag_title">Map</string>
+</resources>
