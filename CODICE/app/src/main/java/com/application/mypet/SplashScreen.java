@@ -10,7 +10,7 @@ import com.application.mypet.login.MainActivity;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashScreen extends Activity {
-    int SPLASH_TIME_OUT = 3000;
+    int splashTimeOut = 3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,6 @@ public class SplashScreen extends Activity {
             Intent i = new Intent(SplashScreen.this, MainActivity.class);
             startActivity(i);
             finish();
-        },SPLASH_TIME_OUT);
+        },splashTimeOut);
     }
 }

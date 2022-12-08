@@ -33,8 +33,10 @@ import java.util.logging.Logger;
 public class MainActivity extends AppCompatActivity {
 
     // Declaring layout buttons, edit texts, text view
-    Button login,signIn;
-    EditText username,password;
+    Button login;
+    Button signIn;
+    EditText username;
+    EditText password;
     TextView recoverPwd;
     ProgressBar progressBar;
     // End Declaring layout button, edit texts
@@ -46,7 +48,11 @@ public class MainActivity extends AppCompatActivity {
 
     // Declaring connection variables
     Connection con;
-    String un,pass,db,ip,port;
+    String un;
+    String pass;
+    String db;
+    String ip;
+    String port;
     // End Declaring connection variables
 
     @Override
@@ -103,8 +109,8 @@ public class MainActivity extends AppCompatActivity {
         // End Setting up the function when button login is clicked
 
         signIn.setOnClickListener(view -> {
-            /*Intent i = new Intent(MainActivity.this, AccountRegistration1.class);
-            startActivity(i);*/
+            Intent i = new Intent(MainActivity.this, AccountRegistration1.class);
+            startActivity(i);
         });
     }
 
@@ -158,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
                         assert pstmt != null;
                         pstmt.close();
                     } catch (SQLException e) {
-                        //LOGGER.log("context", e);
+                        e.printStackTrace();
                     }
                 }
             }
@@ -170,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
         {
             progressBar.setVisibility(View.GONE);
             Toast.makeText(MainActivity.this, r, Toast.LENGTH_SHORT).show();
-            if(isSuccess)
+            if(Boolean.TRUE.equals(isSuccess))
             {
                 Intent i = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(i);
@@ -187,24 +193,19 @@ public class MainActivity extends AppCompatActivity {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         Connection connection = null;
-        String ConnectionURL;
+        String connectionURL;
         try
         {
-            Class.forName("com.mysql.jdbc.Driver");
-            ConnectionURL = "jdbc:mysql://" + server + ":" + port + "/" + database /*+ ";user=" + user + ";password=" + password + ";"*/;
-            connection = DriverManager.getConnection(ConnectionURL, user, password);
+            connectionURL = "jdbc:mysql://" + server + ":" + port + "/" + database /*+ ";user=" + user + ";password=" + password + ";"*/;
+            connection = DriverManager.getConnection(connectionURL, user, password);
         }
         catch (SQLException se)
         {
             Log.e("error here 1: ", se.getMessage());
         }
-        catch (ClassNotFoundException e)
-        {
-            Log.e("error here 2: ", e.getMessage());
-        }
         catch (Exception e)
         {
-            Log.e("error here 3: ", e.getMessage());
+            Log.e("error here 2: ", e.getMessage());
         }
         return connection;
     }
