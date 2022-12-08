@@ -4,10 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.StrictMode;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,7 +21,6 @@ import com.application.mypet.services.HomeActivity;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Types;
 
@@ -115,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
     public class CheckLogin extends AsyncTask<String,String,String>
     {
         String z = "";
-        Boolean isSuccess = false; // used to check whether the login fails or not
+        Boolean isSuccess; // used to check whether the login fails or not
 
         @Override
         protected void onPreExecute()
@@ -150,15 +147,11 @@ public class MainActivity extends AppCompatActivity {
                         //Registering the type of the OUT parameter
                         stmt.registerOutParameter(3, Types.INTEGER);
                         //Executing the CallableStatement
-                        boolean hadResults = stmt.execute();
-
-                        while (hadResults) {
-                            hadResults = stmt.getMoreResults();
-                        }
+                        stmt.execute();
 
                         //Retrieving the value for role
                         role = stmt.getInt(3);
-                        if (role == 1 || role == 2) {
+                        if (role == 1 || role == 2) {          // 1 for Normal, 2 for Pet Sitter
                             z = "Login successful - " + (role == 1 ? "Normal User" : "Pet Sitter");
                             isSuccess = true;
                             con.close();
