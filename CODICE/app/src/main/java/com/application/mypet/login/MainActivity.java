@@ -18,7 +18,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.application.mypet.BuildConfig;
 import com.application.mypet.R;
 import com.application.mypet.services.HomeActivity;
 
@@ -27,8 +26,6 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity {
 

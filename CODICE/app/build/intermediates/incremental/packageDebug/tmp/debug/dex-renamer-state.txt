@@ -1,4 +1,4 @@
-#Thu Dec 08 12:20:33 CET 2022
+#Thu Dec 08 13:19:40 CET 2022
 base.0=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\CODICE\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
