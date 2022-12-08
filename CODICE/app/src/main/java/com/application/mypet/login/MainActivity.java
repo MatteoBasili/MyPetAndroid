@@ -133,11 +133,12 @@ public class MainActivity extends AppCompatActivity {
                 z = "Please enter Username and Password";
             }
             else {
+                DBConnection dbCon = new DBConnection();
                 CallableStatement stmt = null;
                 int role;
                 String query = "{ call login(?, ?, ?) }";
                 try {
-                    con = connectionclass(un, pass, db, ip, port);     // Connect to database
+                    con = dbCon.getConnection(un, pass, db, ip, port);     // Connect to database
                     if (con == null) {
                         z = "Check Your Internet Access!";
                     } else {
@@ -194,29 +195,5 @@ public class MainActivity extends AppCompatActivity {
                 //finish
             }
         }
-    }
-
-
-    @SuppressLint("NewApi")
-    public Connection connectionclass(String user, String password, String database, String server, String port)
-    {
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
-        Connection connection = null;
-        String connectionURL;
-        try
-        {
-            connectionURL = "jdbc:mysql://" + server + ":" + port + "/" + database /*+ ";user=" + user + ";password=" + password + ";"*/;
-            connection = DriverManager.getConnection(connectionURL, user, password);
-        }
-        catch (SQLException se)
-        {
-            Log.e("error here 1: ", se.getMessage());
-        }
-        catch (Exception e)
-        {
-            Log.e("error here 2: ", e.getMessage());
-        }
-        return connection;
     }
 }
