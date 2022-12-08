@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.application.mypet.BuildConfig;
 import com.application.mypet.R;
 import com.application.mypet.services.HomeActivity;
 
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Declaring Server ip, username, database name and password
-        ip = "192.168.1.153";
+        ip = BuildConfig.IP_ADDRESS;
         port = "3306";
         db = "mypet";
         un = "Root";
@@ -102,8 +103,8 @@ public class MainActivity extends AppCompatActivity {
         // End Setting up the function when button login is clicked
 
         signIn.setOnClickListener(view -> {
-            Intent i = new Intent(MainActivity.this, AccountRegistration1.class);
-            startActivity(i);
+            /*Intent i = new Intent(MainActivity.this, AccountRegistration1.class);
+            startActivity(i);*/
         });
     }
 
