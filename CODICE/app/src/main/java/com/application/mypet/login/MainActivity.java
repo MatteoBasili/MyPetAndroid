@@ -87,10 +87,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Declaring Server ip, username, database name and password
-        ip = "10.0.2.2";
+        ip = "192.168.1.153";
         port = "3306";
         db = "mypet";
-        un = "root";
+        un = "Root";
         pass = "Biblioteche.";
         // End Declaring Server ip, username, database name and password
 
@@ -111,7 +111,6 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("StaticFieldLeak")
     public class CheckLogin extends AsyncTask<String,String,String>
     {
-        private final Logger LOGGER = Logger.getLogger(CheckLogin.class.getName());
         String z = "";
         Boolean isSuccess = false; // used to check whether the login fails or not
 
