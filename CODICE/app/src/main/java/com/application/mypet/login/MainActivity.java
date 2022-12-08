@@ -87,10 +87,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Declaring Server ip, username, database name and password
-        ip = BuildConfig.IP_ADDRESS;
+        ip = "10.0.2.2";
         port = "3306";
         db = "mypet";
-        un = "Root";
+        un = "root";
         pass = "Biblioteche.";
         // End Declaring Server ip, username, database name and password
 
