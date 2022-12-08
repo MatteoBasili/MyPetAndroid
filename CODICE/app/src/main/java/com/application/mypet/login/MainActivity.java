@@ -131,7 +131,6 @@ public class MainActivity extends AppCompatActivity {
                 z = "Please enter Username and Password";
             }
             else {
-                Statement stmt = null;
                 PreparedStatement pstmt = null;
                 String query = "SELECT * FROM User WHERE Username = ? AND Password = ?";
                 try {
@@ -139,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
                     if (con == null) {
                         z = "Check Your Internet Access!";
                     } else {
-                        stmt = con.createStatement();
                         pstmt = con.prepareStatement(query);
                         pstmt.setString(1, usernam);
                         pstmt.setString(2, passwordd);
@@ -158,8 +156,6 @@ public class MainActivity extends AppCompatActivity {
                     z = ex.getMessage();
                 } finally {
                     try {
-                        assert stmt != null;
-                        stmt.close();
                         assert pstmt != null;
                         pstmt.close();
                     } catch (SQLException e) {
