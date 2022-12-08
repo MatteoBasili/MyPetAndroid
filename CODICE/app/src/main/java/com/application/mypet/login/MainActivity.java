@@ -21,11 +21,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.application.mypet.R;
 import com.application.mypet.services.HomeActivity;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Types;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -133,19 +133,32 @@ public class MainActivity extends AppCompatActivity {
                 z = "Please enter Username and Password";
             }
             else {
-                PreparedStatement pstmt = null;
-                String query = "SELECT * FROM User WHERE Username = ? AND Password = ?";
+                CallableStatement stmt = null;
+                int role;
+                String query = "{ call login(?, ?, ?) }";
                 try {
                     con = connectionclass(un, pass, db, ip, port);     // Connect to database
                     if (con == null) {
                         z = "Check Your Internet Access!";
                     } else {
-                        pstmt = con.prepareStatement(query);
-                        pstmt.setString(1, usernam);
-                        pstmt.setString(2, passwordd);
-                        ResultSet rs = pstmt.executeQuery();
-                        if (rs.next()) {
-                            z = "Login successful";
+                        // Preparing a CallableStatement to call a procedure
+                        stmt = con.prepareCall(query);
+                        //Setting the value for the TN parameters
+                        stmt.setString(1, usernam);
+                        stmt.setString(2, passwordd);
+                        //Registering the type of the OUT parameter
+                        stmt.registerOutParameter(3, Types.INTEGER);
+                        //Executing the CallableStatement
+                        boolean hadResults = stmt.execute();
+
+                        while (hadResults) {
+                            hadResults = stmt.getMoreResults();
+                        }
+
+                        //Retrieving the value for role
+                        role = stmt.getInt(3);
+                        if (role == 1 || role == 2) {
+                            z = "Login successful - " + (role == 1 ? "Normal User" : "Pet Sitter");
                             isSuccess = true;
                             con.close();
                         } else {
@@ -158,8 +171,8 @@ public class MainActivity extends AppCompatActivity {
                     z = ex.getMessage();
                 } finally {
                     try {
-                        assert pstmt != null;
-                        pstmt.close();
+                        assert stmt != null;
+                        stmt.close();
                     } catch (SQLException e) {
                         e.printStackTrace();
                     }
