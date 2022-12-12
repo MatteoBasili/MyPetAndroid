@@ -170,14 +170,14 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:59:17-77
 	android:name
 		ADDED from D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:59:27-74
-activity#com.application.mypet.login.MainActivity
+activity#com.application.mypet.login.view.LoginActivity
 ADDED from D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:66:9-79:20
 	android:screenOrientation
 		ADDED from D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:69:13-49
 	android:exported
 		ADDED from D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:68:13-36
 	android:name
-		ADDED from D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:67:13-47
+		ADDED from D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:67:13-53
 meta-data#preloaded_fonts
 ADDED from D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:81:9-83:57
 	android:resource

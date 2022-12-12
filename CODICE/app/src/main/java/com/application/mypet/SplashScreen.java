@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.application.mypet.login.MainActivity;
+import com.application.mypet.login.view.LoginActivity;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashScreen extends Activity {
@@ -17,7 +17,7 @@ public class SplashScreen extends Activity {
         setContentView(R.layout.activity_splash_screen);
 
         new Handler().postDelayed(() -> {
-            Intent i = new Intent(SplashScreen.this, MainActivity.class);
+            Intent i = new Intent(SplashScreen.this, LoginActivity.class);
             startActivity(i);
             finish();
         },splashTimeOut);

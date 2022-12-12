@@ -2793,7 +2793,6 @@ id center_vertical
 id chain
 id chain2
 id chains
-id checkBox
 id checkbox
 id checked
 id chronometer
@@ -2952,6 +2951,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logout
 id map_screen
 id marquee
 id masked
@@ -3074,6 +3074,7 @@ id ratio
 id rectangles
 id relativeLayout
 id relativeLayout2
+id rem_me
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3368,7 +3369,7 @@ layout abc_tooltip
 layout activity_account_registration1
 layout activity_account_registration2
 layout activity_home
-layout activity_main_login
+layout activity_login
 layout activity_password_recovery
 layout activity_splash_screen
 layout custom_dialog

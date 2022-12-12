@@ -52,7 +52,6 @@ id cared_pets
 id cared_pets_checkBox1
 id cared_pets_checkBox2
 id cared_pets_checkBox3
-id checkBox
 id continue_button
 id create_account_button
 id editTextTextPersonName2
@@ -84,6 +83,7 @@ id imageView7
 id include
 id include2
 id int_const_layout
+id logout
 id map_screen
 id name
 id name_input
@@ -105,6 +105,7 @@ id pwd_confirm_input
 id pwd_input
 id relativeLayout
 id relativeLayout2
+id rem_me
 id search_screen
 id services_checkBox1
 id services_checkBox2
@@ -141,7 +142,7 @@ id view7
 layout activity_account_registration1
 layout activity_account_registration2
 layout activity_home
-layout activity_main_login
+layout activity_login
 layout activity_password_recovery
 layout activity_splash_screen
 layout default_toolbar

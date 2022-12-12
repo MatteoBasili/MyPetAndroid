@@ -329,7 +329,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.064"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pet_sitter_checkBox" />
+                app:layout_constraintTop_toBottomOf="@+id/pet_sitter_checkBox"
+                tools:ignore="TextContrastCheck" />
 
             <CheckBox
                 android:id="@+id/cared_pets_checkBox1"
@@ -349,6 +350,7 @@
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cared_pets"
+                tools:ignore="TextContrastCheck"
                 tools:targetApi="lollipop" />
 
             <CheckBox
@@ -369,6 +371,7 @@
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="@+id/cared_pets_checkBox1"
                 app:layout_constraintTop_toBottomOf="@+id/cared_pets"
+                tools:ignore="TextContrastCheck"
                 tools:targetApi="lollipop" />
 
             <CheckBox

@@ -129,8 +129,8 @@
 71        </activity>
 72        <activity
 72-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:66:9-79:20
-73            android:name="com.application.mypet.login.MainActivity"
-73-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:67:13-47
+73            android:name="com.application.mypet.login.view.LoginActivity"
+73-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:67:13-53
 74            android:exported="true"
 74-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:68:13-36
 75            android:screenOrientation="portrait" >

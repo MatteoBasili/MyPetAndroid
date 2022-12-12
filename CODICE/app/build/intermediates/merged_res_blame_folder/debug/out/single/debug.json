@@ -84,6 +84,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable-hdpi_ic_baseline_map_24.png.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-pngs-24:\\drawable-hdpi\\ic_baseline_map_24.png"
     },
@@ -138,6 +142,10 @@
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_toolbar_with_back.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\toolbar_with_back.xml"
+    },
+    {
+        "merged": "com.application.mypet.app-merged_res-29:/layout_fragment_profile.xml.flat",
+        "source": "com.application.mypet.app-main-31:/layouts/fragment/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_rounded_rectangle_input.xml.flat",
@@ -204,10 +212,6 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_account_registration1.xml"
     },
     {
-        "merged": "com.application.mypet.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "com.application.mypet.app-main-31:/xml/data_extraction_rules.xml"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-pngs-24:\\drawable-xxhdpi\\ic_launcher_foreground.png"
     },
@@ -256,12 +260,12 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable-ldpi_ic_baseline_person_outline_24.png.flat",
-        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-pngs-24:\\drawable-ldpi\\ic_baseline_person_outline_24.png"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable-ldpi_ic_baseline_person_outline_24.png.flat",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-pngs-24:\\drawable-ldpi\\ic_baseline_person_outline_24.png"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable-xxhdpi_ic_baseline_person_outline_24.png.flat",

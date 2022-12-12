@@ -70,7 +70,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.login.MainActivity"
+            android:name="com.application.mypet.login.view.LoginActivity"
             android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>

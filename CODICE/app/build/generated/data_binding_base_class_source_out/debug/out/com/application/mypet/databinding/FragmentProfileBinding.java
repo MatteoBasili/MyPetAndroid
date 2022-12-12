@@ -4,6 +4,7 @@ package com.application.mypet.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,10 +22,14 @@ public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
   public final DefaultToolbarBinding include;
 
+  @NonNull
+  public final Button logout;
+
   private FragmentProfileBinding(@NonNull FrameLayout rootView,
-      @NonNull DefaultToolbarBinding include) {
+      @NonNull DefaultToolbarBinding include, @NonNull Button logout) {
     this.rootView = rootView;
     this.include = include;
+    this.logout = logout;
   }
 
   @Override
@@ -61,7 +66,13 @@ public final class FragmentProfileBinding implements ViewBinding {
       }
       DefaultToolbarBinding binding_include = DefaultToolbarBinding.bind(include);
 
-      return new FragmentProfileBinding((FrameLayout) rootView, binding_include);
+      id = R.id.logout;
+      Button logout = ViewBindings.findChildViewById(rootView, id);
+      if (logout == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((FrameLayout) rootView, binding_include, logout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
