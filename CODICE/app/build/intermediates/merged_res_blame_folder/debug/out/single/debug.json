@@ -144,10 +144,6 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\toolbar_with_back.xml"
     },
     {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_fragment_profile.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/fragment/layout/fragment_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_rounded_rectangle_input.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\shapes\\drawable\\rounded_rectangle_input.xml"
     },
