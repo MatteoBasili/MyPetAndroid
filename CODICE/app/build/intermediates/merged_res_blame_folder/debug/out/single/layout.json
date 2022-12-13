@@ -1,50 +1,54 @@
 [
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/toolbar_with_back.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/toolbar/layout/toolbar_with_back.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/fragment_app_info.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/fragment/layout/fragment_app_info.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_password_recovery.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_password_recovery.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_home.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_home.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_account_registration1.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_account_registration1.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_account_registration1.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_account_registration1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_app_info.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\layout\\fragment_app_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\layout\\fragment_map.xml"
     },
     {
         "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_password_recovery.xml",
         "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_password_recovery.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/default_toolbar.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/toolbar/layout/default_toolbar.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_splash_screen.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\toolbar_with_back.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\toolbar_with_back.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/fragment_profile.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/fragment/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\default_toolbar.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\default_toolbar.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/fragment_map.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/fragment/layout/fragment_map.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_account_registration2.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_account_registration2.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/fragment_search.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/fragment/layout/fragment_search.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_home.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_login.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_account_registration2.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_account_registration2.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\layout\\fragment_search.xml"
     }
 ]

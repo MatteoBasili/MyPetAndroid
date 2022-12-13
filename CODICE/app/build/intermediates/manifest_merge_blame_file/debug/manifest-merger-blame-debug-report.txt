@@ -86,8 +86,8 @@
 48        </activity>
 49        <activity
 49-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:43:9-50:20
-50            android:name="com.application.mypet.login.PasswordRecovery"
-50-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:44:13-51
+50            android:name="com.application.mypet.login.recovery.view.PasswordRecoveryActivity"
+50-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:44:13-73
 51            android:exported="false"
 51-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:45:13-37
 52            android:screenOrientation="portrait" >

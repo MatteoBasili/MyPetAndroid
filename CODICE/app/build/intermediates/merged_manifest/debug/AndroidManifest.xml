@@ -47,7 +47,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.login.PasswordRecovery"
+            android:name="com.application.mypet.login.recovery.view.PasswordRecoveryActivity"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data
