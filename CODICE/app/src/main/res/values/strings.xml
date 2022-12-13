@@ -2,6 +2,9 @@
     <string name="app_name">MyPet</string>
     <string name="nav_buttons">━━</string>
 
+    <!-- String for loading dialog bar: -->
+    <string name="loading_bar_title">Please wait…</string>
+
     <!-- Strings for splash screen: -->
     <string name="splash_screen_text1"><br>Do not abandon a pet…\n</br><br>rather adopt it!</br></string>
     <string name="splash_screen_text2">My pet is your pet!</string>

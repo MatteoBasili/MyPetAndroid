@@ -44,6 +44,7 @@
     <string name="info_app_title">About us</string>
     <string name="input_password">Enter password</string>
     <string name="input_username">Enter username</string>
+    <string name="loading_bar_title">Please wait…</string>
     <string name="log_in_alternative">Or log in with</string>
     <string name="log_in_checkbox">Remember me</string>
     <string name="log_in_forgot">Forgot password?</string>

@@ -205,7 +205,7 @@
                 app:layout_constraintTop_toTopOf="@+id/pwd_input"
                 app:layout_constraintVertical_bias="0.565"
                 app:srcCompat="@drawable/show"
-                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,UsingOnClickInXml"
+                tools:ignore="RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck,UsingOnClickInXml"
                 android:contentDescription="@string/show_pwd_description" />
 
             <ImageView
@@ -219,7 +219,8 @@
                 app:layout_constraintStart_toStartOf="@+id/pwd_input"
                 app:layout_constraintTop_toTopOf="@+id/pwd_input"
                 app:layout_constraintVertical_bias="0.521"
-                app:srcCompat="@drawable/visibility_off_fill0_wght400_grad0_opsz48" />
+                app:srcCompat="@drawable/visibility_off_fill0_wght400_grad0_opsz48"
+                tools:ignore="ContentDescription" />
 
             <TextView
                 android:id="@+id/pwd_confirm"
@@ -253,7 +254,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.494"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pwd_confirm" />
+                app:layout_constraintTop_toBottomOf="@+id/pwd_confirm"
+                tools:ignore="RtlHardcoded" />
 
             <ImageView
                 android:id="@+id/show_pwd2"
@@ -269,7 +271,7 @@
                 app:layout_constraintTop_toTopOf="@+id/pwd_confirm_input"
                 app:layout_constraintVertical_bias="0.565"
                 app:srcCompat="@drawable/show"
-                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,UsingOnClickInXml"
+                tools:ignore="RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck,UsingOnClickInXml"
                 android:contentDescription="@string/show_pwd_description" />
 
             <ImageView
@@ -283,7 +285,8 @@
                 app:layout_constraintStart_toStartOf="@+id/pwd_confirm_input"
                 app:layout_constraintTop_toTopOf="@+id/pwd_confirm_input"
                 app:layout_constraintVertical_bias="0.521"
-                app:srcCompat="@drawable/visibility_off_fill0_wght400_grad0_opsz48" />
+                app:srcCompat="@drawable/visibility_off_fill0_wght400_grad0_opsz48"
+                tools:ignore="ContentDescription" />
 
             <Button
                 android:id="@+id/continue_button"

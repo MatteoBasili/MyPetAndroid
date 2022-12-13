@@ -94,6 +94,7 @@ id place_input
 id postal_code
 id postal_code_input
 id profile_screen
+id progress
 id progressBar
 id province
 id province_input
@@ -151,6 +152,7 @@ layout fragment_app_info
 layout fragment_map
 layout fragment_profile
 layout fragment_search
+layout loading_dialog_activity
 layout toolbar_with_back
 menu bottom_nav_menu
 mipmap ic_launcher
@@ -170,6 +172,7 @@ string info_app_par3
 string info_app_title
 string input_password
 string input_username
+string loading_bar_title
 string log_in_alternative
 string log_in_checkbox
 string log_in_forgot

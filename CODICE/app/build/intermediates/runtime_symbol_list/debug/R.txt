@@ -3057,6 +3057,7 @@ int id postal_code 0x7f0a017d
 int id postal_code_input 0x7f0a017e
 int id pressed 0x7f0a017f
 int id profile_screen 0x7f0a0180
+int id progress 0x7f0a023d
 int id progressBar 0x7f0a0181
 int id progress_circular 0x7f0a0182
 int id progress_horizontal 0x7f0a0183
@@ -3393,6 +3394,7 @@ int layout fragment_app_info 0x7f0d0033
 int layout fragment_map 0x7f0d0034
 int layout fragment_profile 0x7f0d0035
 int layout fragment_search 0x7f0d0036
+int layout loading_dialog_activity 0x7f0d0072
 int layout m3_alert_dialog 0x7f0d0037
 int layout m3_alert_dialog_actions 0x7f0d0038
 int layout m3_alert_dialog_title 0x7f0d0039
@@ -3518,6 +3520,7 @@ int string info_app_title 0x7f12003a
 int string input_password 0x7f12003b
 int string input_username 0x7f12003c
 int string item_view_role_description 0x7f12003d
+int string loading_bar_title 0x7f1200e0
 int string log_in_alternative 0x7f12003e
 int string log_in_checkbox 0x7f12003f
 int string log_in_forgot 0x7f120040

@@ -3058,6 +3058,7 @@ id postal_code
 id postal_code_input
 id pressed
 id profile_screen
+id progress
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -3394,6 +3395,7 @@ layout fragment_app_info
 layout fragment_map
 layout fragment_profile
 layout fragment_search
+layout loading_dialog_activity
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3519,6 +3521,7 @@ string info_app_title
 string input_password
 string input_username
 string item_view_role_description
+string loading_bar_title
 string log_in_alternative
 string log_in_checkbox
 string log_in_forgot

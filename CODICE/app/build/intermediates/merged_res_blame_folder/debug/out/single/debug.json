@@ -80,6 +80,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "com.application.mypet.app-merged_res-29:/layout_loading_dialog_activity.xml.flat",
+        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/loading_dialog_activity.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_search_page_button.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\shapes\\drawable\\search_page_button.xml"
     },
