@@ -3,16 +3,16 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <device id="4.7in WXGA" />
-        <device id="resizable" />
-        <device id="5.4in FWVGA" />
-        <device id="5.1in WVGA" />
-        <device id="pixel_2" />
-        <device id="pixel_2_xl" />
-        <device id="pixel_3a_xl" />
-        <device id="pixel_3a" />
-        <device id="Nexus 9" />
+        <device id="4in WVGA (Nexus S)" />
         <device id="4.65in 720p (Galaxy Nexus)" />
+        <device id="4.7in WXGA" />
+        <device id="5.1in WVGA" />
+        <device id="Nexus 10" />
+        <device id="pixel_4a" />
+        <device id="pixel_4_xl" />
+        <device id="pixel_4" />
+        <device id="pixel_5" />
+        <device id="pixel_6_pro" />
         <option name="nonWearDeviceLastStateName" value="Portrait" />
       </config>
     </shared>
@@ -31,7 +31,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Matteo\.android\avd\4.7_WXGA_API_23.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[NZBEEIWGCIKNYLTS]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -57,10 +57,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile_vertical" />
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="Interface" />
+        <option value="layoutResourceFile" />
+        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
       </list>
     </option>
@@ -90,13 +90,14 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/layout" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.297945872">
       <recent name="com.application.mypet.login" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\libs" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.application.mypet"
-        minSdk 16
+        minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -47,6 +47,9 @@ dependencies {
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation files('libs/mysql-connector-java-5.1.49.jar')
+    implementation files('libs/activation.jar')
+    implementation files('libs/mail.jar')
+    implementation files('libs/additionnal.jar')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'

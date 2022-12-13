@@ -54,8 +54,6 @@ id cared_pets_checkBox2
 id cared_pets_checkBox3
 id continue_button
 id create_account_button
-id editTextTextPersonName2
-id editTextTextPersonName3
 id email
 id email_input
 id enter_button
@@ -107,6 +105,7 @@ id relativeLayout
 id relativeLayout2
 id rem_me
 id search_screen
+id send_button
 id services_checkBox1
 id services_checkBox2
 id services_checkBox3
@@ -133,6 +132,8 @@ id textView8
 id title
 id toolbar
 id toolbar_title
+id user_email
+id user_pet
 id username
 id username_input
 id view

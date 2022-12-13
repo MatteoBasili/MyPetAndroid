@@ -2854,8 +2854,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPersonName2
-id editTextTextPersonName3
 id edit_query
 id elastic
 id email
@@ -3106,6 +3104,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send_button
 id services_checkBox1
 id services_checkBox2
 id services_checkBox3
@@ -3220,6 +3219,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_email
+id user_pet
 id username
 id username_input
 id vertical_only
