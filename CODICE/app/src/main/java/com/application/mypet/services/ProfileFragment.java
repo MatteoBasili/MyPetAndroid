@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.application.mypet.R;
-import com.application.mypet.login.AccountRegistration1;
 import com.application.mypet.login.view.LoginActivity;
 
 /**

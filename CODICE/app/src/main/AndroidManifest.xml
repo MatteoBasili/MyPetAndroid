@@ -20,14 +20,7 @@
         tools:ignore="HardcodedDebugMode,LockedOrientationActivity"
         tools:targetApi="31" >
         <activity
-            android:name=".login.AccountRegistration2"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".login.AccountRegistration1"
+            android:name=".registration.view.RegistrationActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

@@ -3,6 +3,7 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
+        <device id="Nexus 5X" />
         <device id="4in WVGA (Nexus S)" />
         <device id="4.65in 720p (Galaxy Nexus)" />
         <device id="4.7in WXGA" />
@@ -12,7 +13,6 @@
         <device id="pixel_4_xl" />
         <device id="pixel_4" />
         <device id="pixel_5" />
-        <device id="pixel_6_pro" />
         <option name="nonWearDeviceLastStateName" value="Portrait" />
       </config>
     </shared>
@@ -57,11 +57,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
-        <option value="Interface" />
         <option value="layoutResourceFile_vertical" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>

@@ -1,9 +1,14 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">MyPet</string>
     <string name="nav_buttons">━━</string>
 
     <!-- String for loading dialog bar: -->
     <string name="loading_bar_title">Please wait…</string>
+
+    <!-- Strings for confirm dialog bar: -->
+    <string name="confirm_exit_registration_bar_title"><br>Are you sure you want\n</br><br>to exit registration?</br></string>
+    <string name="yes_button_confirm">Yes</string>
+    <string name="no_button_confirm">No</string>
 
     <!-- Strings for splash screen: -->
     <string name="splash_screen_text1"><br>Do not abandon a pet…\n</br><br>rather adopt it!</br></string>
@@ -37,49 +42,36 @@
     <string name="recover_input_pet_name">Enter name</string>
     <string name="button_send">Send</string>
 
-    <!-- Strings for register account 1: -->
-    <string name="register1_title">Create an account</string>
-    <string name="register1_subtitle" tools:ignore="TypographyFractions">Register (1/2)</string>
-    <string name="register1_name">Name*:</string>
-    <string name="register1_name_input">Enter name</string>
-    <string name="register1_surname">Surname*:</string>
-    <string name="register1_surname_input">Enter surname</string>
-    <string name="register1_email">Email*:</string>
-    <string name="register1_email_input">Enter email</string>
-    <string name="register1_pwd">Password*:</string>
-    <string name="register1_pwd_input">Enter password</string>
-    <string name="register1_pwd_confirm">Confirm Password*:</string>
-    <string name="register1_continue_button">Continue</string>
-
-    <!-- Strings for register account 2: -->
-    <string name="register2_title">Create an account</string>
-    <string name="register2_subtitle">Register (2/2)</string>
-    <string name="register2_username">Username*:</string>
-    <string name="register2_username_input">Enter username</string>
-    <string name="register2_address">Home address:</string>
-    <string name="register2_address_input">Enter address</string>
-    <string name="register2_home_numb">Home number:</string>
-    <string name="register2_home_numb_input"><br>Enter\n</br><br>number</br></string>
-    <string name="register2_postal_code">Postal code:</string>
-    <string name="register2_postal_code_input"><br>Enter\n</br><br>code</br></string>
-    <string name="register2_place">Place:</string>
-    <string name="register2_place_input">Enter place</string>
-    <string name="register2_province">Province:</string>
-    <string name="register2_province_input">Enter province</string>
-    <string name="register2_phone_numb">Phone number*:</string>
-    <string name="register2_phone_numb_input">Enter number</string>
-    <string name="register2_pet_sitter">I am a Pet Sitter</string>
-    <string name="register2_cared_pets">Pets taken care of:</string>
-    <string name="register2_cared_pet1">Dog</string>
-    <string name="register2_cared_pet2">Cat</string>
-    <string name="register2_cared_pet3">Other pets</string>
-    <string name="register2_services">Offered services:</string>
-    <string name="register2_serv1">Pet Sitting at home</string>
-    <string name="register2_serv2">Pet Sitting at the pet sitter’s home</string>
-    <string name="register2_serv3">Home visit</string>
-    <string name="register2_serv4">Walk</string>
-    <string name="register2_serv5">Change of litter</string>
-    <string name="register2_create_account_button">Register</string>
+    <!-- Strings for account registration: -->
+    <string name="register_title">Create an account</string>
+    <string name="register_subtitle">Register</string>
+    <string name="register_name">Name*:</string>
+    <string name="register_name_input">Enter name</string>
+    <string name="register_surname">Surname*:</string>
+    <string name="register_surname_input">Enter surname</string>
+    <string name="register_username">Username*:</string>
+    <string name="register_username_input">Enter username</string>
+    <string name="register_email">Email*:</string>
+    <string name="register_email_input">Enter email</string>
+    <string name="register_pwd">Password*:</string>
+    <string name="register_pwd_input">Enter password</string>
+    <string name="register_pwd_confirm">Confirm Password*:</string>
+    <string name="register_address">Your address*:</string>
+    <string name="register_address_input">Enter address</string>
+    <string name="register_phone_numb">Phone number*:</string>
+    <string name="register_phone_numb_input">Enter number</string>
+    <string name="register_pet_sitter">I am a Pet Sitter</string>
+    <string name="register_cared_pets">Pets taken care of:</string>
+    <string name="register_cared_pet1">Dog</string>
+    <string name="register_cared_pet2">Cat</string>
+    <string name="register_cared_pet3">Other pets</string>
+    <string name="register_services">Offered services:</string>
+    <string name="register_serv1">Pet Sitting at home</string>
+    <string name="register_serv2">Pet Sitting at the pet sitter’s home</string>
+    <string name="register_serv3">Home visit</string>
+    <string name="register_serv4">Walk</string>
+    <string name="register_serv5">Change of litter</string>
+    <string name="register_button">Register</string>
 
     <!-- Strings for info app fragment: -->
     <string name="info_app_title">About us</string>

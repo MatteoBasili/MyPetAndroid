@@ -26,14 +26,7 @@
         android:theme="@style/Theme.MyPet"
         android:usesCleartextTraffic="false" >
         <activity
-            android:name="com.application.mypet.login.AccountRegistration2"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.application.mypet.login.AccountRegistration1"
+            android:name="com.application.mypet.registration.view.RegistrationActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
