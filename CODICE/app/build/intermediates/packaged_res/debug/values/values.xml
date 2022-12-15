@@ -17,6 +17,137 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/acme</item>
     </array>
+    <string-array name="provinces">
+        <item>Agrigento</item>
+        <item>Alessandria</item>
+        <item>Ancona</item>
+        <item>Aosta/Aoste</item>
+        <item>Arezzo</item>
+        <item>Ascoli Piceno</item>
+        <item>Asti</item>
+        <item>Avellino</item>
+        <item>Bari</item>
+        <item>Barletta-Andria-Trani</item>
+        <item>Belluno</item>
+        <item>Benevento</item>
+        <item>Bergamo</item>
+        <item>Biella</item>
+        <item>Bologna</item>
+        <item>Bolzano</item>
+        <item>Brescia</item>
+        <item>Brindisi</item>
+        <item>Cagliari</item>
+        <item>Caltanissetta</item>
+        <item>Campobasso</item>
+        <item>Caserta</item>
+        <item>Catania</item>
+        <item>Catanzaro</item>
+        <item>Chieti</item>
+        <item>Como</item>
+        <item>Cosenza</item>
+        <item>Cremona</item>
+        <item>Crotone</item>
+        <item>Cuneo</item>
+        <item>Enna</item>
+        <item>Fermo</item>
+        <item>Ferrara</item>
+        <item>Firenze</item>
+        <item>Foggia</item>
+        <item>Forlì-Cesena</item>
+        <item>Frosinone</item>
+        <item>Genova</item>
+        <item>Gorizia</item>
+        <item>Grosseto</item>
+        <item>Imperia</item>
+        <item>Isernia</item>
+        <item>L\'Aquila</item>
+        <item>La Spezia</item>
+        <item>Latina</item>
+        <item>Lecce</item>
+        <item>Lecco</item>
+        <item>Livorno</item>
+        <item>Lodi</item>
+        <item>Lucca</item>
+        <item>Macerata</item>
+        <item>Mantova</item>
+        <item>Massa-Carrara</item>
+        <item>Matera</item>
+        <item>Messina</item>
+        <item>Milano</item>
+        <item>Modena</item>
+        <item>Monza e Brianza</item>
+        <item>Napoli</item>
+        <item>Novara</item>
+        <item>Nuoro</item>
+        <item>Oristano</item>
+        <item>Padova</item>
+        <item>Palermo</item>
+        <item>Parma</item>
+        <item>Pavia</item>
+        <item>Perugia</item>
+        <item>Pesaro e Urbino</item>
+        <item>Pescara</item>
+        <item>Piacenza</item>
+        <item>Pisa</item>
+        <item>Pistoia</item>
+        <item>Pordenone</item>
+        <item>Potenza</item>
+        <item>Prato</item>
+        <item>Ragusa</item>
+        <item>Ravenna</item>
+        <item>Reggio Calabria</item>
+        <item>Reggio Emilia</item>
+        <item>Rieti</item>
+        <item>Rimini</item>
+        <item>Roma</item>
+        <item>Rovigo</item>
+        <item>Salerno</item>
+        <item>Sassari</item>
+        <item>Savona</item>
+        <item>Siena</item>
+        <item>Siracusa</item>
+        <item>Sondrio</item>
+        <item>Sud Sardegna</item>
+        <item>Taranto</item>
+        <item>Teramo</item>
+        <item>Terni</item>
+        <item>Torino</item>
+        <item>Trapani</item>
+        <item>Trento</item>
+        <item>Treviso</item>
+        <item>Trieste</item>
+        <item>Udine</item>
+        <item>Varese</item>
+        <item>Venezia</item>
+        <item>Verbano-Cusio-Ossola</item>
+        <item>Vercelli</item>
+        <item>Verona</item>
+        <item>Vibo Valentia</item>
+        <item>Vicenza</item>
+        <item>Viterbo</item>
+    </string-array>
+    <string-array name="regions">
+        <item>Abruzzo</item>
+        <item>Basilicata</item>
+        <item>Calabria</item>
+        <item>Campania</item>
+        <item>Emilia-Romagna</item>
+        <item>Friuli-Venezia Giulia</item>
+        <item>Lazio</item>
+        <item>Liguria</item>
+        <item>Lombardia</item>
+        <item>Marche</item>
+        <item>Molise</item>
+        <item>Piemonte</item>
+        <item>Puglia</item>
+        <item>Sardegna</item>
+        <item>Sicilia</item>
+        <item>Toscana</item>
+        <item>Trentino-Alto Adige</item>
+        <item>Umbria</item>
+        <item>Valle d\'Aosta</item>
+        <item>Veneto</item>
+    </string-array>
     <color name="action_bar_background">#FFD66B</color>
     <color name="action_bar_text">#834141</color>
     <color name="app_icon_background">#FFD66B</color>
@@ -38,7 +169,7 @@
     <string name="google_description">Google Logo</string>
     <string name="info_app_authors"><br>Matteo Basili\n</br><br>Alessandro Zunica</br></string>
     <string name="info_app_desc"><br>We are a couple of students who\n</br><br>love to pamper pets!</br></string>
-    <string name="info_app_emails"><br>matteo.basili@gmail.com\n</br><br>alessandro.zunica@gmail.com</br></string>
+    <string name="info_app_emails"><br>matthew2000.mb@gmail.com\n</br><br>alessandro.zunica@gmail.com</br></string>
     <string name="info_app_par1">Authors:</string>
     <string name="info_app_par2">Description:</string>
     <string name="info_app_par3">Emails:</string>
@@ -63,7 +194,7 @@
     <string name="recover_input_pet_name">Enter name</string>
     <string name="recover_pet_name">Name of your first pet*:</string>
     <string name="recover_title">Recover password</string>
-    <string name="register_address">Your address*:</string>
+    <string name="register_address">Address:</string>
     <string name="register_address_input">Enter address</string>
     <string name="register_button">Register</string>
     <string name="register_cared_pet1">Dog</string>
@@ -77,9 +208,13 @@
     <string name="register_pet_sitter">I am a Pet Sitter</string>
     <string name="register_phone_numb">Phone number*:</string>
     <string name="register_phone_numb_input">Enter number</string>
+    <string name="register_province">Province*:</string>
+    <string name="register_province_input">Enter province</string>
     <string name="register_pwd">Password*:</string>
     <string name="register_pwd_confirm">Confirm Password*:</string>
     <string name="register_pwd_input">Enter password</string>
+    <string name="register_region">Region*:</string>
+    <string name="register_region_input">Enter region</string>
     <string name="register_serv1">Pet Sitting at home</string>
     <string name="register_serv2">Pet Sitting at the pet sitter’s home</string>
     <string name="register_serv3">Home visit</string>

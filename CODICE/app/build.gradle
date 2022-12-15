@@ -35,14 +35,13 @@ android {
     sourceSets {
         main {
             res {
-                srcDirs 'src\\main\\res', 'src\\main\\res\\2', 'src\\main\\res\\layouts', 'src\\main\\res\\layouts\\toolbar', 'src\\main\\res\\layouts\\fragment', 'src\\main\\res\\layouts\\activity', 'src\\main\\res\\drawables', 'src\\main\\res\\navigation_bar_icons', 'src\\main\\res\\drawables\\navigation_bar_icons', 'src\\main\\res\\drawables\\shapes', 'src\\main\\res\\drawables\\toolbar_icons', 'src\\main\\res\\drawables\\app_images', 'src\\main\\res\\drawables\\app_launcher', 'src\\main\\res\\drawables\\other_icons'
+                srcDirs 'src\\main\\res', 'src\\main\\res\\2', 'src\\main\\res\\layouts', 'src\\main\\res\\layouts\\toolbar', 'src\\main\\res\\layouts\\fragment', 'src\\main\\res\\layouts\\activity', 'src\\main\\res\\drawables', 'src\\main\\res\\navigation_bar_icons', 'src\\main\\res\\drawables\\navigation_bar_icons', 'src\\main\\res\\drawables\\shapes', 'src\\main\\res\\drawables\\toolbar_icons', 'src\\main\\res\\drawables\\app_images', 'src\\main\\res\\drawables\\app_launcher', 'src\\main\\res\\drawables\\other_icons', 'src\\main\\res\\layouts\\other'
             }
         }
     }
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

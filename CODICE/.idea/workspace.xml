@@ -59,9 +59,9 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="Interface" />
-        <option value="layoutResourceFile" />
         <option value="Class" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -88,24 +88,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="android-custom-viewD:/Matteo/ISPW-E-BD/ISPW/2021-22/Test/TestCodiceMyPet.git/trunk/CODICE/app/src/main/java/com/application/mypet/utils/CustomSpinner.java_SELECTED" value="CustomSpinner" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/layout" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawables/shapes/drawable" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.297945872">
       <recent name="com.application.mypet.login" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\drawables\shapes\drawable" />
+      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\drawables\other_icons" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\libs" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\drawables\other_icons\drawable" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\drawables\shapes\drawable" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\xml" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\layouts\activity\layout" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\drawables\app_launcher" />
-      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\drawables\app_images\drawable" />
     </key>
     <key name="android.template.-892497029">
       <recent name="com.application.mypet" />

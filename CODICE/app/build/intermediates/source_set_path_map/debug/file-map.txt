@@ -41,5 +41,6 @@ com.application.mypet.app-drawables-39 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\Tes
 com.application.mypet.app-res-40 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts
 com.application.mypet.app-layouts-41 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\activity
 com.application.mypet.app-layouts-42 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\fragment
-com.application.mypet.app-layouts-43 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\toolbar
-com.application.mypet.app-res-44 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\navigation_bar_icons
+com.application.mypet.app-layouts-43 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\other
+com.application.mypet.app-layouts-44 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\toolbar
+com.application.mypet.app-res-45 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\navigation_bar_icons
