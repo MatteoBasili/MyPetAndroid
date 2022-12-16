@@ -9,5 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="action_bar_background">#FFD66B</color>
     <color name="action_bar_text">#834141</color>
+    <color name="stroke_color6">#606060</color>
+    <color name="edit_text_color_disabled">#F2F2F2</color>
+    <color name="edit_text_color">#EAEAEA</color>
     <color name="disable_color">#B0B0B0</color>
+    <color name="disable_hint_color">#D0D0D0</color>
 </resources>

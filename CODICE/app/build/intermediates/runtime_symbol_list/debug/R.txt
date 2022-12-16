@@ -1331,6 +1331,9 @@ int color dim_foreground_disabled_material_light 0x7f060058
 int color dim_foreground_material_dark 0x7f060059
 int color dim_foreground_material_light 0x7f06005a
 int color disable_color 0x7f06005b
+int color disable_hint_color 0x7f060267
+int color edit_text_color 0x7f060268
+int color edit_text_color_disabled 0x7f060269
 int color error_color_material_dark 0x7f06005c
 int color error_color_material_light 0x7f06005d
 int color foreground_material_dark 0x7f06005e
@@ -1843,6 +1846,7 @@ int color secondary_text_default_material_dark 0x7f060258
 int color secondary_text_default_material_light 0x7f060259
 int color secondary_text_disabled_material_dark 0x7f06025a
 int color secondary_text_disabled_material_light 0x7f06025b
+int color stroke_color6 0x7f06026b
 int color switch_thumb_disabled_material_dark 0x7f06025c
 int color switch_thumb_disabled_material_light 0x7f06025d
 int color switch_thumb_material_dark 0x7f06025e
@@ -2666,6 +2670,7 @@ int drawable pharmacy 0x7f0800df
 int drawable progress 0x7f0800e0
 int drawable rounded_rectangle_app_name 0x7f0800e1
 int drawable rounded_rectangle_input 0x7f0800e2
+int drawable rounded_rectangle_input_locked 0x7f0800ec
 int drawable search_page_button 0x7f0800e3
 int drawable shopping_cart 0x7f0800e4
 int drawable show 0x7f0800e5
@@ -2923,10 +2928,8 @@ int id ignore 0x7f0a00f2
 int id ignoreRequest 0x7f0a00f3
 int id image 0x7f0a00f4
 int id imageView 0x7f0a00f5
-int id imageView11 0x7f0a00f6
 int id imageView3 0x7f0a00f7
 int id imageView4 0x7f0a00f8
-int id imageView6 0x7f0a00f9
 int id imageView7 0x7f0a00fa
 int id immediateStop 0x7f0a00fb
 int id include 0x7f0a00fc
@@ -3050,6 +3053,8 @@ int id pathRelative 0x7f0a0171
 int id peekHeight 0x7f0a0172
 int id percent 0x7f0a0173
 int id pet_sitter_checkBox 0x7f0a0174
+int id pet_sitter_desc 0x7f0a023d
+int id pet_sitter_desc_input 0x7f0a023e
 int id phone_numb 0x7f0a0175
 int id phone_numb_input 0x7f0a0176
 int id pin 0x7f0a0177
@@ -3649,6 +3654,8 @@ int string register_email_input 0x7f1200b5
 int string register_name 0x7f1200b6
 int string register_name_input 0x7f1200b7
 int string register_pet_sitter 0x7f1200b8
+int string register_pet_sitter_desc 0x7f1200dd
+int string register_pet_sitter_desc_input 0x7f1200de
 int string register_phone_numb 0x7f1200b9
 int string register_phone_numb_input 0x7f1200ba
 int string register_province 0x7f1200bb

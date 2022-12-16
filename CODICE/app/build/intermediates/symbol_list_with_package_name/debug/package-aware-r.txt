@@ -1332,6 +1332,9 @@ color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
 color disable_color
+color disable_hint_color
+color edit_text_color
+color edit_text_color_disabled
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1844,6 +1847,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color stroke_color6
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -2667,6 +2671,7 @@ drawable pharmacy
 drawable progress
 drawable rounded_rectangle_app_name
 drawable rounded_rectangle_input
+drawable rounded_rectangle_input_locked
 drawable search_page_button
 drawable shopping_cart
 drawable show
@@ -2924,10 +2929,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView11
 id imageView3
 id imageView4
-id imageView6
 id imageView7
 id immediateStop
 id include
@@ -3051,6 +3054,8 @@ id pathRelative
 id peekHeight
 id percent
 id pet_sitter_checkBox
+id pet_sitter_desc
+id pet_sitter_desc_input
 id phone_numb
 id phone_numb_input
 id pin
@@ -3650,6 +3655,8 @@ string register_email_input
 string register_name
 string register_name_input
 string register_pet_sitter
+string register_pet_sitter_desc
+string register_pet_sitter_desc_input
 string register_phone_numb
 string register_phone_numb_input
 string register_province

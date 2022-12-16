@@ -60,7 +60,8 @@
                 android:src="@drawable/hero_conad_petstore"
                 app:layout_constraintBottom_toBottomOf="@+id/view"
                 app:layout_constraintStart_toStartOf="@+id/view"
-                app:layout_constraintTop_toTopOf="@+id/view" />
+                app:layout_constraintTop_toTopOf="@+id/view"
+                tools:ignore="RtlHardcoded" />
 
             <TextView
                 android:id="@+id/find_pet_text"
@@ -75,9 +76,9 @@
                 app:layout_constraintBottom_toBottomOf="@+id/view"
                 app:layout_constraintEnd_toEndOf="@+id/view"
                 app:layout_constraintHorizontal_bias="0.676"
-                app:layout_constraintStart_toEndOf="@+id/imageView6"
                 app:layout_constraintTop_toTopOf="@+id/view"
-                app:layout_constraintVertical_bias="0.533" />
+                app:layout_constraintVertical_bias="0.533"
+                tools:ignore="RtlHardcoded" />
 
             <View
                 android:id="@+id/view5"
@@ -100,7 +101,8 @@
                 app:layout_constraintBottom_toBottomOf="@+id/view5"
                 app:layout_constraintStart_toStartOf="@+id/view5"
                 app:layout_constraintTop_toTopOf="@+id/view5"
-                app:layout_constraintVertical_bias="0.466" />
+                app:layout_constraintVertical_bias="0.466"
+                tools:ignore="ContentDescription,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/find_pet_sitter_text"
@@ -117,9 +119,9 @@
                 app:layout_constraintBottom_toBottomOf="@+id/view5"
                 app:layout_constraintEnd_toEndOf="@+id/view5"
                 app:layout_constraintHorizontal_bias="0.661"
-                app:layout_constraintStart_toEndOf="@+id/imageView11"
                 app:layout_constraintTop_toTopOf="@+id/view5"
-                app:layout_constraintVertical_bias="0.526" />
+                app:layout_constraintVertical_bias="0.526"
+                tools:ignore="RtlHardcoded" />
 
             <View
                 android:id="@+id/view6"
@@ -141,7 +143,8 @@
                 app:layout_constraintBottom_toBottomOf="@+id/view6"
                 app:layout_constraintStart_toStartOf="@+id/view6"
                 app:layout_constraintTop_toTopOf="@+id/view6"
-                app:layout_constraintVertical_bias="0.454" />
+                app:layout_constraintVertical_bias="0.454"
+                tools:ignore="ContentDescription,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/find_vet_text"
@@ -158,7 +161,8 @@
                 app:layout_constraintBottom_toBottomOf="@+id/view6"
                 app:layout_constraintEnd_toEndOf="@+id/view6"
                 app:layout_constraintTop_toTopOf="@+id/view6"
-                app:layout_constraintVertical_bias="0.625" />
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
 
             <View
                 android:id="@+id/view7"
@@ -181,7 +185,8 @@
                 app:layout_constraintBottom_toBottomOf="@+id/view7"
                 app:layout_constraintStart_toStartOf="@+id/view7"
                 app:layout_constraintTop_toTopOf="@+id/view7"
-                app:layout_constraintVertical_bias="0.272" />
+                app:layout_constraintVertical_bias="0.272"
+                tools:ignore="ContentDescription,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/find_shop_text"
@@ -198,7 +203,8 @@
                 app:layout_constraintBottom_toBottomOf="@+id/view7"
                 app:layout_constraintEnd_toEndOf="@+id/view7"
                 app:layout_constraintTop_toTopOf="@+id/view7"
-                app:layout_constraintVertical_bias="0.687" />
+                app:layout_constraintVertical_bias="0.687"
+                tools:ignore="RtlHardcoded" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

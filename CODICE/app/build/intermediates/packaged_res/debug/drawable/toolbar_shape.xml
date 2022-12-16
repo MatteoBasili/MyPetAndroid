@@ -4,5 +4,5 @@
     <solid android:color="@color/action_bar_background"/>
     <stroke
         android:width="1dp"
-        android:color="#606060"/>
+        android:color="@color/stroke_color6"/>
 </shape>

@@ -198,16 +198,18 @@
     <string name="register_phone_numb">Phone number*:</string>
     <string name="register_phone_numb_input">Enter number</string>
     <string name="register_pet_sitter">I am a Pet Sitter</string>
-    <string name="register_cared_pets">Pets taken care of:</string>
+    <string name="register_cared_pets">Pets taken care of*:</string>
     <string name="register_cared_pet1">Dog</string>
     <string name="register_cared_pet2">Cat</string>
     <string name="register_cared_pet3">Other pets</string>
-    <string name="register_services">Offered services:</string>
+    <string name="register_services">Offered services*:</string>
     <string name="register_serv1">Pet Sitting at home</string>
     <string name="register_serv2">Pet Sitting at the pet sitter’s home</string>
     <string name="register_serv3">Home visit</string>
     <string name="register_serv4">Walk</string>
     <string name="register_serv5">Change of litter</string>
+    <string name="register_pet_sitter_desc">Description:</string>
+    <string name="register_pet_sitter_desc_input">Enter a description about yourself</string>
     <string name="register_button">Register</string>
 
     <!-- Strings for info app fragment: -->
