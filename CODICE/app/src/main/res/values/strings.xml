@@ -58,6 +58,7 @@
     <string name="register_pwd_confirm">Confirm Password*:</string>
     <string name="register_region">Region*:</string>
     <string-array name="regions">
+        <item>Select your region</item>
         <item>Abruzzo</item>
         <item>Basilicata</item>
         <item>Calabria</item>
@@ -82,6 +83,7 @@
     <string name="register_region_input">Enter region</string>
     <string name="register_province">Province*:</string>
     <string-array name="provinces">
+        <item>Select your province</item>
         <item>Agrigento</item>
         <item>Alessandria</item>
         <item>Ancona</item>
