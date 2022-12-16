@@ -11,7 +11,7 @@
         android:id="@+id/textView5"
         android:layout_width="310dp"
         android:layout_height="100dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/rounded_rectangle_app_name"
         android:fontFamily="@font/acme"
         android:gravity="center"

@@ -10,16 +10,28 @@ import com.application.mypet.login.view.LoginActivity;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashScreen extends Activity {
+
+    Handler handler;
+
     int splashTimeOut = 3000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        new Handler().postDelayed(() -> {
-            Intent i = new Intent(SplashScreen.this, LoginActivity.class);
-            startActivity(i);
+        handler = new Handler();
+        handler.postDelayed(() -> {
+            startActivity(new Intent(this, LoginActivity.class));
             finish();
         },splashTimeOut);
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        handler.removeCallbacksAndMessages(null);
+        System.exit(0);
     }
 }
