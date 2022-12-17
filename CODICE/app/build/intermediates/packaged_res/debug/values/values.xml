@@ -209,6 +209,8 @@
     <string name="register_cared_pets">Pets taken care of*:</string>
     <string name="register_email">Email*:</string>
     <string name="register_email_input">Enter email</string>
+    <string name="register_first_pet_name"><br>First Pet Name*:\n</br><br>(For the password recovery)</br></string>
+    <string name="register_first_pet_name_input">Enter name</string>
     <string name="register_name">Name*:</string>
     <string name="register_name_input">Enter name</string>
     <string name="register_pet_sitter">I am a Pet Sitter</string>

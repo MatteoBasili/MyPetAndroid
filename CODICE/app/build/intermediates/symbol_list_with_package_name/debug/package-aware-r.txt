@@ -2890,6 +2890,8 @@ id find_shop_image
 id find_shop_text
 id find_vet_image
 id find_vet_text
+id first_pet_name
+id first_pet_name_input
 id fitCenter
 id fitEnd
 id fitStart
@@ -3096,7 +3098,6 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -3652,6 +3653,8 @@ string register_cared_pet3
 string register_cared_pets
 string register_email
 string register_email_input
+string register_first_pet_name
+string register_first_pet_name_input
 string register_name
 string register_name_input
 string register_pet_sitter

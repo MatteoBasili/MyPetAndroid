@@ -10843,7 +10843,7 @@
         <item>Vibo Valentia</item>
         <item>Vicenza</item>
         <item>Viterbo</item>
-    </string-array><string name="register_pet_sitter_desc">Description:</string><string name="register_pet_sitter_desc_input">Enter a description about yourself</string></file><file path="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.MyPet" parent="Theme.AppCompat.Light.NoActionBar">
+    </string-array><string name="register_pet_sitter_desc">Description:</string><string name="register_pet_sitter_desc_input">Enter a description about yourself</string><string name="register_first_pet_name"><br>First Pet Name*:\n</br><br>(For the password recovery)</br></string><string name="register_first_pet_name_input">Enter name</string></file><file path="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.MyPet" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/action_bar_background</item>
         <item name="colorPrimaryVariant">@color/action_bar_text</item>

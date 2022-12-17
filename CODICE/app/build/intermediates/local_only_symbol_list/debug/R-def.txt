@@ -75,6 +75,8 @@ id find_shop_image
 id find_shop_text
 id find_vet_image
 id find_vet_text
+id first_pet_name
+id first_pet_name_input
 id forgot_pwd
 id frame_layout
 id hide_pwd
@@ -111,7 +113,7 @@ id region
 id relativeLayout
 id relativeLayout2
 id rem_me
-id scrollView2
+id scrollView
 id search_screen
 id send_button
 id services_checkBox1
@@ -211,6 +213,8 @@ string register_cared_pet3
 string register_cared_pets
 string register_email
 string register_email_input
+string register_first_pet_name
+string register_first_pet_name_input
 string register_name
 string register_name_input
 string register_pet_sitter
