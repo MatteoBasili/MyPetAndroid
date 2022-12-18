@@ -59,9 +59,9 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="Interface" />
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -104,11 +104,11 @@
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\other\layout" />
+      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\fragment\layout" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\drawables\other_icons\drawable" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\drawables\shapes\drawable" />
       <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\xml" />
-      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\layouts\activity\layout" />
-      <recent name="D:\Matteo\ISPW-E-BD\ISPW\2021-22\Progetto\CODICE\app\src\main\res\drawables\app_launcher" />
     </key>
     <key name="android.template.-892497029">
       <recent name="com.application.mypet" />

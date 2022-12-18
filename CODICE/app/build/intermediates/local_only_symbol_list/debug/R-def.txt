@@ -59,14 +59,17 @@ id app_info_screen
 id back_arrow
 id bottomNavigationView
 id bottom_sheet_exit_linear
+id button
 id cared_pets
 id cared_pets_checkBox1
 id cared_pets_checkBox2
 id cared_pets_checkBox3
 id create_account_button
+id editTextTextPersonName
 id email
 id email_input
 id enter_button
+id facebookLayout
 id find_pet_image
 id find_pet_sitter_image
 id find_pet_sitter_text
@@ -79,6 +82,7 @@ id first_pet_name
 id first_pet_name_input
 id forgot_pwd
 id frame_layout
+id googleLayout
 id hide_pwd
 id hide_pwd1
 id hide_pwd2
@@ -110,8 +114,6 @@ id pwd_confirm_input
 id pwd_input
 id question
 id region
-id relativeLayout
-id relativeLayout2
 id rem_me
 id scrollView
 id search_screen
@@ -146,6 +148,7 @@ id toolbar
 id toolbar_title
 id user_email
 id user_pet
+id user_welcome
 id username
 id username_input
 id view
@@ -155,6 +158,7 @@ id view7
 id yes_button
 layout activity_account_registration
 layout activity_confirm_dialog
+layout activity_exit_app_confirm
 layout activity_home
 layout activity_loading_dialog
 layout activity_login
@@ -175,8 +179,10 @@ string back_arrow
 string button_enter
 string button_send
 string button_sign_in
+string confirm_exit_app_title
 string confirm_exit_registration_bar_title
 string google_description
+string hello_blank_fragment
 string info_app_authors
 string info_app_desc
 string info_app_emails

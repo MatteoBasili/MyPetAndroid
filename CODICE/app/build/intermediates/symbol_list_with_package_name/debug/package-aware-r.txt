@@ -2787,6 +2787,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2864,6 +2865,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextPersonName
 id edit_query
 id elastic
 id email
@@ -2877,6 +2879,7 @@ id enter_button
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id facebookLayout
 id fade
 id fill
 id fill_horizontal
@@ -2909,6 +2912,7 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id gone
+id googleLayout
 id graph
 id graph_wrap
 id group_divider
@@ -3079,8 +3083,6 @@ id radio
 id ratio
 id rectangles
 id region
-id relativeLayout
-id relativeLayout2
 id rem_me
 id reverseSawtooth
 id right
@@ -3232,6 +3234,7 @@ id up
 id useLogo
 id user_email
 id user_pet
+id user_welcome
 id username
 id username_input
 id vertical_only
@@ -3381,6 +3384,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_account_registration
 layout activity_confirm_dialog
+layout activity_exit_app_confirm
 layout activity_home
 layout activity_loading_dialog
 layout activity_login
@@ -3515,6 +3519,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string confirm_exit_app_title
 string confirm_exit_registration_bar_title
 string error_a11y_label
 string error_icon_content_description
@@ -3522,6 +3527,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string google_description
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string info_app_authors

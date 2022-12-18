@@ -5,7 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -20,16 +22,29 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final Button button;
+
+  @NonNull
+  public final EditText editTextTextPersonName;
+
+  @NonNull
   public final DefaultToolbarBinding include;
 
   @NonNull
   public final Button logout;
 
-  private FragmentProfileBinding(@NonNull FrameLayout rootView,
-      @NonNull DefaultToolbarBinding include, @NonNull Button logout) {
+  @NonNull
+  public final TextView userWelcome;
+
+  private FragmentProfileBinding(@NonNull FrameLayout rootView, @NonNull Button button,
+      @NonNull EditText editTextTextPersonName, @NonNull DefaultToolbarBinding include,
+      @NonNull Button logout, @NonNull TextView userWelcome) {
     this.rootView = rootView;
+    this.button = button;
+    this.editTextTextPersonName = editTextTextPersonName;
     this.include = include;
     this.logout = logout;
+    this.userWelcome = userWelcome;
   }
 
   @Override
@@ -59,6 +74,18 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button;
+      Button button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextPersonName;
+      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPersonName == null) {
+        break missingId;
+      }
+
       id = R.id.include;
       View include = ViewBindings.findChildViewById(rootView, id);
       if (include == null) {
@@ -72,7 +99,14 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((FrameLayout) rootView, binding_include, logout);
+      id = R.id.user_welcome;
+      TextView userWelcome = ViewBindings.findChildViewById(rootView, id);
+      if (userWelcome == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((FrameLayout) rootView, button, editTextTextPersonName,
+          binding_include, logout, userWelcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

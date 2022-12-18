@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">MyPet</string>
     <string name="nav_buttons">━━</string>
 
@@ -7,6 +8,7 @@
 
     <!-- Strings for confirm dialog bar: -->
     <string name="confirm_exit_registration_bar_title"><br>Are you sure you want\n</br><br>to exit registration?</br></string>
+    <string name="confirm_exit_app_title"><br>Are you sure you want\n</br><br>to exit the app?</br></string>
     <string name="yes_button_confirm">Yes</string>
     <string name="no_button_confirm">No</string>
 
@@ -223,6 +225,16 @@
     <string name="info_app_par3">Emails:</string>
     <string name="info_app_emails"><br>matthew2000.mb@gmail.com\n</br><br>alessandro.zunica@gmail.com</br></string>
 
+    <!-- Strings for profile fragment: -->
+    <string name="profile_frag_title">My profile</string>
+    <string name="profile_frag_personal_info">Personal informations</string>
+    <string name="profile_frag_favorites">Favorites</string>
+    <string name="profile_frag_ads">My ads</string>
+    <string name="profile_frag_cared_pets">Cared pets</string>
+    <string name="profile_frag_services">Services</string>
+    <string name="profile_frag_arrow"><b>></b></string>
+    <string name="profile_frag_logout"><b>Logout</b></string>
+
     <!-- Strings for search fragment: -->
     <string name="search_frag_title">Home</string>
     <string name="search_frag_pet">Find Pet</string>
@@ -234,4 +246,5 @@
 
     <!-- Strings for map fragment: -->
     <string name="map_frag_title">Map</string>
+
 </resources>

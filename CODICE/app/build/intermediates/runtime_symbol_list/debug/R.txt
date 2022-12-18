@@ -2786,6 +2786,7 @@ int id bounce 0x7f0a0064
 int id bounceBoth 0x7f0a0065
 int id bounceEnd 0x7f0a0066
 int id bounceStart 0x7f0a0067
+int id button 0x7f0a0242
 int id buttonPanel 0x7f0a0068
 int id cache_measures 0x7f0a0069
 int id callMeasure 0x7f0a006a
@@ -2863,6 +2864,7 @@ int id easeIn 0x7f0a00b1
 int id easeInOut 0x7f0a00b2
 int id easeOut 0x7f0a00b3
 int id east 0x7f0a00b4
+int id editTextTextPersonName 0x7f0a0240
 int id edit_query 0x7f0a00b5
 int id elastic 0x7f0a00b6
 int id email 0x7f0a00b7
@@ -2876,6 +2878,7 @@ int id enter_button 0x7f0a00be
 int id exitUntilCollapsed 0x7f0a00bf
 int id expand_activities_button 0x7f0a00c0
 int id expanded_menu 0x7f0a00c1
+int id facebookLayout 0x7f0a0243
 int id fade 0x7f0a00c2
 int id fill 0x7f0a00c3
 int id fill_horizontal 0x7f0a00c4
@@ -2908,6 +2911,7 @@ int id fullscreen_header 0x7f0a00de
 int id ghost_view 0x7f0a00df
 int id ghost_view_holder 0x7f0a00e0
 int id gone 0x7f0a00e1
+int id googleLayout 0x7f0a0244
 int id graph 0x7f0a00e2
 int id graph_wrap 0x7f0a00e3
 int id group_divider 0x7f0a00e4
@@ -3078,8 +3082,6 @@ int id radio 0x7f0a0188
 int id ratio 0x7f0a0189
 int id rectangles 0x7f0a018a
 int id region 0x7f0a018b
-int id relativeLayout 0x7f0a018c
-int id relativeLayout2 0x7f0a018d
 int id rem_me 0x7f0a018e
 int id reverseSawtooth 0x7f0a018f
 int id right 0x7f0a0190
@@ -3231,6 +3233,7 @@ int id up 0x7f0a0222
 int id useLogo 0x7f0a0223
 int id user_email 0x7f0a0224
 int id user_pet 0x7f0a0225
+int id user_welcome 0x7f0a023f
 int id username 0x7f0a0226
 int id username_input 0x7f0a0227
 int id vertical_only 0x7f0a0228
@@ -3380,6 +3383,7 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_account_registration 0x7f0d001c
 int layout activity_confirm_dialog 0x7f0d001d
+int layout activity_exit_app_confirm 0x7f0d0075
 int layout activity_home 0x7f0d001e
 int layout activity_loading_dialog 0x7f0d001f
 int layout activity_login 0x7f0d0020
@@ -3514,6 +3518,7 @@ int string character_counter_content_description 0x7f120028
 int string character_counter_overflowed_content_description 0x7f120029
 int string character_counter_pattern 0x7f12002a
 int string clear_text_end_icon_content_description 0x7f12002b
+int string confirm_exit_app_title 0x7f1200e2
 int string confirm_exit_registration_bar_title 0x7f12002c
 int string error_a11y_label 0x7f12002d
 int string error_icon_content_description 0x7f12002e
@@ -3521,6 +3526,7 @@ int string exposed_dropdown_menu_content_description 0x7f12002f
 int string fab_transformation_scrim_behavior 0x7f120030
 int string fab_transformation_sheet_behavior 0x7f120031
 int string google_description 0x7f120032
+int string hello_blank_fragment 0x7f1200e1
 int string hide_bottom_view_on_scroll_behavior 0x7f120033
 int string icon_content_description 0x7f120034
 int string info_app_authors 0x7f120035

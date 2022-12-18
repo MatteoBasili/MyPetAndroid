@@ -4,16 +4,16 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_login.xml"
     },
     {
+        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_loading_dialog.xml",
+        "source": "com.application.mypet.app-main-31:/layouts/other/layout/activity_loading_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_password_recovery.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_password_recovery.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_splash_screen.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_account_registration.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_account_registration.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_app_info.xml",
@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\toolbar_with_back.xml"
     },
     {
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\profile2.xml",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\layout\\profile2.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\default_toolbar.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\default_toolbar.xml"
     },
@@ -52,11 +56,19 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_loading_dialog.xml"
     },
     {
+        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_confirm_dialog.xml",
+        "source": "com.application.mypet.app-main-31:/layouts/other/layout/activity_confirm_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\activity_home.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_search.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_exit_app_confirm.xml",
+        "source": "com.application.mypet.app-main-31:/layouts/other/layout/activity_exit_app_confirm.xml"
     }
 ]

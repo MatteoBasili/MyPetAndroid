@@ -171,8 +171,10 @@
     <string name="button_enter">Enter</string>
     <string name="button_send">Send</string>
     <string name="button_sign_in">Sign In</string>
+    <string name="confirm_exit_app_title"><br>Are you sure you want\n</br><br>to exit the app?</br></string>
     <string name="confirm_exit_registration_bar_title"><br>Are you sure you want\n</br><br>to exit registration?</br></string>
     <string name="google_description">Google Logo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="info_app_authors"><br>Matteo Basili\n</br><br>Alessandro Zunica</br></string>
     <string name="info_app_desc"><br>We are a couple of students who\n</br><br>love to pamper pets!</br></string>
     <string name="info_app_emails"><br>matthew2000.mb@gmail.com\n</br><br>alessandro.zunica@gmail.com</br></string>

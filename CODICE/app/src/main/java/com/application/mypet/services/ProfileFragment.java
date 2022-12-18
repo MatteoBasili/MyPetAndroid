@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import com.application.mypet.R;
 import com.application.mypet.login.view.LoginActivity;
@@ -24,6 +26,7 @@ public class ProfileFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    private String text;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -63,14 +66,30 @@ public class ProfileFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
+        String user = getArguments().getString("User");
         View profileView = inflater.inflate(R.layout.fragment_profile, container, false);
+        TextView welcome = profileView.findViewById(R.id.user_welcome);
         Button logout = profileView.findViewById(R.id.logout);
+        EditText editText = profileView.findViewById(R.id.editTextTextPersonName);
+        if (savedInstanceState != null) {
+            // Restore last state for edit text.
+            text = savedInstanceState.getString("editText", "No saved Text!");
+            editText.setText(text);
+        }
+        welcome.setText(user);
         logout.setOnClickListener(view -> {
             startActivity(new Intent(getActivity(), LoginActivity.class));
             getActivity().finish();
         });
+
         return profileView;
 
     }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putString("editText", text);
+        super.onSaveInstanceState(outState);
+    }
+
 }
