@@ -30,8 +30,6 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         String user = getIntent().getStringExtra("LoggedUser");
-        Bundle bundle = new Bundle();
-        bundle.putString("User", user);
 
         com.application.mypet.databinding.ActivityHomeBinding binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -40,7 +38,7 @@ public class HomeActivity extends AppCompatActivity {
         searchFragment = new SearchFragment();
         replaceFragment(searchFragment, SEARCH_FRAGMENT_TAG);
         // set Fragment class Arguments
-        searchFragment.setArguments(bundle);
+        //searchFragment.setArguments(bundle);
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
 
@@ -54,7 +52,7 @@ public class HomeActivity extends AppCompatActivity {
                     } else if (searchFragment == null) {
                         // only create fragment if they haven't been instantiated already
                         searchFragment = new SearchFragment();
-                        searchFragment.setArguments(bundle);
+                        //searchFragment.setArguments(bundle);
                     }
 
                     assert searchFragment != null;
@@ -69,7 +67,7 @@ public class HomeActivity extends AppCompatActivity {
                     } else if (mapFragment == null) {
                         // only create fragment if they haven't been instantiated already
                         mapFragment = new MapFragment();
-                        mapFragment.setArguments(bundle);
+                        //mapFragment.setArguments(bundle);
 
                     }
 
@@ -83,8 +81,7 @@ public class HomeActivity extends AppCompatActivity {
                                 getSupportFragmentManager().findFragmentByTag(PROFILE_FRAGMENT_TAG);
                     } else if (profileFragment == null) {
                         // only create fragment if they haven't been instantiated already
-                        profileFragment = new ProfileFragment();
-                        profileFragment.setArguments(bundle);
+                        profileFragment = ProfileFragment.newInstance(user);
                     }
 
                     assert profileFragment != null;
@@ -98,7 +95,7 @@ public class HomeActivity extends AppCompatActivity {
                     } else if (appInfoFragment == null) {
                         // only create fragment if they haven't been instantiated already
                         appInfoFragment = new AppInfoFragment();
-                        appInfoFragment.setArguments(bundle);
+                        //appInfoFragment.setArguments(bundle);
                     }
 
                     assert appInfoFragment != null;

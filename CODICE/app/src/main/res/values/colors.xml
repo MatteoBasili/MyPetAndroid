@@ -14,4 +14,7 @@
     <color name="edit_text_color">#EAEAEA</color>
     <color name="disable_color">#B0B0B0</color>
     <color name="disable_hint_color">#D0D0D0</color>
+    <color name="like_color">#0C6F16</color>
+    <color name="dislike_color">#CB0B0B</color>
+    <color name="logout_color">#EB2121</color>
 </resources>

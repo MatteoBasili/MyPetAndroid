@@ -4,12 +4,12 @@ package com.application.mypet.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.application.mypet.R;
@@ -19,37 +19,147 @@ import java.lang.String;
 
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button;
+  public final TextView ads;
 
   @NonNull
-  public final EditText editTextTextPersonName;
+  public final TextView adsArrow;
+
+  @NonNull
+  public final View adsView;
+
+  @NonNull
+  public final TextView caredPets;
+
+  @NonNull
+  public final TextView caredPetsArrow;
+
+  @NonNull
+  public final View caredPetsView;
+
+  @NonNull
+  public final ImageView changePhoto;
+
+  @NonNull
+  public final ImageView defaultPhoto;
+
+  @NonNull
+  public final ImageView deletePhoto;
+
+  @NonNull
+  public final ImageView dislikes;
+
+  @NonNull
+  public final TextView dislikesNumb;
+
+  @NonNull
+  public final TextView favorites;
+
+  @NonNull
+  public final TextView favoritesArrow;
+
+  @NonNull
+  public final View favoritesView;
 
   @NonNull
   public final DefaultToolbarBinding include;
 
   @NonNull
-  public final Button logout;
+  public final ConstraintLayout intConstLayout;
 
   @NonNull
-  public final TextView userWelcome;
+  public final ImageView likes;
 
-  private FragmentProfileBinding(@NonNull FrameLayout rootView, @NonNull Button button,
-      @NonNull EditText editTextTextPersonName, @NonNull DefaultToolbarBinding include,
-      @NonNull Button logout, @NonNull TextView userWelcome) {
+  @NonNull
+  public final TextView likesNumb;
+
+  @NonNull
+  public final TextView logout;
+
+  @NonNull
+  public final View logoutView;
+
+  @NonNull
+  public final TextView personalInfo;
+
+  @NonNull
+  public final TextView personalInfoArrow;
+
+  @NonNull
+  public final View personalInfoView;
+
+  @NonNull
+  public final ImageView photoProfile;
+
+  @NonNull
+  public final RelativeLayout photoProfileView;
+
+  @NonNull
+  public final TextView services;
+
+  @NonNull
+  public final TextView servicesArrow;
+
+  @NonNull
+  public final View servicesView;
+
+  @NonNull
+  public final TextView title;
+
+  @NonNull
+  public final TextView user;
+
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull TextView ads,
+      @NonNull TextView adsArrow, @NonNull View adsView, @NonNull TextView caredPets,
+      @NonNull TextView caredPetsArrow, @NonNull View caredPetsView, @NonNull ImageView changePhoto,
+      @NonNull ImageView defaultPhoto, @NonNull ImageView deletePhoto, @NonNull ImageView dislikes,
+      @NonNull TextView dislikesNumb, @NonNull TextView favorites, @NonNull TextView favoritesArrow,
+      @NonNull View favoritesView, @NonNull DefaultToolbarBinding include,
+      @NonNull ConstraintLayout intConstLayout, @NonNull ImageView likes,
+      @NonNull TextView likesNumb, @NonNull TextView logout, @NonNull View logoutView,
+      @NonNull TextView personalInfo, @NonNull TextView personalInfoArrow,
+      @NonNull View personalInfoView, @NonNull ImageView photoProfile,
+      @NonNull RelativeLayout photoProfileView, @NonNull TextView services,
+      @NonNull TextView servicesArrow, @NonNull View servicesView, @NonNull TextView title,
+      @NonNull TextView user) {
     this.rootView = rootView;
-    this.button = button;
-    this.editTextTextPersonName = editTextTextPersonName;
+    this.ads = ads;
+    this.adsArrow = adsArrow;
+    this.adsView = adsView;
+    this.caredPets = caredPets;
+    this.caredPetsArrow = caredPetsArrow;
+    this.caredPetsView = caredPetsView;
+    this.changePhoto = changePhoto;
+    this.defaultPhoto = defaultPhoto;
+    this.deletePhoto = deletePhoto;
+    this.dislikes = dislikes;
+    this.dislikesNumb = dislikesNumb;
+    this.favorites = favorites;
+    this.favoritesArrow = favoritesArrow;
+    this.favoritesView = favoritesView;
     this.include = include;
+    this.intConstLayout = intConstLayout;
+    this.likes = likes;
+    this.likesNumb = likesNumb;
     this.logout = logout;
-    this.userWelcome = userWelcome;
+    this.logoutView = logoutView;
+    this.personalInfo = personalInfo;
+    this.personalInfoArrow = personalInfoArrow;
+    this.personalInfoView = personalInfoView;
+    this.photoProfile = photoProfile;
+    this.photoProfileView = photoProfileView;
+    this.services = services;
+    this.servicesArrow = servicesArrow;
+    this.servicesView = servicesView;
+    this.title = title;
+    this.user = user;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -74,15 +184,87 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
+      id = R.id.ads;
+      TextView ads = ViewBindings.findChildViewById(rootView, id);
+      if (ads == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName;
-      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName == null) {
+      id = R.id.ads_arrow;
+      TextView adsArrow = ViewBindings.findChildViewById(rootView, id);
+      if (adsArrow == null) {
+        break missingId;
+      }
+
+      id = R.id.ads_view;
+      View adsView = ViewBindings.findChildViewById(rootView, id);
+      if (adsView == null) {
+        break missingId;
+      }
+
+      id = R.id.cared_pets;
+      TextView caredPets = ViewBindings.findChildViewById(rootView, id);
+      if (caredPets == null) {
+        break missingId;
+      }
+
+      id = R.id.cared_pets_arrow;
+      TextView caredPetsArrow = ViewBindings.findChildViewById(rootView, id);
+      if (caredPetsArrow == null) {
+        break missingId;
+      }
+
+      id = R.id.cared_pets_view;
+      View caredPetsView = ViewBindings.findChildViewById(rootView, id);
+      if (caredPetsView == null) {
+        break missingId;
+      }
+
+      id = R.id.change_photo;
+      ImageView changePhoto = ViewBindings.findChildViewById(rootView, id);
+      if (changePhoto == null) {
+        break missingId;
+      }
+
+      id = R.id.default_photo;
+      ImageView defaultPhoto = ViewBindings.findChildViewById(rootView, id);
+      if (defaultPhoto == null) {
+        break missingId;
+      }
+
+      id = R.id.delete_photo;
+      ImageView deletePhoto = ViewBindings.findChildViewById(rootView, id);
+      if (deletePhoto == null) {
+        break missingId;
+      }
+
+      id = R.id.dislikes;
+      ImageView dislikes = ViewBindings.findChildViewById(rootView, id);
+      if (dislikes == null) {
+        break missingId;
+      }
+
+      id = R.id.dislikes_numb;
+      TextView dislikesNumb = ViewBindings.findChildViewById(rootView, id);
+      if (dislikesNumb == null) {
+        break missingId;
+      }
+
+      id = R.id.favorites;
+      TextView favorites = ViewBindings.findChildViewById(rootView, id);
+      if (favorites == null) {
+        break missingId;
+      }
+
+      id = R.id.favorites_arrow;
+      TextView favoritesArrow = ViewBindings.findChildViewById(rootView, id);
+      if (favoritesArrow == null) {
+        break missingId;
+      }
+
+      id = R.id.favorites_view;
+      View favoritesView = ViewBindings.findChildViewById(rootView, id);
+      if (favoritesView == null) {
         break missingId;
       }
 
@@ -93,20 +275,102 @@ public final class FragmentProfileBinding implements ViewBinding {
       }
       DefaultToolbarBinding binding_include = DefaultToolbarBinding.bind(include);
 
+      id = R.id.int_const_layout;
+      ConstraintLayout intConstLayout = ViewBindings.findChildViewById(rootView, id);
+      if (intConstLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.likes;
+      ImageView likes = ViewBindings.findChildViewById(rootView, id);
+      if (likes == null) {
+        break missingId;
+      }
+
+      id = R.id.likes_numb;
+      TextView likesNumb = ViewBindings.findChildViewById(rootView, id);
+      if (likesNumb == null) {
+        break missingId;
+      }
+
       id = R.id.logout;
-      Button logout = ViewBindings.findChildViewById(rootView, id);
+      TextView logout = ViewBindings.findChildViewById(rootView, id);
       if (logout == null) {
         break missingId;
       }
 
-      id = R.id.user_welcome;
-      TextView userWelcome = ViewBindings.findChildViewById(rootView, id);
-      if (userWelcome == null) {
+      id = R.id.logout_view;
+      View logoutView = ViewBindings.findChildViewById(rootView, id);
+      if (logoutView == null) {
         break missingId;
       }
 
-      return new FragmentProfileBinding((FrameLayout) rootView, button, editTextTextPersonName,
-          binding_include, logout, userWelcome);
+      id = R.id.personal_info;
+      TextView personalInfo = ViewBindings.findChildViewById(rootView, id);
+      if (personalInfo == null) {
+        break missingId;
+      }
+
+      id = R.id.personal_info_arrow;
+      TextView personalInfoArrow = ViewBindings.findChildViewById(rootView, id);
+      if (personalInfoArrow == null) {
+        break missingId;
+      }
+
+      id = R.id.personal_info_view;
+      View personalInfoView = ViewBindings.findChildViewById(rootView, id);
+      if (personalInfoView == null) {
+        break missingId;
+      }
+
+      id = R.id.photo_profile;
+      ImageView photoProfile = ViewBindings.findChildViewById(rootView, id);
+      if (photoProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.photo_profile_view;
+      RelativeLayout photoProfileView = ViewBindings.findChildViewById(rootView, id);
+      if (photoProfileView == null) {
+        break missingId;
+      }
+
+      id = R.id.services;
+      TextView services = ViewBindings.findChildViewById(rootView, id);
+      if (services == null) {
+        break missingId;
+      }
+
+      id = R.id.services_arrow;
+      TextView servicesArrow = ViewBindings.findChildViewById(rootView, id);
+      if (servicesArrow == null) {
+        break missingId;
+      }
+
+      id = R.id.services_view;
+      View servicesView = ViewBindings.findChildViewById(rootView, id);
+      if (servicesView == null) {
+        break missingId;
+      }
+
+      id = R.id.title;
+      TextView title = ViewBindings.findChildViewById(rootView, id);
+      if (title == null) {
+        break missingId;
+      }
+
+      id = R.id.user;
+      TextView user = ViewBindings.findChildViewById(rootView, id);
+      if (user == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((ConstraintLayout) rootView, ads, adsArrow, adsView,
+          caredPets, caredPetsArrow, caredPetsView, changePhoto, defaultPhoto, deletePhoto,
+          dislikes, dislikesNumb, favorites, favoritesArrow, favoritesView, binding_include,
+          intConstLayout, likes, likesNumb, logout, logoutView, personalInfo, personalInfoArrow,
+          personalInfoView, photoProfile, photoProfileView, services, servicesArrow, servicesView,
+          title, user);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

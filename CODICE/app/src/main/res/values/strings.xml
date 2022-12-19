@@ -9,6 +9,7 @@
     <!-- Strings for confirm dialog bar: -->
     <string name="confirm_exit_registration_bar_title"><br>Are you sure you want\n</br><br>to exit registration?</br></string>
     <string name="confirm_exit_app_title"><br>Are you sure you want\n</br><br>to exit the app?</br></string>
+    <string name="delete_photo_confirm_title"><br>Are you sure you want\n</br><br>to delete the photo?</br></string>
     <string name="yes_button_confirm">Yes</string>
     <string name="no_button_confirm">No</string>
 
@@ -227,6 +228,7 @@
 
     <!-- Strings for profile fragment: -->
     <string name="profile_frag_title">My profile</string>
+    <string name="profile_frag_user">Username</string>
     <string name="profile_frag_personal_info">Personal informations</string>
     <string name="profile_frag_favorites">Favorites</string>
     <string name="profile_frag_ads">My ads</string>
@@ -234,6 +236,8 @@
     <string name="profile_frag_services">Services</string>
     <string name="profile_frag_arrow"><b>></b></string>
     <string name="profile_frag_logout"><b>Logout</b></string>
+    <string name="profile_frag_init_likes">0</string>
+    <string name="profile_frag_init_dislikes">0</string>
 
     <!-- Strings for search fragment: -->
     <string name="search_frag_title">Home</string>

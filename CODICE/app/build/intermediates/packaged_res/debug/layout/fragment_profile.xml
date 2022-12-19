@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,52 +10,419 @@
         android:id="@+id/include"
         layout="@layout/default_toolbar" />
 
-    <TextView
-        android:id="@+id/user_welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Profile Fragment"
-        android:textSize="26dp"
-        android:layout_gravity="center"/>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck">
 
-        <Button
-            android:id="@+id/logout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="196dp"
-            android:text="LOGOUT"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/int_const_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="240dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:text="Name"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/actor"
+                android:text="@string/profile_frag_title"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="128dp"
-            android:text="Button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <RelativeLayout
+                android:id="@+id/photo_profile_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:background="@drawable/search_page_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title"
+                tools:ignore="ContentDescription">
 
-</FrameLayout>
+                <ImageView
+                    android:id="@+id/default_photo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="13dp"
+                    android:layout_marginBottom="13dp"
+                    android:src="@drawable/user" />
+
+                <ImageView
+                    android:id="@+id/photo_profile"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:visibility="gone"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="9dp"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/change_photo"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/edit_fill0_wght400_grad0_opsz48"
+                app:layout_constraintStart_toEndOf="@+id/photo_profile_view"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/delete_photo"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/delete_fill0_wght400_grad0_opsz48"
+                app:layout_constraintEnd_toStartOf="@+id/photo_profile_view"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/actor"
+                android:text="@string/profile_frag_user"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/photo_profile_view" />
+
+            <View
+                android:id="@+id/personal_info_view"
+                android:layout_width="284dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/search_page_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/user" />
+
+            <TextView
+                android:id="@+id/personal_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_personal_info"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="@+id/personal_info_view"
+                app:layout_constraintStart_toStartOf="@+id/personal_info_view"
+                app:layout_constraintTop_toTopOf="@+id/personal_info_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/personal_info_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_arrow"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/personal_info_view"
+                app:layout_constraintEnd_toEndOf="@+id/personal_info_view"
+                app:layout_constraintTop_toTopOf="@+id/personal_info_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <View
+                android:id="@+id/favorites_view"
+                android:layout_width="284dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/search_page_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/personal_info_view" />
+
+            <TextView
+                android:id="@+id/favorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_favorites"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="@+id/favorites_view"
+                app:layout_constraintStart_toStartOf="@+id/favorites_view"
+                app:layout_constraintTop_toTopOf="@+id/favorites_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/favorites_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_arrow"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/favorites_view"
+                app:layout_constraintEnd_toEndOf="@+id/favorites_view"
+                app:layout_constraintTop_toTopOf="@+id/favorites_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <View
+                android:id="@+id/ads_view"
+                android:layout_width="284dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/search_page_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/favorites_view" />
+
+            <TextView
+                android:id="@+id/ads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_ads"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="@+id/ads_view"
+                app:layout_constraintStart_toStartOf="@+id/ads_view"
+                app:layout_constraintTop_toTopOf="@+id/ads_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/ads_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_arrow"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/ads_view"
+                app:layout_constraintEnd_toEndOf="@+id/ads_view"
+                app:layout_constraintTop_toTopOf="@+id/ads_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <View
+                android:id="@+id/cared_pets_view"
+                android:layout_width="284dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/search_page_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ads_view" />
+
+            <TextView
+                android:id="@+id/cared_pets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_cared_pets"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cared_pets_view"
+                app:layout_constraintStart_toStartOf="@+id/cared_pets_view"
+                app:layout_constraintTop_toTopOf="@+id/cared_pets_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/cared_pets_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_arrow"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cared_pets_view"
+                app:layout_constraintEnd_toEndOf="@+id/cared_pets_view"
+                app:layout_constraintTop_toTopOf="@+id/cared_pets_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <View
+                android:id="@+id/services_view"
+                android:layout_width="284dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/search_page_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cared_pets_view" />
+
+            <TextView
+                android:id="@+id/services"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_cared_pets"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="@+id/services_view"
+                app:layout_constraintStart_toStartOf="@+id/services_view"
+                app:layout_constraintTop_toTopOf="@+id/services_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/services_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_arrow"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/services_view"
+                app:layout_constraintEnd_toEndOf="@+id/services_view"
+                app:layout_constraintTop_toTopOf="@+id/services_view"
+                app:layout_constraintVertical_bias="0.625"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/likes"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="33dp"
+                android:src="@drawable/thumb_up_fill0_wght400_grad0_opsz48"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/services_view"
+                app:tint="@color/like_color"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/dislikes"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="120dp"
+                android:src="@drawable/thumb_down_fill0_wght400_grad0_opsz48"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/services_view"
+                app:tint="@color/dislike_color"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/likes_numb"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="102dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_init_likes"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/likes"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/dislikes_numb"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="102dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_init_dislikes"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dislikes"
+                tools:ignore="RtlHardcoded" />
+
+            <View
+                android:id="@+id/logout_view"
+                android:layout_width="284dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/rounded_rect_logout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/likes_numb" />
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="@string/profile_frag_logout"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="@+id/logout_view"
+                app:layout_constraintEnd_toEndOf="@+id/logout_view"
+                app:layout_constraintStart_toStartOf="@+id/logout_view"
+                app:layout_constraintTop_toTopOf="@+id/logout_view"
+                app:layout_constraintVertical_bias="0.636"
+                tools:ignore="RtlHardcoded,TextContrastCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
