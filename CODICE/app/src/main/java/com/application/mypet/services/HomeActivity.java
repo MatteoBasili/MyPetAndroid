@@ -20,10 +20,10 @@ public class HomeActivity extends AppCompatActivity {
     private MapFragment mapFragment;
     private ProfileFragment profileFragment;
     private AppInfoFragment appInfoFragment;
-    private final String SEARCH_FRAGMENT_TAG = "searchFragmentTag";
-    private final String MAP_FRAGMENT_TAG = "mapFragmentTag";
-    private final String PROFILE_FRAGMENT_TAG = "profileFragmentTag";
-    private final String INFO_FRAGMENT_TAG = "infoFragmentTag";
+    private static final String SEARCH_FRAGMENT_TAG = "searchFragmentTag";
+    private static final String MAP_FRAGMENT_TAG = "mapFragmentTag";
+    private static final String PROFILE_FRAGMENT_TAG = "profileFragmentTag";
+    private static final String INFO_FRAGMENT_TAG = "infoFragmentTag";
 
     @SuppressLint("NonConstantResourceId")
     @Override
@@ -36,8 +36,8 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         // Show the main fragment
-        searchFragment = new SearchFragment();
-        replaceFragment(searchFragment, SEARCH_FRAGMENT_TAG);
+        SearchFragment mainFragment = new SearchFragment();
+        replaceFragment(mainFragment, SEARCH_FRAGMENT_TAG);
         // set Fragment class Arguments
         //searchFragment.setArguments(bundle);
 
@@ -69,12 +69,12 @@ public class HomeActivity extends AppCompatActivity {
                         // only create fragment if they haven't been instantiated already
                         mapFragment = new MapFragment();
                         //mapFragment.setArguments(bundle);
-
                     }
 
                     assert mapFragment != null;
                     replaceFragment(mapFragment, MAP_FRAGMENT_TAG);
                     break;
+
                 case R.id.profile_screen:
                     if (savedInstanceState != null) { // saved instance state, fragment may exist
                         // look up the instance that already exists by tag
@@ -88,6 +88,7 @@ public class HomeActivity extends AppCompatActivity {
                     assert profileFragment != null;
                     replaceFragment(profileFragment, PROFILE_FRAGMENT_TAG);
                     break;
+
                 case R.id.app_info_screen:
                     if (savedInstanceState != null) { // saved instance state, fragment may exist
                         // look up the instance that already exists by tag
