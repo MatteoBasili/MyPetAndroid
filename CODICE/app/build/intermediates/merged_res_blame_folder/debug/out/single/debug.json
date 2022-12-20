@@ -88,16 +88,16 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\drawable\\app_icon_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\font_actor.ttf.flat",
-        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\font\\actor.ttf"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_delete_photo_confirm.xml.flat",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\other\\layout\\delete_photo_confirm.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_delete_photo_confirm.xml.flat",
-        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\other\\layout\\delete_photo_confirm.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\font_actor.ttf.flat",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\font\\actor.ttf"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_fragment_map.xml.flat",
@@ -118,10 +118,6 @@
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_confirm_dialog.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\other\\layout\\confirm_dialog.xml"
-    },
-    {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_activity_pet_sit_home.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_pet_sit_home.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_custom_spinner_list.xml.flat",
@@ -180,6 +176,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\other\\layout\\loading_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_activity_norm_user_home.xml.flat",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_norm_user_home.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_toolbar_with_back.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\toolbar_with_back.xml"
     },
@@ -216,6 +216,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\navigation_bar_icons\\drawable\\ic_baseline_map_24.xml"
     },
     {
+        "merged": "com.application.mypet.app-merged_res-29:/layout_activity_account_registration.xml.flat",
+        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_account_registration.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_fragment_app_info.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\layout\\fragment_app_info.xml"
     },
@@ -248,10 +252,6 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\other_icons\\drawable\\user.png"
     },
     {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_activity_norm_user_home.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_norm_user_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_custom_spinner_up.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\shapes\\drawable\\custom_spinner_up.xml"
     },
@@ -274,6 +274,10 @@
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_activity_exit_app_confirm.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\other\\layout\\activity_exit_app_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_activity_pet_sit_home.xml.flat",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\activity\\layout\\activity_pet_sit_home.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_progress.xml.flat",

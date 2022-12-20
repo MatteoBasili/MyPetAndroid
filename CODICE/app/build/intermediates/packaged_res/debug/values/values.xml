@@ -17,115 +17,172 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/acme</item>
     </array>
-    <string-array name="provinces">
+    <string-array name="provinces_abruzzo">
         <item>Select your province</item>
-        <item>Agrigento</item>
-        <item>Alessandria</item>
-        <item>Ancona</item>
-        <item>Aosta/Aoste</item>
-        <item>Arezzo</item>
-        <item>Ascoli Piceno</item>
-        <item>Asti</item>
-        <item>Avellino</item>
-        <item>Bari</item>
-        <item>Barletta-Andria-Trani</item>
-        <item>Belluno</item>
-        <item>Benevento</item>
-        <item>Bergamo</item>
-        <item>Biella</item>
-        <item>Bologna</item>
-        <item>Bolzano</item>
-        <item>Brescia</item>
-        <item>Brindisi</item>
-        <item>Cagliari</item>
-        <item>Caltanissetta</item>
-        <item>Campobasso</item>
-        <item>Caserta</item>
-        <item>Catania</item>
-        <item>Catanzaro</item>
         <item>Chieti</item>
-        <item>Como</item>
-        <item>Cosenza</item>
-        <item>Cremona</item>
-        <item>Crotone</item>
-        <item>Cuneo</item>
-        <item>Enna</item>
-        <item>Fermo</item>
-        <item>Ferrara</item>
-        <item>Firenze</item>
-        <item>Foggia</item>
-        <item>Forlì-Cesena</item>
-        <item>Frosinone</item>
-        <item>Genova</item>
-        <item>Gorizia</item>
-        <item>Grosseto</item>
-        <item>Imperia</item>
-        <item>Isernia</item>
         <item>L\'Aquila</item>
-        <item>La Spezia</item>
-        <item>Latina</item>
-        <item>Lecce</item>
-        <item>Lecco</item>
-        <item>Livorno</item>
-        <item>Lodi</item>
-        <item>Lucca</item>
-        <item>Macerata</item>
-        <item>Mantova</item>
-        <item>Massa-Carrara</item>
-        <item>Matera</item>
-        <item>Messina</item>
-        <item>Milano</item>
-        <item>Modena</item>
-        <item>Monza e Brianza</item>
-        <item>Napoli</item>
-        <item>Novara</item>
-        <item>Nuoro</item>
-        <item>Oristano</item>
-        <item>Padova</item>
-        <item>Palermo</item>
-        <item>Parma</item>
-        <item>Pavia</item>
-        <item>Perugia</item>
-        <item>Pesaro e Urbino</item>
         <item>Pescara</item>
-        <item>Piacenza</item>
-        <item>Pisa</item>
-        <item>Pistoia</item>
-        <item>Pordenone</item>
-        <item>Potenza</item>
-        <item>Prato</item>
-        <item>Ragusa</item>
-        <item>Ravenna</item>
-        <item>Reggio Calabria</item>
-        <item>Reggio Emilia</item>
-        <item>Rieti</item>
-        <item>Rimini</item>
-        <item>Roma</item>
-        <item>Rovigo</item>
-        <item>Salerno</item>
-        <item>Sassari</item>
-        <item>Savona</item>
-        <item>Siena</item>
-        <item>Siracusa</item>
-        <item>Sondrio</item>
-        <item>Sud Sardegna</item>
-        <item>Taranto</item>
         <item>Teramo</item>
-        <item>Terni</item>
-        <item>Torino</item>
-        <item>Trapani</item>
-        <item>Trento</item>
-        <item>Treviso</item>
+    </string-array>
+    <string-array name="provinces_basilicata">
+        <item>Select your province</item>
+        <item>Matera</item>
+        <item>Potenza</item>
+    </string-array>
+    <string-array name="provinces_calabria">
+        <item>Select your province</item>
+        <item>Catanzaro</item>
+        <item>Cosenza</item>
+        <item>Crotone</item>
+        <item>Reggio Calabria</item>
+        <item>Vibo Valentia</item>
+    </string-array>
+    <string-array name="provinces_campania">
+        <item>Select your province</item>
+        <item>Avellino</item>
+        <item>Benevento</item>
+        <item>Caserta</item>
+        <item>Napoli</item>
+        <item>Salerno</item>
+    </string-array>
+    <string-array name="provinces_emilia_romagna">
+        <item>Select your province</item>
+        <item>Bologna</item>
+        <item>Ferrara</item>
+        <item>Forlì-Cesena</item>
+        <item>Modena</item>
+        <item>Parma</item>
+        <item>Piacenza</item>
+        <item>Ravenna</item>
+        <item>Reggio Emilia</item>
+        <item>Rimini</item>
+    </string-array>
+    <string-array name="provinces_friuli_venezia_giulia">
+        <item>Select your province</item>
+        <item>Gorizia</item>
+        <item>Pordenone</item>
         <item>Trieste</item>
         <item>Udine</item>
+    </string-array>
+    <string-array name="provinces_lazio">
+        <item>Select your province</item>
+        <item>Frosinone</item>
+        <item>Latina</item>
+        <item>Rieti</item>
+        <item>Roma</item>
+        <item>Viterbo</item>
+    </string-array>
+    <string-array name="provinces_liguria">
+        <item>Select your province</item>
+        <item>Genova</item>
+        <item>Imperia</item>
+        <item>La Spezia</item>
+        <item>Savona</item>
+    </string-array>
+    <string-array name="provinces_lombardia">
+        <item>Select your province</item>
+        <item>Bergamo</item>
+        <item>Brescia</item>
+        <item>Como</item>
+        <item>Cremona</item>
+        <item>Lecco</item>
+        <item>Lodi</item>
+        <item>Mantova</item>
+        <item>Milano</item>
+        <item>Monza e Brianza</item>
+        <item>Pavia</item>
+        <item>Sondrio</item>
         <item>Varese</item>
-        <item>Venezia</item>
+    </string-array>
+    <string-array name="provinces_marche">
+        <item>Select your province</item>
+        <item>Ancona</item>
+        <item>Ascoli Piceno</item>
+        <item>Fermo</item>
+        <item>Macerata</item>
+        <item>Pesaro e Urbino</item>
+    </string-array>
+    <string-array name="provinces_molise">
+        <item>Select your province</item>
+        <item>Campobasso</item>
+        <item>Isernia</item>
+    </string-array>
+    <string-array name="provinces_piemonte">
+        <item>Select your province</item>
+        <item>Alessandria</item>
+        <item>Asti</item>
+        <item>Biella</item>
+        <item>Cuneo</item>
+        <item>Novara</item>
+        <item>Torino</item>
         <item>Verbano-Cusio-Ossola</item>
         <item>Vercelli</item>
+    </string-array>
+    <string-array name="provinces_puglia">
+        <item>Select your province</item>
+        <item>Bari</item>
+        <item>Barletta-Andria-Trani</item>
+        <item>Brindisi</item>
+        <item>Foggia</item>
+        <item>Lecce</item>
+        <item>Taranto</item>
+    </string-array>
+    <string-array name="provinces_sardegna">
+        <item>Select your province</item>
+        <item>Cagliari</item>
+        <item>Nuoro</item>
+        <item>Oristano</item>
+        <item>Sassari</item>
+        <item>Sud Sardegna</item>
+    </string-array>
+    <string-array name="provinces_sicilia">
+        <item>Select your province</item>
+        <item>Agrigento</item>
+        <item>Caltanissetta</item>
+        <item>Catania</item>
+        <item>Enna</item>
+        <item>Messina</item>
+        <item>Palermo</item>
+        <item>Ragusa</item>
+        <item>Siracusa</item>
+        <item>Trapani</item>
+    </string-array>
+    <string-array name="provinces_toscana">
+        <item>Select your province</item>
+        <item>Arezzo</item>
+        <item>Firenze</item>
+        <item>Grosseto</item>
+        <item>Livorno</item>
+        <item>Lucca</item>
+        <item>Massa-Carrara</item>
+        <item>Pisa</item>
+        <item>Pistoia</item>
+        <item>Prato</item>
+        <item>Siena</item>
+    </string-array>
+    <string-array name="provinces_trentino_alto_adige">
+        <item>Select your province</item>
+        <item>Bolzano</item>
+        <item>Trento</item>
+    </string-array>
+    <string-array name="provinces_umbria">
+        <item>Select your province</item>
+        <item>Perugia</item>
+        <item>Terni</item>
+    </string-array>
+    <string-array name="provinces_valle_d_Aosta">
+        <item>Select your province</item>
+        <item>Aosta/Aoste</item>
+    </string-array>
+    <string-array name="provinces_veneto">
+        <item>Select your province</item>
+        <item>Belluno</item>
+        <item>Padova</item>
+        <item>Rovigo</item>
+        <item>Treviso</item>
+        <item>Venezia</item>
         <item>Verona</item>
-        <item>Vibo Valentia</item>
         <item>Vicenza</item>
-        <item>Viterbo</item>
     </string-array>
     <string-array name="regions">
         <item>Select your region</item>
