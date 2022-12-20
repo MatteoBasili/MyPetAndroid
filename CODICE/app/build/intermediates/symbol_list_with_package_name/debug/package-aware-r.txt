@@ -2592,6 +2592,7 @@ drawable ic_baseline_close_24
 drawable ic_baseline_info_24
 drawable ic_baseline_map_24
 drawable ic_baseline_person_outline_24
+drawable ic_baseline_save_24
 drawable ic_baseline_search_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2853,7 +2854,6 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
-id default_photo
 id delete_photo
 id deltaRelative
 id dependency_ordering
@@ -2985,6 +2985,7 @@ id line3
 id linear
 id listMode
 id list_item
+id load_progressBar
 id logout
 id logout_view
 id map_screen
@@ -3123,6 +3124,8 @@ id rounded
 id row_index_key
 id save_non_transition_alpha
 id save_overlay_view
+id save_photo
+id save_progressBar
 id sawtooth
 id scale
 id screen

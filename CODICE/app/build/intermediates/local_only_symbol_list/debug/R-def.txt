@@ -42,6 +42,7 @@ drawable ic_baseline_close_24
 drawable ic_baseline_info_24
 drawable ic_baseline_map_24
 drawable ic_baseline_person_outline_24
+drawable ic_baseline_save_24
 drawable ic_baseline_search_24
 drawable ic_launcher_foreground
 drawable man_walking_with_pet_leash_vector_flat_illustration_male_strolling_street_with_dog_460582_663
@@ -81,7 +82,6 @@ id cared_pets_view
 id change_photo
 id close
 id create_account_button
-id default_photo
 id delete_photo
 id dislikes
 id dislikes_numb
@@ -118,6 +118,7 @@ id include2
 id int_const_layout
 id likes
 id likes_numb
+id load_progressBar
 id logout
 id logout_view
 id map_screen
@@ -146,6 +147,8 @@ id pwd_input
 id question
 id region
 id rem_me
+id save_photo
+id save_progressBar
 id scrollView
 id search_screen
 id send_button

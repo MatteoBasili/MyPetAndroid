@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 
 import com.application.mypet.R;
 import com.application.mypet.databinding.ActivityHomeBinding;
+import com.application.mypet.services.profile.view.ProfileFragment;
 
 public class HomeActivity extends AppCompatActivity {
 

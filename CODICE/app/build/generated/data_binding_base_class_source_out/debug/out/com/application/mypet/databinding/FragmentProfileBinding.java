@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -43,9 +44,6 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final ImageView changePhoto;
 
   @NonNull
-  public final ImageView defaultPhoto;
-
-  @NonNull
   public final ImageView deletePhoto;
 
   @NonNull
@@ -76,6 +74,9 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView likesNumb;
 
   @NonNull
+  public final ProgressBar loadProgressBar;
+
+  @NonNull
   public final TextView logout;
 
   @NonNull
@@ -97,6 +98,12 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final RelativeLayout photoProfileView;
 
   @NonNull
+  public final ImageView savePhoto;
+
+  @NonNull
+  public final ProgressBar saveProgressBar;
+
+  @NonNull
   public final TextView services;
 
   @NonNull
@@ -114,16 +121,16 @@ public final class FragmentProfileBinding implements ViewBinding {
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull TextView ads,
       @NonNull TextView adsArrow, @NonNull View adsView, @NonNull TextView caredPets,
       @NonNull TextView caredPetsArrow, @NonNull View caredPetsView, @NonNull ImageView changePhoto,
-      @NonNull ImageView defaultPhoto, @NonNull ImageView deletePhoto, @NonNull ImageView dislikes,
-      @NonNull TextView dislikesNumb, @NonNull TextView favorites, @NonNull TextView favoritesArrow,
-      @NonNull View favoritesView, @NonNull DefaultToolbarBinding include,
-      @NonNull ConstraintLayout intConstLayout, @NonNull ImageView likes,
-      @NonNull TextView likesNumb, @NonNull TextView logout, @NonNull View logoutView,
-      @NonNull TextView personalInfo, @NonNull TextView personalInfoArrow,
-      @NonNull View personalInfoView, @NonNull ImageView photoProfile,
-      @NonNull RelativeLayout photoProfileView, @NonNull TextView services,
-      @NonNull TextView servicesArrow, @NonNull View servicesView, @NonNull TextView title,
-      @NonNull TextView user) {
+      @NonNull ImageView deletePhoto, @NonNull ImageView dislikes, @NonNull TextView dislikesNumb,
+      @NonNull TextView favorites, @NonNull TextView favoritesArrow, @NonNull View favoritesView,
+      @NonNull DefaultToolbarBinding include, @NonNull ConstraintLayout intConstLayout,
+      @NonNull ImageView likes, @NonNull TextView likesNumb, @NonNull ProgressBar loadProgressBar,
+      @NonNull TextView logout, @NonNull View logoutView, @NonNull TextView personalInfo,
+      @NonNull TextView personalInfoArrow, @NonNull View personalInfoView,
+      @NonNull ImageView photoProfile, @NonNull RelativeLayout photoProfileView,
+      @NonNull ImageView savePhoto, @NonNull ProgressBar saveProgressBar,
+      @NonNull TextView services, @NonNull TextView servicesArrow, @NonNull View servicesView,
+      @NonNull TextView title, @NonNull TextView user) {
     this.rootView = rootView;
     this.ads = ads;
     this.adsArrow = adsArrow;
@@ -132,7 +139,6 @@ public final class FragmentProfileBinding implements ViewBinding {
     this.caredPetsArrow = caredPetsArrow;
     this.caredPetsView = caredPetsView;
     this.changePhoto = changePhoto;
-    this.defaultPhoto = defaultPhoto;
     this.deletePhoto = deletePhoto;
     this.dislikes = dislikes;
     this.dislikesNumb = dislikesNumb;
@@ -143,6 +149,7 @@ public final class FragmentProfileBinding implements ViewBinding {
     this.intConstLayout = intConstLayout;
     this.likes = likes;
     this.likesNumb = likesNumb;
+    this.loadProgressBar = loadProgressBar;
     this.logout = logout;
     this.logoutView = logoutView;
     this.personalInfo = personalInfo;
@@ -150,6 +157,8 @@ public final class FragmentProfileBinding implements ViewBinding {
     this.personalInfoView = personalInfoView;
     this.photoProfile = photoProfile;
     this.photoProfileView = photoProfileView;
+    this.savePhoto = savePhoto;
+    this.saveProgressBar = saveProgressBar;
     this.services = services;
     this.servicesArrow = servicesArrow;
     this.servicesView = servicesView;
@@ -226,12 +235,6 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.default_photo;
-      ImageView defaultPhoto = ViewBindings.findChildViewById(rootView, id);
-      if (defaultPhoto == null) {
-        break missingId;
-      }
-
       id = R.id.delete_photo;
       ImageView deletePhoto = ViewBindings.findChildViewById(rootView, id);
       if (deletePhoto == null) {
@@ -293,6 +296,12 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.load_progressBar;
+      ProgressBar loadProgressBar = ViewBindings.findChildViewById(rootView, id);
+      if (loadProgressBar == null) {
+        break missingId;
+      }
+
       id = R.id.logout;
       TextView logout = ViewBindings.findChildViewById(rootView, id);
       if (logout == null) {
@@ -335,6 +344,18 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.save_photo;
+      ImageView savePhoto = ViewBindings.findChildViewById(rootView, id);
+      if (savePhoto == null) {
+        break missingId;
+      }
+
+      id = R.id.save_progressBar;
+      ProgressBar saveProgressBar = ViewBindings.findChildViewById(rootView, id);
+      if (saveProgressBar == null) {
+        break missingId;
+      }
+
       id = R.id.services;
       TextView services = ViewBindings.findChildViewById(rootView, id);
       if (services == null) {
@@ -366,11 +387,11 @@ public final class FragmentProfileBinding implements ViewBinding {
       }
 
       return new FragmentProfileBinding((ConstraintLayout) rootView, ads, adsArrow, adsView,
-          caredPets, caredPetsArrow, caredPetsView, changePhoto, defaultPhoto, deletePhoto,
-          dislikes, dislikesNumb, favorites, favoritesArrow, favoritesView, binding_include,
-          intConstLayout, likes, likesNumb, logout, logoutView, personalInfo, personalInfoArrow,
-          personalInfoView, photoProfile, photoProfileView, services, servicesArrow, servicesView,
-          title, user);
+          caredPets, caredPetsArrow, caredPetsView, changePhoto, deletePhoto, dislikes,
+          dislikesNumb, favorites, favoritesArrow, favoritesView, binding_include, intConstLayout,
+          likes, likesNumb, loadProgressBar, logout, logoutView, personalInfo, personalInfoArrow,
+          personalInfoView, photoProfile, photoProfileView, savePhoto, saveProgressBar, services,
+          servicesArrow, servicesView, title, user);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
