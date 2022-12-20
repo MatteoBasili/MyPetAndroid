@@ -27,14 +27,24 @@
         android:usesCleartextTraffic="false" >
         <activity
             android:name="com.application.mypet.registration.view.RegistrationActivity"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.services.HomeActivity"
-            android:exported="false" >
+            android:name="com.application.mypet.services.NormUserHomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.application.mypet.services.PetSitHomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

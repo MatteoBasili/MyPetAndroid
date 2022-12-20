@@ -194,9 +194,10 @@ id view6
 id view7
 id yes_button
 layout activity_account_registration
-layout activity_home
 layout activity_login
+layout activity_norm_user_home
 layout activity_password_recovery
+layout activity_pet_sit_home
 layout activity_splash_screen
 layout confirm_dialog
 layout custom_spinner_list
@@ -205,7 +206,8 @@ layout delete_photo_confirm
 layout exit_app_confirm
 layout fragment_app_info
 layout fragment_map
-layout fragment_profile
+layout fragment_norm_user_profile
+layout fragment_pet_sit_profile
 layout fragment_search
 layout loading_dialog
 layout toolbar_with_back

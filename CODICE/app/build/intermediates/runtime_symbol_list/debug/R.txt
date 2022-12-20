@@ -3418,9 +3418,10 @@ int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_account_registration 0x7f0d001c
-int layout activity_home 0x7f0d001d
 int layout activity_login 0x7f0d001e
+int layout activity_norm_user_home 0x7f0d0079
 int layout activity_password_recovery 0x7f0d001f
+int layout activity_pet_sit_home 0x7f0d007a
 int layout activity_splash_screen 0x7f0d0020
 int layout confirm_dialog 0x7f0d0021
 int layout custom_dialog 0x7f0d0022
@@ -3445,7 +3446,8 @@ int layout design_text_input_start_icon 0x7f0d0034
 int layout exit_app_confirm 0x7f0d0035
 int layout fragment_app_info 0x7f0d0036
 int layout fragment_map 0x7f0d0037
-int layout fragment_profile 0x7f0d0038
+int layout fragment_norm_user_profile 0x7f0d0077
+int layout fragment_pet_sit_profile 0x7f0d0078
 int layout fragment_search 0x7f0d0039
 int layout loading_dialog 0x7f0d003a
 int layout m3_alert_dialog 0x7f0d003b

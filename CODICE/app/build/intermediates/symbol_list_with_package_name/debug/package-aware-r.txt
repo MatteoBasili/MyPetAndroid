@@ -3419,9 +3419,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_account_registration
-layout activity_home
 layout activity_login
+layout activity_norm_user_home
 layout activity_password_recovery
+layout activity_pet_sit_home
 layout activity_splash_screen
 layout confirm_dialog
 layout custom_dialog
@@ -3446,7 +3447,8 @@ layout design_text_input_start_icon
 layout exit_app_confirm
 layout fragment_app_info
 layout fragment_map
-layout fragment_profile
+layout fragment_norm_user_profile
+layout fragment_pet_sit_profile
 layout fragment_search
 layout loading_dialog
 layout m3_alert_dialog
