@@ -2,6 +2,7 @@
 
     <string name="app_name">MyPet</string>
     <string name="nav_buttons">━━</string>
+    <string name="save_button">Save</string>
 
     <!-- String for loading dialog bar: -->
     <string name="loading_bar_title">Please wait…</string>
@@ -261,17 +262,17 @@
     <string name="register_first_pet_name_input">Enter name</string>
     <string name="register_pet_sitter">I am a Pet Sitter</string>
     <string name="register_cared_pets">Pets taken care of*:</string>
-    <string name="register_cared_pet1">Dog</string>
-    <string name="register_cared_pet2">Cat</string>
-    <string name="register_cared_pet3">Other pets</string>
+    <string name="cared_pet1">Dog</string>
+    <string name="cared_pet2">Cat</string>
+    <string name="cared_pet3">Other pets</string>
     <string name="register_services">Offered services*:</string>
-    <string name="register_serv1">Pet Sitting at home</string>
-    <string name="register_serv2">Pet Sitting at the pet sitter’s home</string>
-    <string name="register_serv3">Home visit</string>
-    <string name="register_serv4">Walk</string>
-    <string name="register_serv5">Change of litter</string>
-    <string name="register_pet_sitter_desc">Description:</string>
-    <string name="register_pet_sitter_desc_input">Enter a description about yourself</string>
+    <string name="service1">Pet Sitting at home</string>
+    <string name="service2">Pet Sitting at the pet sitter’s home</string>
+    <string name="service3">Home visit</string>
+    <string name="service4">Walk</string>
+    <string name="service5">Change of litter</string>
+    <string name="pet_sitter_desc">Description:</string>
+    <string name="pet_sitter_desc_input">Enter a description about yourself</string>
     <string name="register_button">Register</string>
 
     <!-- Strings for info app fragment: -->
@@ -284,17 +285,23 @@
     <string name="info_app_emails"><br>matthew2000.mb@gmail.com\n</br><br>alessandro.zunica@gmail.com</br></string>
 
     <!-- Strings for profile fragment: -->
-    <string name="profile_frag_title">My profile</string>
+    <string name="profile_frag_title">Your profile</string>
     <string name="profile_frag_user">Username</string>
     <string name="profile_frag_personal_info">Personal informations</string>
     <string name="profile_frag_favorites">Favorites</string>
     <string name="profile_frag_ads">My ads</string>
     <string name="profile_frag_cared_pets">Cared pets</string>
-    <string name="profile_frag_services">Services</string>
+    <string name="profile_frag_services">My services</string>
     <string name="profile_frag_arrow"><b>></b></string>
     <string name="profile_frag_logout"><b>Logout</b></string>
     <string name="profile_frag_init_likes">0</string>
     <string name="profile_frag_init_dislikes">0</string>
+
+    <!-- Strings for personal services fragment: -->
+    <string name="services_frag_title">Your services</string>
+
+    <!-- Strings for personal services fragment: -->
+    <string name="cared_pets_frag_title">Cared pets</string>
 
     <!-- Strings for search fragment: -->
     <string name="search_frag_title">Home</string>

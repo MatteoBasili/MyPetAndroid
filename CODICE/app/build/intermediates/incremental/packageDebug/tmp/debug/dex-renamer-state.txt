@@ -1,4 +1,4 @@
-#Tue Dec 20 23:50:11 CET 2022
+#Thu Dec 22 00:11:14 CET 2022
 path.4=12/classes.dex
 path.3=11/classes.dex
 path.2=10/classes.dex
@@ -26,7 +26,7 @@ path.10=7/classes.dex
 renamed.0=classes.dex
 base.9=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\CODICE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 path.9=6/classes.dex
-path.11=8/classes.dex
+path.11=9/classes.dex
 renamed.7=classes8.dex
 base.8=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\CODICE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
 renamed.6=classes7.dex
@@ -36,5 +36,5 @@ base.6=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\
 renamed.4=classes5.dex
 base.5=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\CODICE\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.12=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\CODICE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.11=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\CODICE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.11=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\CODICE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 base.10=D\:\\Matteo\\ISPW-E-BD\\ISPW\\2021-22\\Test\\TestCodiceMyPet.git\\trunk\\CODICE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex

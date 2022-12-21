@@ -231,6 +231,10 @@
     <string name="button_enter">Enter</string>
     <string name="button_send">Send</string>
     <string name="button_sign_in">Sign In</string>
+    <string name="cared_pet1">Dog</string>
+    <string name="cared_pet2">Cat</string>
+    <string name="cared_pet3">Other pets</string>
+    <string name="cared_pets_frag_title">Cared pets</string>
     <string name="confirm_exit_app_title"><br>Are you sure you want\n</br><br>to exit the app?</br></string>
     <string name="confirm_exit_registration_bar_title"><br>Are you sure you want\n</br><br>to exit registration?</br></string>
     <string name="delete_photo_confirm_title"><br>Are you sure you want\n</br><br>to delete the photo?</br></string>
@@ -256,6 +260,8 @@
     <string name="map_frag_title">Map</string>
     <string name="nav_buttons">━━</string>
     <string name="no_button_confirm">No</string>
+    <string name="pet_sitter_desc">Description:</string>
+    <string name="pet_sitter_desc_input">Enter a description about yourself</string>
     <string name="profile_frag_ads">My ads</string>
     <string name="profile_frag_arrow"><b>></b></string>
     <string name="profile_frag_cared_pets">Cared pets</string>
@@ -264,8 +270,8 @@
     <string name="profile_frag_init_likes">0</string>
     <string name="profile_frag_logout"><b>Logout</b></string>
     <string name="profile_frag_personal_info">Personal informations</string>
-    <string name="profile_frag_services">Services</string>
-    <string name="profile_frag_title">My profile</string>
+    <string name="profile_frag_services">My services</string>
+    <string name="profile_frag_title">Your profile</string>
     <string name="profile_frag_user">Username</string>
     <string name="recover_description"><br>An email with your password\n</br><br>will be sent to you</br></string>
     <string name="recover_email">Email*:</string>
@@ -276,9 +282,6 @@
     <string name="register_address">Address:</string>
     <string name="register_address_input">Enter address</string>
     <string name="register_button">Register</string>
-    <string name="register_cared_pet1">Dog</string>
-    <string name="register_cared_pet2">Cat</string>
-    <string name="register_cared_pet3">Other pets</string>
     <string name="register_cared_pets">Pets taken care of*:</string>
     <string name="register_email">Email*:</string>
     <string name="register_email_input">Enter email</string>
@@ -287,8 +290,6 @@
     <string name="register_name">Name*:</string>
     <string name="register_name_input">Enter name</string>
     <string name="register_pet_sitter">I am a Pet Sitter</string>
-    <string name="register_pet_sitter_desc">Description:</string>
-    <string name="register_pet_sitter_desc_input">Enter a description about yourself</string>
     <string name="register_phone_numb">Phone number*:</string>
     <string name="register_phone_numb_input">Enter number</string>
     <string name="register_province">Province*:</string>
@@ -298,11 +299,6 @@
     <string name="register_pwd_input">Enter password</string>
     <string name="register_region">Region*:</string>
     <string name="register_region_input">Enter region</string>
-    <string name="register_serv1">Pet Sitting at home</string>
-    <string name="register_serv2">Pet Sitting at the pet sitter’s home</string>
-    <string name="register_serv3">Home visit</string>
-    <string name="register_serv4">Walk</string>
-    <string name="register_serv5">Change of litter</string>
     <string name="register_services">Offered services*:</string>
     <string name="register_subtitle">Register</string>
     <string name="register_surname">Surname*:</string>
@@ -310,6 +306,7 @@
     <string name="register_title">Create an account</string>
     <string name="register_username">Username*:</string>
     <string name="register_username_input">Enter username</string>
+    <string name="save_button">Save</string>
     <string name="search_frag_pet">Find Pet</string>
     <string name="search_frag_pet_desc">Image for pet adoption</string>
     <string name="search_frag_pet_sitter"><br>Find\n</br><br>Pet Sitter</br></string>
@@ -317,6 +314,12 @@
     <string name="search_frag_shop">Find Pets Shop</string>
     <string name="search_frag_title">Home</string>
     <string name="search_frag_vet">Find Veterinarian</string>
+    <string name="service1">Pet Sitting at home</string>
+    <string name="service2">Pet Sitting at the pet sitter’s home</string>
+    <string name="service3">Home visit</string>
+    <string name="service4">Walk</string>
+    <string name="service5">Change of litter</string>
+    <string name="services_frag_title">Your services</string>
     <string name="show_pwd_description">Show the password characters</string>
     <string name="splash_screen_bottom_image">Bottom image for Splash Screen</string>
     <string name="splash_screen_center_image">Center image for Splash Screen</string>

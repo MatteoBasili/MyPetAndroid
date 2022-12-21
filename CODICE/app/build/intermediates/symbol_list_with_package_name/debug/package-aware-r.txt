@@ -2604,6 +2604,7 @@ drawable design_snackbar_background
 drawable edit_fill0_wght400_grad0_opsz48
 drawable facebook_logo_500x313
 drawable google__g__logo_svg
+drawable google_map_segnali_1
 drawable hero_conad_petstore
 drawable ic_arrow_down
 drawable ic_baseline_arrow_back_ios_24
@@ -2692,6 +2693,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pet_shop_coming_soon
 drawable pet_sitter_slide
 drawable pharmacy
 drawable progress
@@ -2979,6 +2981,8 @@ id imageView
 id imageView3
 id imageView4
 id imageView7
+id imageViewCS
+id imageViewMap
 id immediateStop
 id include
 id include2
@@ -3141,6 +3145,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id save_button
 id save_non_transition_alpha
 id save_overlay_view
 id save_photo
@@ -3466,10 +3471,15 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout exit_app_confirm
 layout fragment_app_info
+layout fragment_cared_pets
+layout fragment_favorites
 layout fragment_map
 layout fragment_norm_user_profile
+layout fragment_personal_ads
+layout fragment_personal_info
 layout fragment_pet_sit_profile
 layout fragment_search
+layout fragment_services
 layout loading_dialog
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3575,6 +3585,10 @@ string bottomsheet_drag_handle_content_description
 string button_enter
 string button_send
 string button_sign_in
+string cared_pet1
+string cared_pet2
+string cared_pet3
+string cared_pets_frag_title
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3704,6 +3718,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pet_sitter_desc
+string pet_sitter_desc_input
 string profile_frag_ads
 string profile_frag_arrow
 string profile_frag_cared_pets
@@ -3724,9 +3740,6 @@ string recover_title
 string register_address
 string register_address_input
 string register_button
-string register_cared_pet1
-string register_cared_pet2
-string register_cared_pet3
 string register_cared_pets
 string register_email
 string register_email_input
@@ -3735,8 +3748,6 @@ string register_first_pet_name_input
 string register_name
 string register_name_input
 string register_pet_sitter
-string register_pet_sitter_desc
-string register_pet_sitter_desc_input
 string register_phone_numb
 string register_phone_numb_input
 string register_province
@@ -3746,11 +3757,6 @@ string register_pwd_confirm
 string register_pwd_input
 string register_region
 string register_region_input
-string register_serv1
-string register_serv2
-string register_serv3
-string register_serv4
-string register_serv5
 string register_services
 string register_subtitle
 string register_surname
@@ -3758,6 +3764,7 @@ string register_surname_input
 string register_title
 string register_username
 string register_username_input
+string save_button
 string search_frag_pet
 string search_frag_pet_desc
 string search_frag_pet_sitter
@@ -3766,6 +3773,12 @@ string search_frag_shop
 string search_frag_title
 string search_frag_vet
 string search_menu_title
+string service1
+string service2
+string service3
+string service4
+string service5
+string services_frag_title
 string show_pwd_description
 string splash_screen_bottom_image
 string splash_screen_center_image

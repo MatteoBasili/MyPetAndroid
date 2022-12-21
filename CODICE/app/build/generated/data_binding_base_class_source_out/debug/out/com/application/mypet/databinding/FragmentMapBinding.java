@@ -4,6 +4,8 @@ package com.application.mypet.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,16 +22,34 @@ public final class FragmentMapBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final DefaultToolbarBinding include;
+  public final ImageView imageViewCS;
 
   @NonNull
-  public final TextView textView;
+  public final ImageView imageViewMap;
 
-  private FragmentMapBinding(@NonNull ConstraintLayout rootView,
-      @NonNull DefaultToolbarBinding include, @NonNull TextView textView) {
+  @NonNull
+  public final ConstraintLayout intConstLayout;
+
+  @NonNull
+  public final ScrollView scrollView;
+
+  @NonNull
+  public final TextView title;
+
+  @NonNull
+  public final ToolbarWithBackBinding toolbar;
+
+  private FragmentMapBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageViewCS,
+      @NonNull ImageView imageViewMap, @NonNull ConstraintLayout intConstLayout,
+      @NonNull ScrollView scrollView, @NonNull TextView title,
+      @NonNull ToolbarWithBackBinding toolbar) {
     this.rootView = rootView;
-    this.include = include;
-    this.textView = textView;
+    this.imageViewCS = imageViewCS;
+    this.imageViewMap = imageViewMap;
+    this.intConstLayout = intConstLayout;
+    this.scrollView = scrollView;
+    this.title = title;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -59,20 +79,45 @@ public final class FragmentMapBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.include;
-      View include = ViewBindings.findChildViewById(rootView, id);
-      if (include == null) {
-        break missingId;
-      }
-      DefaultToolbarBinding binding_include = DefaultToolbarBinding.bind(include);
-
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.imageViewCS;
+      ImageView imageViewCS = ViewBindings.findChildViewById(rootView, id);
+      if (imageViewCS == null) {
         break missingId;
       }
 
-      return new FragmentMapBinding((ConstraintLayout) rootView, binding_include, textView);
+      id = R.id.imageViewMap;
+      ImageView imageViewMap = ViewBindings.findChildViewById(rootView, id);
+      if (imageViewMap == null) {
+        break missingId;
+      }
+
+      id = R.id.int_const_layout;
+      ConstraintLayout intConstLayout = ViewBindings.findChildViewById(rootView, id);
+      if (intConstLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.scrollView;
+      ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
+      if (scrollView == null) {
+        break missingId;
+      }
+
+      id = R.id.title;
+      TextView title = ViewBindings.findChildViewById(rootView, id);
+      if (title == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      View toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+      ToolbarWithBackBinding binding_toolbar = ToolbarWithBackBinding.bind(toolbar);
+
+      return new FragmentMapBinding((ConstraintLayout) rootView, imageViewCS, imageViewMap,
+          intConstLayout, scrollView, title, binding_toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

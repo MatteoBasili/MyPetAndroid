@@ -34,7 +34,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.services.NormUserHomeActivity"
+            android:name="com.application.mypet.services.profile.normaluser.NormUserHomeActivity"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data
@@ -42,7 +42,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.services.PetSitHomeActivity"
+            android:name="com.application.mypet.services.profile.petsitter.PetSitHomeActivity"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data
@@ -50,7 +50,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.login.recovery.view.PasswordRecoveryActivity"
+            android:name="com.application.mypet.login.view.PasswordRecoveryActivity"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data
@@ -58,7 +58,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.SplashScreen"
+            android:name="com.application.mypet.utils.SplashScreen"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
