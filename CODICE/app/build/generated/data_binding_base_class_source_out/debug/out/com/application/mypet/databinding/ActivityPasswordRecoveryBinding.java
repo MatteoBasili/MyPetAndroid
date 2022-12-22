@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,6 +33,9 @@ public final class ActivityPasswordRecoveryBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
+  public final ScrollView scrollView;
+
+  @NonNull
   public final Button sendButton;
 
   @NonNull
@@ -54,13 +58,14 @@ public final class ActivityPasswordRecoveryBinding implements ViewBinding {
 
   private ActivityPasswordRecoveryBinding(@NonNull ConstraintLayout rootView,
       @NonNull ToolbarWithBackBinding include2, @NonNull ConstraintLayout intConstLayout,
-      @NonNull ProgressBar progressBar, @NonNull Button sendButton, @NonNull TextView textView,
-      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8,
-      @NonNull EditText userEmail, @NonNull EditText userPet) {
+      @NonNull ProgressBar progressBar, @NonNull ScrollView scrollView, @NonNull Button sendButton,
+      @NonNull TextView textView, @NonNull TextView textView6, @NonNull TextView textView7,
+      @NonNull TextView textView8, @NonNull EditText userEmail, @NonNull EditText userPet) {
     this.rootView = rootView;
     this.include2 = include2;
     this.intConstLayout = intConstLayout;
     this.progressBar = progressBar;
+    this.scrollView = scrollView;
     this.sendButton = sendButton;
     this.textView = textView;
     this.textView6 = textView6;
@@ -116,6 +121,12 @@ public final class ActivityPasswordRecoveryBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.scrollView;
+      ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
+      if (scrollView == null) {
+        break missingId;
+      }
+
       id = R.id.send_button;
       Button sendButton = ViewBindings.findChildViewById(rootView, id);
       if (sendButton == null) {
@@ -159,8 +170,8 @@ public final class ActivityPasswordRecoveryBinding implements ViewBinding {
       }
 
       return new ActivityPasswordRecoveryBinding((ConstraintLayout) rootView, binding_include2,
-          intConstLayout, progressBar, sendButton, textView, textView6, textView7, textView8,
-          userEmail, userPet);
+          intConstLayout, progressBar, scrollView, sendButton, textView, textView6, textView7,
+          textView8, userEmail, userPet);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
