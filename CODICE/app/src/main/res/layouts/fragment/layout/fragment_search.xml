@@ -125,7 +125,7 @@
                 tools:ignore="RtlHardcoded" />
 
             <View
-                android:id="@+id/view6"
+                android:id="@+id/veterinarians_view"
                 android:layout_width="284dp"
                 android:layout_height="37dp"
                 android:layout_marginTop="120dp"
@@ -142,9 +142,9 @@
                 android:layout_marginStart="53dp"
                 android:layout_marginLeft="48dp"
                 android:src="@drawable/pharmacy"
-                app:layout_constraintBottom_toBottomOf="@+id/view6"
-                app:layout_constraintStart_toStartOf="@+id/view6"
-                app:layout_constraintTop_toTopOf="@+id/view6"
+                app:layout_constraintBottom_toBottomOf="@+id/veterinarians_view"
+                app:layout_constraintStart_toStartOf="@+id/veterinarians_view"
+                app:layout_constraintTop_toTopOf="@+id/veterinarians_view"
                 app:layout_constraintVertical_bias="0.454"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
@@ -160,21 +160,21 @@
                 android:text="@string/search_frag_vet"
                 android:textColor="@color/black"
                 android:textSize="17sp"
-                app:layout_constraintBottom_toBottomOf="@+id/view6"
-                app:layout_constraintEnd_toEndOf="@+id/view6"
-                app:layout_constraintTop_toTopOf="@+id/view6"
+                app:layout_constraintBottom_toBottomOf="@+id/veterinarians_view"
+                app:layout_constraintEnd_toEndOf="@+id/veterinarians_view"
+                app:layout_constraintTop_toTopOf="@+id/veterinarians_view"
                 app:layout_constraintVertical_bias="0.625"
                 tools:ignore="RtlHardcoded" />
 
             <View
-                android:id="@+id/view7"
+                android:id="@+id/shops_view"
                 android:layout_width="284dp"
                 android:layout_height="37dp"
                 android:layout_marginTop="12dp"
                 android:background="@drawable/search_page_button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/view6" />
+                app:layout_constraintTop_toBottomOf="@+id/veterinarians_view" />
 
             <ImageView
                 android:id="@+id/find_shop_image"
@@ -184,9 +184,9 @@
                 android:layout_marginStart="53dp"
                 android:layout_marginLeft="48dp"
                 android:src="@drawable/shopping_cart"
-                app:layout_constraintBottom_toBottomOf="@+id/view7"
-                app:layout_constraintStart_toStartOf="@+id/view7"
-                app:layout_constraintTop_toTopOf="@+id/view7"
+                app:layout_constraintBottom_toBottomOf="@+id/shops_view"
+                app:layout_constraintStart_toStartOf="@+id/shops_view"
+                app:layout_constraintTop_toTopOf="@+id/shops_view"
                 app:layout_constraintVertical_bias="0.272"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
@@ -202,9 +202,9 @@
                 android:text="@string/search_frag_shop"
                 android:textColor="@color/black"
                 android:textSize="17sp"
-                app:layout_constraintBottom_toBottomOf="@+id/view7"
-                app:layout_constraintEnd_toEndOf="@+id/view7"
-                app:layout_constraintTop_toTopOf="@+id/view7"
+                app:layout_constraintBottom_toBottomOf="@+id/shops_view"
+                app:layout_constraintEnd_toEndOf="@+id/shops_view"
+                app:layout_constraintTop_toTopOf="@+id/shops_view"
                 app:layout_constraintVertical_bias="0.687"
                 tools:ignore="RtlHardcoded" />
 

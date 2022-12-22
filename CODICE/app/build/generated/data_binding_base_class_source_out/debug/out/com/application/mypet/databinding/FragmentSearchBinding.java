@@ -48,10 +48,16 @@ public final class FragmentSearchBinding implements ViewBinding {
   public final ConstraintLayout intConstLayout;
 
   @NonNull
+  public final View shopsView;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
   public final DefaultToolbarBinding toolbar;
+
+  @NonNull
+  public final View veterinariansView;
 
   @NonNull
   public final View view;
@@ -59,19 +65,13 @@ public final class FragmentSearchBinding implements ViewBinding {
   @NonNull
   public final View view5;
 
-  @NonNull
-  public final View view6;
-
-  @NonNull
-  public final View view7;
-
   private FragmentSearchBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView findPetImage,
       @NonNull ImageView findPetSitterImage, @NonNull TextView findPetSitterText,
       @NonNull TextView findPetText, @NonNull ImageView findShopImage,
       @NonNull TextView findShopText, @NonNull ImageView findVetImage,
       @NonNull TextView findVetText, @NonNull ConstraintLayout intConstLayout,
-      @NonNull TextView textView, @NonNull DefaultToolbarBinding toolbar, @NonNull View view,
-      @NonNull View view5, @NonNull View view6, @NonNull View view7) {
+      @NonNull View shopsView, @NonNull TextView textView, @NonNull DefaultToolbarBinding toolbar,
+      @NonNull View veterinariansView, @NonNull View view, @NonNull View view5) {
     this.rootView = rootView;
     this.findPetImage = findPetImage;
     this.findPetSitterImage = findPetSitterImage;
@@ -82,12 +82,12 @@ public final class FragmentSearchBinding implements ViewBinding {
     this.findVetImage = findVetImage;
     this.findVetText = findVetText;
     this.intConstLayout = intConstLayout;
+    this.shopsView = shopsView;
     this.textView = textView;
     this.toolbar = toolbar;
+    this.veterinariansView = veterinariansView;
     this.view = view;
     this.view5 = view5;
-    this.view6 = view6;
-    this.view7 = view7;
   }
 
   @Override
@@ -171,6 +171,12 @@ public final class FragmentSearchBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.shops_view;
+      View shopsView = ViewBindings.findChildViewById(rootView, id);
+      if (shopsView == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -184,6 +190,12 @@ public final class FragmentSearchBinding implements ViewBinding {
       }
       DefaultToolbarBinding binding_toolbar = DefaultToolbarBinding.bind(toolbar);
 
+      id = R.id.veterinarians_view;
+      View veterinariansView = ViewBindings.findChildViewById(rootView, id);
+      if (veterinariansView == null) {
+        break missingId;
+      }
+
       id = R.id.view;
       View view = ViewBindings.findChildViewById(rootView, id);
       if (view == null) {
@@ -196,22 +208,10 @@ public final class FragmentSearchBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.view6;
-      View view6 = ViewBindings.findChildViewById(rootView, id);
-      if (view6 == null) {
-        break missingId;
-      }
-
-      id = R.id.view7;
-      View view7 = ViewBindings.findChildViewById(rootView, id);
-      if (view7 == null) {
-        break missingId;
-      }
-
       return new FragmentSearchBinding((ConstraintLayout) rootView, findPetImage,
           findPetSitterImage, findPetSitterText, findPetText, findShopImage, findShopText,
-          findVetImage, findVetText, intConstLayout, textView, binding_toolbar, view, view5, view6,
-          view7);
+          findVetImage, findVetText, intConstLayout, shopsView, textView, binding_toolbar,
+          veterinariansView, view, view5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

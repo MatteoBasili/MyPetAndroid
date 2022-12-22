@@ -8,7 +8,7 @@
 
     <include
         android:id="@+id/toolbar"
-        layout="@layout/toolbar_with_back" />
+        layout="@layout/default_toolbar" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                 android:id="@+id/imageViewCS"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:layout_marginTop="320dp"
+                android:layout_marginTop="293dp"
                 android:src="@drawable/pet_shop_coming_soon"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"

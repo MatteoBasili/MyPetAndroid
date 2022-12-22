@@ -37,12 +37,12 @@ public final class FragmentMapBinding implements ViewBinding {
   public final TextView title;
 
   @NonNull
-  public final ToolbarWithBackBinding toolbar;
+  public final DefaultToolbarBinding toolbar;
 
   private FragmentMapBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageViewCS,
       @NonNull ImageView imageViewMap, @NonNull ConstraintLayout intConstLayout,
       @NonNull ScrollView scrollView, @NonNull TextView title,
-      @NonNull ToolbarWithBackBinding toolbar) {
+      @NonNull DefaultToolbarBinding toolbar) {
     this.rootView = rootView;
     this.imageViewCS = imageViewCS;
     this.imageViewMap = imageViewMap;
@@ -114,7 +114,7 @@ public final class FragmentMapBinding implements ViewBinding {
       if (toolbar == null) {
         break missingId;
       }
-      ToolbarWithBackBinding binding_toolbar = ToolbarWithBackBinding.bind(toolbar);
+      DefaultToolbarBinding binding_toolbar = DefaultToolbarBinding.bind(toolbar);
 
       return new FragmentMapBinding((ConstraintLayout) rootView, imageViewCS, imageViewMap,
           intConstLayout, scrollView, title, binding_toolbar);

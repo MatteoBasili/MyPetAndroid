@@ -49,18 +49,18 @@
     <!-- Strings for account registration: -->
     <string name="register_title">Create an account</string>
     <string name="register_subtitle">Register</string>
-    <string name="register_name">Name*:</string>
-    <string name="register_name_input">Enter name</string>
-    <string name="register_surname">Surname*:</string>
-    <string name="register_surname_input">Enter surname</string>
+    <string name="name">Name*:</string>
+    <string name="name_input">Enter name</string>
+    <string name="surname">Surname*:</string>
+    <string name="surname_input">Enter surname</string>
     <string name="register_username">Username*:</string>
     <string name="register_username_input">Enter username</string>
     <string name="register_email">Email*:</string>
-    <string name="register_email_input">Enter email</string>
+    <string name="email_input">Enter email</string>
     <string name="register_pwd">Password*:</string>
     <string name="register_pwd_input">Enter password</string>
     <string name="register_pwd_confirm">Confirm Password*:</string>
-    <string name="register_region">Region*:</string>
+    <string name="region">Region*:</string>
     <string-array name="regions">
         <item>Select your region</item>
         <item>Abruzzo</item>
@@ -84,8 +84,7 @@
         <item>Valle d\'Aosta</item>
         <item>Veneto</item>
     </string-array>
-    <string name="register_region_input">Enter region</string>
-    <string name="register_province">Province*:</string>
+    <string name="province">Province*:</string>
     <string-array name="provinces_abruzzo">
         <item>Select your province</item>
         <item>Chieti</item>
@@ -253,13 +252,12 @@
         <item>Verona</item>
         <item>Vicenza</item>
     </string-array>
-    <string name="register_province_input">Enter province</string>
-    <string name="register_address">Address:</string>
-    <string name="register_address_input">Enter address</string>
-    <string name="register_phone_numb">Phone number*:</string>
-    <string name="register_phone_numb_input">Enter number</string>
-    <string name="register_first_pet_name"><br>First Pet Name*:\n</br><br>(For the password recovery)</br></string>
-    <string name="register_first_pet_name_input">Enter name</string>
+    <string name="address">Address:</string>
+    <string name="address_input">Enter address</string>
+    <string name="phone_numb">Phone number*:</string>
+    <string name="phone_numb_input">Enter number</string>
+    <string name="first_pet_name"><br>First Pet Name*:\n</br><br>(For the password recovery)</br></string>
+    <string name="first_pet_name_input">Enter name</string>
     <string name="register_pet_sitter">I am a Pet Sitter</string>
     <string name="register_cared_pets">Pets taken care of*:</string>
     <string name="cared_pet1">Dog</string>
@@ -300,8 +298,11 @@
     <!-- Strings for personal services fragment: -->
     <string name="services_frag_title">Your services</string>
 
-    <!-- Strings for personal services fragment: -->
+    <!-- Strings for cared pets fragment: -->
     <string name="cared_pets_frag_title">Cared pets</string>
+
+    <!-- Strings for personal info fragment: -->
+    <string name="personal_info_frag_title">Personal informations</string>
 
     <!-- Strings for search fragment: -->
     <string name="search_frag_title">Home</string>
