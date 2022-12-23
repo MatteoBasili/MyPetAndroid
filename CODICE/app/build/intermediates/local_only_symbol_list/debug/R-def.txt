@@ -59,11 +59,15 @@ drawable hero_conad_petstore
 drawable ic_arrow_down
 drawable ic_baseline_arrow_back_ios_24
 drawable ic_baseline_close_24
+drawable ic_baseline_favorite_24
+drawable ic_baseline_favorite_border_24
 drawable ic_baseline_info_24
 drawable ic_baseline_map_24
 drawable ic_baseline_person_outline_24
 drawable ic_baseline_save_24
 drawable ic_baseline_search_24
+drawable ic_baseline_thumb_down_alt_24
+drawable ic_baseline_thumb_up_alt_24
 drawable ic_launcher_foreground
 drawable info
 drawable man_walking_with_pet_leash_vector_flat_illustration_male_strolling_street_with_dog_460582_663
@@ -105,6 +109,7 @@ id change_photo
 id close
 id create_account_button
 id delete_photo
+id dislike_clicked
 id dislikes
 id dislikes_numb
 id email
@@ -113,6 +118,7 @@ id enter_button
 id facebookLayout
 id favorites
 id favorites_arrow
+id favorites_clicked
 id favorites_view
 id find_button
 id find_pet_image
@@ -143,6 +149,7 @@ id include
 id include2
 id info
 id int_const_layout
+id like_clicked
 id likes
 id likes_numb
 id linearLayout
@@ -302,6 +309,7 @@ string no_button_confirm
 string personal_info_frag_title
 string pet_sitter_desc
 string pet_sitter_desc_input
+string pet_sitter_result_place
 string phone_numb
 string phone_numb_input
 string profile_frag_ads

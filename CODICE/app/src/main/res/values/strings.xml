@@ -316,6 +316,7 @@
     <string name="init_search_pet_sitter_title">Who are you looking for?</string>
     <string name="init_search_pet_sitter_subtitle">Pet sitter search</string>
     <string name="init_search_pet_sitter_type">Type*:</string>
+    <string name="pet_sitter_result_place">Place</string>
 
 
     <!-- Strings for map fragment: -->
