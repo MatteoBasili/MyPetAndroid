@@ -2624,6 +2624,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable info
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2928,9 +2929,11 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id find_button
 id find_pet_image
 id find_pet_sitter_image
 id find_pet_sitter_text
+id find_pet_sitter_view
 id find_pet_text
 id find_shop_image
 id find_shop_text
@@ -3006,6 +3009,7 @@ id likes_numb
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id load_progressBar
@@ -3111,6 +3115,7 @@ id percent
 id personal_info
 id personal_info_arrow
 id personal_info_view
+id petSitListView
 id pet_sitter_checkBox
 id pet_sitter_desc
 id pet_sitter_desc_input
@@ -3119,6 +3124,7 @@ id phone_numb_input
 id photo_profile
 id photo_profile_view
 id pin
+id place
 id position
 id postLayout
 id pressed
@@ -3302,7 +3308,6 @@ id username_input
 id vertical_only
 id veterinarians_view
 id view
-id view5
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3478,8 +3483,10 @@ layout fragment_norm_user_profile
 layout fragment_personal_ads
 layout fragment_personal_info
 layout fragment_pet_sit_profile
+layout fragment_pet_sitter_results
 layout fragment_search
 layout fragment_services
+layout fragment_start_pet_sit_search
 layout loading_dialog
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3535,6 +3542,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pet_sitter_single_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3604,6 +3612,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string find_button
 string first_pet_name
 string first_pet_name_input
 string google_description
@@ -3616,6 +3625,9 @@ string info_app_par1
 string info_app_par2
 string info_app_par3
 string info_app_title
+string init_search_pet_sitter_subtitle
+string init_search_pet_sitter_title
+string init_search_pet_sitter_type
 string input_password
 string input_username
 string item_view_role_description

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".services.SearchFragment">
+    tools:context=".services.search.view.SearchFragment">
 
     <include
         android:id="@+id/toolbar"
@@ -82,7 +82,7 @@
                 tools:ignore="RtlHardcoded" />
 
             <View
-                android:id="@+id/view5"
+                android:id="@+id/find_pet_sitter_view"
                 android:layout_width="284dp"
                 android:layout_height="82dp"
                 android:layout_marginTop="20dp"
@@ -99,9 +99,9 @@
                 android:layout_marginStart="15.5dp"
                 android:layout_marginLeft="12dp"
                 android:src="@drawable/pet_sitter_slide"
-                app:layout_constraintBottom_toBottomOf="@+id/view5"
-                app:layout_constraintStart_toStartOf="@+id/view5"
-                app:layout_constraintTop_toTopOf="@+id/view5"
+                app:layout_constraintBottom_toBottomOf="@+id/find_pet_sitter_view"
+                app:layout_constraintStart_toStartOf="@+id/find_pet_sitter_view"
+                app:layout_constraintTop_toTopOf="@+id/find_pet_sitter_view"
                 app:layout_constraintVertical_bias="0.466"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
@@ -117,10 +117,10 @@
                 android:text="@string/search_frag_pet_sitter"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="@+id/view5"
-                app:layout_constraintEnd_toEndOf="@+id/view5"
+                app:layout_constraintBottom_toBottomOf="@+id/find_pet_sitter_view"
+                app:layout_constraintEnd_toEndOf="@+id/find_pet_sitter_view"
                 app:layout_constraintHorizontal_bias="0.661"
-                app:layout_constraintTop_toTopOf="@+id/view5"
+                app:layout_constraintTop_toTopOf="@+id/find_pet_sitter_view"
                 app:layout_constraintVertical_bias="0.526"
                 tools:ignore="RtlHardcoded" />
 
@@ -132,7 +132,7 @@
                 android:background="@drawable/search_page_button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/view5" />
+                app:layout_constraintTop_toBottomOf="@+id/find_pet_sitter_view" />
 
             <ImageView
                 android:id="@+id/find_vet_image"

@@ -241,6 +241,7 @@
     <string name="confirm_exit_registration_bar_title"><br>Are you sure you want\n</br><br>to exit registration?</br></string>
     <string name="delete_photo_confirm_title"><br>Are you sure you want\n</br><br>to delete the photo?</br></string>
     <string name="email_input">Enter email</string>
+    <string name="find_button">Find</string>
     <string name="first_pet_name"><br>First Pet Name*:\n</br><br>(For the password recovery)</br></string>
     <string name="first_pet_name_input">Enter name</string>
     <string name="google_description">Google Logo</string>
@@ -251,6 +252,9 @@
     <string name="info_app_par2">Description:</string>
     <string name="info_app_par3">Emails:</string>
     <string name="info_app_title">About us</string>
+    <string name="init_search_pet_sitter_subtitle">Pet sitter search</string>
+    <string name="init_search_pet_sitter_title">Who are you looking for?</string>
+    <string name="init_search_pet_sitter_type">Type*:</string>
     <string name="input_password">Enter password</string>
     <string name="input_username">Enter username</string>
     <string name="loading_bar_title">Please wait…</string>

@@ -41,6 +41,11 @@ com.application.mypet.app-drawables-39 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\Tes
 com.application.mypet.app-res-40 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts
 com.application.mypet.app-layouts-41 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\activity
 com.application.mypet.app-layouts-42 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\fragment
-com.application.mypet.app-layouts-43 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\other
-com.application.mypet.app-layouts-44 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\toolbar
-com.application.mypet.app-res-45 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\navigation_bar_icons
+com.application.mypet.app-fragment-43 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\fragment\info
+com.application.mypet.app-fragment-44 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\fragment\map
+com.application.mypet.app-fragment-45 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\fragment\profile
+com.application.mypet.app-fragment-46 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\fragment\search
+com.application.mypet.app-search-47 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\fragment\search\petsitter
+com.application.mypet.app-layouts-48 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\other
+com.application.mypet.app-layouts-49 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\layouts\toolbar
+com.application.mypet.app-res-50 D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\res\navigation_bar_icons

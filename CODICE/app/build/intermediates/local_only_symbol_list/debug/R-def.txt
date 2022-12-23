@@ -65,6 +65,7 @@ drawable ic_baseline_person_outline_24
 drawable ic_baseline_save_24
 drawable ic_baseline_search_24
 drawable ic_launcher_foreground
+drawable info
 drawable man_walking_with_pet_leash_vector_flat_illustration_male_strolling_street_with_dog_460582_663
 drawable pet_shop_coming_soon
 drawable pet_sitter_slide
@@ -113,9 +114,11 @@ id facebookLayout
 id favorites
 id favorites_arrow
 id favorites_view
+id find_button
 id find_pet_image
 id find_pet_sitter_image
 id find_pet_sitter_text
+id find_pet_sitter_view
 id find_pet_text
 id find_shop_image
 id find_shop_text
@@ -138,9 +141,11 @@ id imageViewCS
 id imageViewMap
 id include
 id include2
+id info
 id int_const_layout
 id likes
 id likes_numb
+id linearLayout
 id load_progressBar
 id logout
 id logout_view
@@ -152,6 +157,7 @@ id offered_services
 id personal_info
 id personal_info_arrow
 id personal_info_view
+id petSitListView
 id pet_sitter_checkBox
 id pet_sitter_desc
 id pet_sitter_desc_input
@@ -159,6 +165,7 @@ id phone_numb
 id phone_numb_input
 id photo_profile
 id photo_profile_view
+id place
 id profile_screen
 id progress
 id progressBar
@@ -216,7 +223,6 @@ id username
 id username_input
 id veterinarians_view
 id view
-id view5
 id yes_button
 layout activity_account_registration
 layout activity_login
@@ -237,9 +243,12 @@ layout fragment_norm_user_profile
 layout fragment_personal_ads
 layout fragment_personal_info
 layout fragment_pet_sit_profile
+layout fragment_pet_sitter_results
 layout fragment_search
 layout fragment_services
+layout fragment_start_pet_sit_search
 layout loading_dialog
+layout pet_sitter_single_item
 layout toolbar_with_back
 layout zoom_image
 menu bottom_nav_menu
@@ -260,6 +269,7 @@ string confirm_exit_app_title
 string confirm_exit_registration_bar_title
 string delete_photo_confirm_title
 string email_input
+string find_button
 string first_pet_name
 string first_pet_name_input
 string google_description
@@ -270,6 +280,9 @@ string info_app_par1
 string info_app_par2
 string info_app_par3
 string info_app_title
+string init_search_pet_sitter_subtitle
+string init_search_pet_sitter_title
+string init_search_pet_sitter_type
 string input_password
 string input_username
 string loading_bar_title
