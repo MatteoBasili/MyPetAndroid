@@ -62,8 +62,8 @@
 35        </activity>
 36        <activity
 36-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:30:9-37:20
-37            android:name="com.application.mypet.services.profile.normaluser.NormUserHomeActivity"
-37-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:31:13-77
+37            android:name="com.application.mypet.services.NormUserHomeActivity"
+37-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:31:13-58
 38            android:exported="false"
 38-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:32:13-37
 39            android:screenOrientation="portrait" >
@@ -77,8 +77,8 @@
 43        </activity>
 44        <activity
 44-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:38:9-45:20
-45            android:name="com.application.mypet.services.profile.petsitter.PetSitHomeActivity"
-45-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:39:13-74
+45            android:name="com.application.mypet.services.PetSitHomeActivity"
+45-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:39:13-56
 46            android:exported="false"
 46-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:40:13-37
 47            android:screenOrientation="portrait" >

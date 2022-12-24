@@ -275,6 +275,8 @@
     <string name="pet_sitter_desc">Description:</string>
     <string name="pet_sitter_desc_input">Enter a description about yourself</string>
     <string name="pet_sitter_result_place">Place</string>
+    <string name="pet_sitter_results_subtitle">Here are our pet sitters</string>
+    <string name="pet_sitter_results_title">Results</string>
     <string name="phone_numb">Phone number*:</string>
     <string name="phone_numb_input">Enter number</string>
     <string name="profile_frag_ads">My ads</string>

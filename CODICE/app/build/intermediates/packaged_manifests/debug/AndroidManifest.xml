@@ -34,7 +34,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.services.profile.normaluser.NormUserHomeActivity"
+            android:name="com.application.mypet.services.NormUserHomeActivity"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data
@@ -42,7 +42,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.application.mypet.services.profile.petsitter.PetSitHomeActivity"
+            android:name="com.application.mypet.services.PetSitHomeActivity"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data

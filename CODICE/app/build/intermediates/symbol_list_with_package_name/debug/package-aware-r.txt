@@ -2860,6 +2860,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id constView
 id constraint
 id container
 id content
@@ -2998,6 +2999,7 @@ id include2
 id included
 id indeterminate
 id info
+id intConstView
 id int_const_layout
 id invisible
 id inward
@@ -3016,7 +3018,6 @@ id likes_numb
 id line1
 id line3
 id linear
-id linearLayout
 id listMode
 id list_item
 id load_progressBar
@@ -3748,6 +3749,8 @@ string personal_info_frag_title
 string pet_sitter_desc
 string pet_sitter_desc_input
 string pet_sitter_result_place
+string pet_sitter_results_subtitle
+string pet_sitter_results_title
 string phone_numb
 string phone_numb_input
 string profile_frag_ads

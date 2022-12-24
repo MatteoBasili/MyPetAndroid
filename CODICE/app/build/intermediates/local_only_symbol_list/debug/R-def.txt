@@ -107,6 +107,7 @@ id cared_pets_checkBox3
 id cared_pets_view
 id change_photo
 id close
+id constView
 id create_account_button
 id delete_photo
 id dislike_clicked
@@ -148,11 +149,11 @@ id imageViewMap
 id include
 id include2
 id info
+id intConstView
 id int_const_layout
 id like_clicked
 id likes
 id likes_numb
-id linearLayout
 id load_progressBar
 id logout
 id logout_view
@@ -310,6 +311,8 @@ string personal_info_frag_title
 string pet_sitter_desc
 string pet_sitter_desc_input
 string pet_sitter_result_place
+string pet_sitter_results_subtitle
+string pet_sitter_results_title
 string phone_numb
 string phone_numb_input
 string profile_frag_ads
