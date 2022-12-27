@@ -2836,6 +2836,7 @@ id cared_pets_arrow
 id cared_pets_checkBox1
 id cared_pets_checkBox2
 id cared_pets_checkBox3
+id cared_pets_title
 id cared_pets_view
 id carryVelocity
 id center
@@ -2862,6 +2863,7 @@ id compress
 id confirm_button
 id constView
 id constraint
+id contact_details_title
 id container
 id content
 id contentPanel
@@ -2884,6 +2886,8 @@ id default_activity_button
 id delete_photo
 id deltaRelative
 id dependency_ordering
+id description
+id description_title
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2897,7 +2901,6 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
-id dislike_clicked
 id dislikes
 id dislikes_numb
 id dragAnticlockwise
@@ -2917,6 +2920,7 @@ id edit_query
 id elastic
 id email
 id email_input
+id email_title
 id embed
 id end
 id endToStart
@@ -3012,11 +3016,12 @@ id layout
 id left
 id leftToRight
 id legacy
-id like_clicked
 id likes
 id likes_numb
 id line1
+id line2
 id line3
+id line4
 id linear
 id listMode
 id list_item
@@ -3083,6 +3088,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id name
 id name_input
+id name_title
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3127,12 +3133,15 @@ id petSitListView
 id pet_sitter_checkBox
 id pet_sitter_desc
 id pet_sitter_desc_input
+id phone
 id phone_numb
 id phone_numb_input
+id phone_title
 id photo_profile
 id photo_profile_view
 id pin
 id place
+id place_title
 id position
 id postLayout
 id pressed
@@ -3194,6 +3203,7 @@ id services_checkBox2
 id services_checkBox3
 id services_checkBox4
 id services_checkBox5
+id services_title
 id services_view
 id sharedValueSet
 id sharedValueUnset
@@ -3491,6 +3501,7 @@ layout fragment_norm_user_profile
 layout fragment_personal_ads
 layout fragment_personal_info
 layout fragment_pet_sit_profile
+layout fragment_pet_sitter_details
 layout fragment_pet_sitter_results
 layout fragment_search
 layout fragment_services
@@ -3624,6 +3635,7 @@ string find_button
 string first_pet_name
 string first_pet_name_input
 string google_description
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string info_app_authors
@@ -3633,6 +3645,7 @@ string info_app_par1
 string info_app_par2
 string info_app_par3
 string info_app_title
+string init_search_pet_sitter_province
 string init_search_pet_sitter_subtitle
 string init_search_pet_sitter_title
 string init_search_pet_sitter_type
@@ -3748,6 +3761,14 @@ string path_password_strike_through
 string personal_info_frag_title
 string pet_sitter_desc
 string pet_sitter_desc_input
+string pet_sitter_details_cared_pets
+string pet_sitter_details_contact
+string pet_sitter_details_description
+string pet_sitter_details_email
+string pet_sitter_details_name
+string pet_sitter_details_phone
+string pet_sitter_details_place
+string pet_sitter_details_services
 string pet_sitter_result_place
 string pet_sitter_results_subtitle
 string pet_sitter_results_title

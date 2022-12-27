@@ -293,8 +293,8 @@
     <string name="profile_frag_services">My services</string>
     <string name="profile_frag_arrow"><b>></b></string>
     <string name="profile_frag_logout"><b>Logout</b></string>
-    <string name="profile_frag_init_likes">0</string>
-    <string name="profile_frag_init_dislikes">0</string>
+    <string name="profile_frag_init_likes" />
+    <string name="profile_frag_init_dislikes" />
 
     <!-- Strings for personal services fragment: -->
     <string name="services_frag_title">Your services</string>
@@ -315,13 +315,25 @@
     <string name="search_frag_shop">Find Pets Shop</string>
     <string name="init_search_pet_sitter_title">Who are you looking for?</string>
     <string name="init_search_pet_sitter_subtitle">Pet sitter search</string>
-    <string name="init_search_pet_sitter_type">Type*:</string>
+    <string name="init_search_pet_sitter_type">Type:</string>
+    <string name="init_search_pet_sitter_province">Province:</string>
     <string name="pet_sitter_result_place">Place</string>
     <string name="pet_sitter_results_title">Results</string>
     <string name="pet_sitter_results_subtitle">Here are our pet sitters</string>
 
+    <!-- Strings for pet sitter details fragment: -->
+    <string name="pet_sitter_details_name">Name:</string>
+    <string name="pet_sitter_details_place">Place:</string>
+    <string name="pet_sitter_details_description">About me</string>
+    <string name="pet_sitter_details_cared_pets">Cared pets</string>
+    <string name="pet_sitter_details_services">Services</string>
+    <string name="pet_sitter_details_contact">Contact details</string>
+    <string name="pet_sitter_details_phone">Phone:</string>
+    <string name="pet_sitter_details_email">Email:</string>
 
     <!-- Strings for map fragment: -->
     <string name="map_frag_title">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

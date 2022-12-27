@@ -2835,6 +2835,7 @@ int id cared_pets_arrow 0x7f0a0070
 int id cared_pets_checkBox1 0x7f0a0071
 int id cared_pets_checkBox2 0x7f0a0072
 int id cared_pets_checkBox3 0x7f0a0073
+int id cared_pets_title 0x7f0a0266
 int id cared_pets_view 0x7f0a0074
 int id carryVelocity 0x7f0a0075
 int id center 0x7f0a0076
@@ -2861,6 +2862,7 @@ int id compress 0x7f0a008a
 int id confirm_button 0x7f0a008b
 int id constView 0x7f0a008c
 int id constraint 0x7f0a008d
+int id contact_details_title 0x7f0a0267
 int id container 0x7f0a008e
 int id content 0x7f0a008f
 int id contentPanel 0x7f0a0090
@@ -2883,6 +2885,8 @@ int id default_activity_button 0x7f0a00a0
 int id delete_photo 0x7f0a00a1
 int id deltaRelative 0x7f0a00a2
 int id dependency_ordering 0x7f0a00a3
+int id description 0x7f0a0268
+int id description_title 0x7f0a0269
 int id design_bottom_sheet 0x7f0a00a4
 int id design_menu_item_action_area 0x7f0a00a5
 int id design_menu_item_action_area_stub 0x7f0a00a6
@@ -2896,7 +2900,6 @@ int id disableIntraAutoTransition 0x7f0a00ad
 int id disablePostScroll 0x7f0a00ae
 int id disableScroll 0x7f0a00af
 int id disjoint 0x7f0a00b0
-int id dislike_clicked 0x7f0a00b1
 int id dislikes 0x7f0a00b2
 int id dislikes_numb 0x7f0a00b3
 int id dragAnticlockwise 0x7f0a00b4
@@ -2916,6 +2919,7 @@ int id edit_query 0x7f0a00c1
 int id elastic 0x7f0a00c2
 int id email 0x7f0a00c3
 int id email_input 0x7f0a00c4
+int id email_title 0x7f0a026a
 int id embed 0x7f0a00c5
 int id end 0x7f0a00c6
 int id endToStart 0x7f0a00c7
@@ -3011,11 +3015,12 @@ int id layout 0x7f0a0120
 int id left 0x7f0a0121
 int id leftToRight 0x7f0a0122
 int id legacy 0x7f0a0123
-int id like_clicked 0x7f0a0124
 int id likes 0x7f0a0125
 int id likes_numb 0x7f0a0126
 int id line1 0x7f0a0127
+int id line2 0x7f0a026b
 int id line3 0x7f0a0128
+int id line4 0x7f0a026c
 int id linear 0x7f0a0129
 int id listMode 0x7f0a012a
 int id list_item 0x7f0a012b
@@ -3082,6 +3087,7 @@ int id mtrl_view_tag_bottom_padding 0x7f0a0167
 int id multiply 0x7f0a0168
 int id name 0x7f0a0169
 int id name_input 0x7f0a016a
+int id name_title 0x7f0a026d
 int id navigation_bar_item_active_indicator_view 0x7f0a016b
 int id navigation_bar_item_icon_container 0x7f0a016c
 int id navigation_bar_item_icon_view 0x7f0a016d
@@ -3126,12 +3132,15 @@ int id petSitListView 0x7f0a0193
 int id pet_sitter_checkBox 0x7f0a0194
 int id pet_sitter_desc 0x7f0a0195
 int id pet_sitter_desc_input 0x7f0a0196
+int id phone 0x7f0a026e
 int id phone_numb 0x7f0a0197
 int id phone_numb_input 0x7f0a0198
+int id phone_title 0x7f0a026f
 int id photo_profile 0x7f0a0199
 int id photo_profile_view 0x7f0a019a
 int id pin 0x7f0a019b
 int id place 0x7f0a019c
+int id place_title 0x7f0a0270
 int id position 0x7f0a019d
 int id postLayout 0x7f0a019e
 int id pressed 0x7f0a019f
@@ -3193,6 +3202,7 @@ int id services_checkBox2 0x7f0a01d6
 int id services_checkBox3 0x7f0a01d7
 int id services_checkBox4 0x7f0a01d8
 int id services_checkBox5 0x7f0a01d9
+int id services_title 0x7f0a0271
 int id services_view 0x7f0a01da
 int id sharedValueSet 0x7f0a01db
 int id sharedValueUnset 0x7f0a01dc
@@ -3490,6 +3500,7 @@ int layout fragment_norm_user_profile 0x7f0d003b
 int layout fragment_personal_ads 0x7f0d003c
 int layout fragment_personal_info 0x7f0d003d
 int layout fragment_pet_sit_profile 0x7f0d003e
+int layout fragment_pet_sitter_details 0x7f0d0081
 int layout fragment_pet_sitter_results 0x7f0d003f
 int layout fragment_search 0x7f0d0040
 int layout fragment_services 0x7f0d0041
@@ -3623,6 +3634,7 @@ int string find_button 0x7f12003b
 int string first_pet_name 0x7f12003c
 int string first_pet_name_input 0x7f12003d
 int string google_description 0x7f12003e
+int string hello_blank_fragment 0x7f120100
 int string hide_bottom_view_on_scroll_behavior 0x7f12003f
 int string icon_content_description 0x7f120040
 int string info_app_authors 0x7f120041
@@ -3632,6 +3644,7 @@ int string info_app_par1 0x7f120044
 int string info_app_par2 0x7f120045
 int string info_app_par3 0x7f120046
 int string info_app_title 0x7f120047
+int string init_search_pet_sitter_province 0x7f1200f7
 int string init_search_pet_sitter_subtitle 0x7f120048
 int string init_search_pet_sitter_title 0x7f120049
 int string init_search_pet_sitter_type 0x7f12004a
@@ -3747,6 +3760,14 @@ int string path_password_strike_through 0x7f1200b7
 int string personal_info_frag_title 0x7f1200b8
 int string pet_sitter_desc 0x7f1200b9
 int string pet_sitter_desc_input 0x7f1200ba
+int string pet_sitter_details_cared_pets 0x7f1200f8
+int string pet_sitter_details_contact 0x7f1200f9
+int string pet_sitter_details_description 0x7f1200fa
+int string pet_sitter_details_email 0x7f1200fb
+int string pet_sitter_details_name 0x7f1200fc
+int string pet_sitter_details_phone 0x7f1200fd
+int string pet_sitter_details_place 0x7f1200fe
+int string pet_sitter_details_services 0x7f1200ff
 int string pet_sitter_result_place 0x7f1200bb
 int string pet_sitter_results_subtitle 0x7f1200bc
 int string pet_sitter_results_title 0x7f1200bd

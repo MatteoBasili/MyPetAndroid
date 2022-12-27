@@ -245,6 +245,7 @@
     <string name="first_pet_name"><br>First Pet Name*:\n</br><br>(For the password recovery)</br></string>
     <string name="first_pet_name_input">Enter name</string>
     <string name="google_description">Google Logo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="info_app_authors"><br>Matteo Basili\n</br><br>Alessandro Zunica</br></string>
     <string name="info_app_desc"><br>We are a couple of students who\n</br><br>love to pamper pets!</br></string>
     <string name="info_app_emails"><br>matthew2000.mb@gmail.com\n</br><br>alessandro.zunica@gmail.com</br></string>
@@ -252,9 +253,10 @@
     <string name="info_app_par2">Description:</string>
     <string name="info_app_par3">Emails:</string>
     <string name="info_app_title">About us</string>
+    <string name="init_search_pet_sitter_province">Province:</string>
     <string name="init_search_pet_sitter_subtitle">Pet sitter search</string>
     <string name="init_search_pet_sitter_title">Who are you looking for?</string>
-    <string name="init_search_pet_sitter_type">Type*:</string>
+    <string name="init_search_pet_sitter_type">Type:</string>
     <string name="input_password">Enter password</string>
     <string name="input_username">Enter username</string>
     <string name="loading_bar_title">Please wait…</string>
@@ -274,6 +276,14 @@
     <string name="personal_info_frag_title">Personal informations</string>
     <string name="pet_sitter_desc">Description:</string>
     <string name="pet_sitter_desc_input">Enter a description about yourself</string>
+    <string name="pet_sitter_details_cared_pets">Cared pets</string>
+    <string name="pet_sitter_details_contact">Contact details</string>
+    <string name="pet_sitter_details_description">About me</string>
+    <string name="pet_sitter_details_email">Email:</string>
+    <string name="pet_sitter_details_name">Name:</string>
+    <string name="pet_sitter_details_phone">Phone:</string>
+    <string name="pet_sitter_details_place">Place:</string>
+    <string name="pet_sitter_details_services">Services</string>
     <string name="pet_sitter_result_place">Place</string>
     <string name="pet_sitter_results_subtitle">Here are our pet sitters</string>
     <string name="pet_sitter_results_title">Results</string>
@@ -283,8 +293,8 @@
     <string name="profile_frag_arrow"><b>></b></string>
     <string name="profile_frag_cared_pets">Cared pets</string>
     <string name="profile_frag_favorites">Favorites</string>
-    <string name="profile_frag_init_dislikes">0</string>
-    <string name="profile_frag_init_likes">0</string>
+    <string name="profile_frag_init_dislikes"/>
+    <string name="profile_frag_init_likes"/>
     <string name="profile_frag_logout"><b>Logout</b></string>
     <string name="profile_frag_personal_info">Personal informations</string>
     <string name="profile_frag_services">My services</string>
