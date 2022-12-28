@@ -57,13 +57,16 @@ drawable google__g__logo_svg
 drawable google_map_segnali_1
 drawable hero_conad_petstore
 drawable ic_arrow_down
+drawable ic_baseline_add_24
 drawable ic_baseline_arrow_back_ios_24
 drawable ic_baseline_close_24
 drawable ic_baseline_favorite_24
 drawable ic_baseline_favorite_border_24
 drawable ic_baseline_info_24
 drawable ic_baseline_map_24
+drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
+drawable ic_baseline_pets_24
 drawable ic_baseline_save_24
 drawable ic_baseline_search_24
 drawable ic_baseline_thumb_down_alt_24
@@ -121,6 +124,8 @@ id email_input
 id email_title
 id enter_button
 id facebookLayout
+id favorite_pet_sitters
+id favorite_pets
 id favorites
 id favorites_arrow
 id favorites_clicked
@@ -168,6 +173,7 @@ id map_screen
 id name
 id name_input
 id name_title
+id new_ad
 id no_button
 id offered_services
 id personal_info
@@ -222,6 +228,8 @@ id spinner_regions
 id subtitle
 id surname
 id surname_input
+id textNoAds
+id textNoFav
 id textView
 id textView1
 id textView10
@@ -257,7 +265,8 @@ layout delete_photo_confirm
 layout exit_app_confirm
 layout fragment_app_info
 layout fragment_cared_pets
-layout fragment_favorites
+layout fragment_favorites_pet
+layout fragment_favorites_pet_sitters
 layout fragment_map
 layout fragment_norm_user_profile
 layout fragment_personal_ads
@@ -269,6 +278,9 @@ layout fragment_search
 layout fragment_services
 layout fragment_start_pet_sit_search
 layout loading_dialog
+layout personal_ads_toolbar
+layout pet_fav_toolbar
+layout pet_sit_fav_toolbar
 layout pet_sitter_single_item
 layout toolbar_with_back
 layout zoom_image
@@ -290,11 +302,14 @@ string confirm_exit_app_title
 string confirm_exit_registration_bar_title
 string delete_photo_confirm_title
 string email_input
+string favorites_frag_no_fav
+string favorites_frag_title
+string favorites_pet_sit_frag_subtitle
+string favorites_pets_frag_subtitle
 string find_button
 string first_pet_name
 string first_pet_name_input
 string google_description
-string hello_blank_fragment
 string info_app_authors
 string info_app_desc
 string info_app_emails
@@ -322,6 +337,8 @@ string name
 string name_input
 string nav_buttons
 string no_button_confirm
+string personal_ads_frag_no_ads
+string personal_ads_frag_title
 string personal_info_frag_title
 string pet_sitter_desc
 string pet_sitter_desc_input

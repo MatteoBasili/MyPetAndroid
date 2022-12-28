@@ -241,11 +241,14 @@
     <string name="confirm_exit_registration_bar_title"><br>Are you sure you want\n</br><br>to exit registration?</br></string>
     <string name="delete_photo_confirm_title"><br>Are you sure you want\n</br><br>to delete the photo?</br></string>
     <string name="email_input">Enter email</string>
+    <string name="favorites_frag_no_fav">No favorites</string>
+    <string name="favorites_frag_title">Favorites</string>
+    <string name="favorites_pet_sit_frag_subtitle">Pet sitters</string>
+    <string name="favorites_pets_frag_subtitle">Pets</string>
     <string name="find_button">Find</string>
     <string name="first_pet_name"><br>First Pet Name*:\n</br><br>(For the password recovery)</br></string>
     <string name="first_pet_name_input">Enter name</string>
     <string name="google_description">Google Logo</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="info_app_authors"><br>Matteo Basili\n</br><br>Alessandro Zunica</br></string>
     <string name="info_app_desc"><br>We are a couple of students who\n</br><br>love to pamper pets!</br></string>
     <string name="info_app_emails"><br>matthew2000.mb@gmail.com\n</br><br>alessandro.zunica@gmail.com</br></string>
@@ -273,6 +276,8 @@
     <string name="name_input">Enter name</string>
     <string name="nav_buttons">━━</string>
     <string name="no_button_confirm">No</string>
+    <string name="personal_ads_frag_no_ads"><br>You have not\n</br><br>uploaded any ads</br></string>
+    <string name="personal_ads_frag_title">Your ads</string>
     <string name="personal_info_frag_title">Personal informations</string>
     <string name="pet_sitter_desc">Description:</string>
     <string name="pet_sitter_desc_input">Enter a description about yourself</string>

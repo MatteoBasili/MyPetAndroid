@@ -2606,13 +2606,16 @@ int drawable google__g__logo_svg 0x7f080089
 int drawable google_map_segnali_1 0x7f08008a
 int drawable hero_conad_petstore 0x7f08008b
 int drawable ic_arrow_down 0x7f08008c
+int drawable ic_baseline_add_24 0x7f0800fc
 int drawable ic_baseline_arrow_back_ios_24 0x7f08008d
 int drawable ic_baseline_close_24 0x7f08008e
 int drawable ic_baseline_favorite_24 0x7f08008f
 int drawable ic_baseline_favorite_border_24 0x7f080090
 int drawable ic_baseline_info_24 0x7f080091
 int drawable ic_baseline_map_24 0x7f080092
+int drawable ic_baseline_person_24 0x7f0800fd
 int drawable ic_baseline_person_outline_24 0x7f080093
+int drawable ic_baseline_pets_24 0x7f0800fe
 int drawable ic_baseline_save_24 0x7f080094
 int drawable ic_baseline_search_24 0x7f080095
 int drawable ic_baseline_thumb_down_alt_24 0x7f080096
@@ -2931,6 +2934,8 @@ int id expand_activities_button 0x7f0a00cc
 int id expanded_menu 0x7f0a00cd
 int id facebookLayout 0x7f0a00ce
 int id fade 0x7f0a00cf
+int id favorite_pet_sitters 0x7f0a0274
+int id favorite_pets 0x7f0a0275
 int id favorites 0x7f0a00d0
 int id favorites_arrow 0x7f0a00d1
 int id favorites_clicked 0x7f0a00d2
@@ -3098,6 +3103,7 @@ int id navigation_header_container 0x7f0a0171
 int id never 0x7f0a0172
 int id neverCompleteToEnd 0x7f0a0173
 int id neverCompleteToStart 0x7f0a0174
+int id new_ad 0x7f0a0273
 int id noScroll 0x7f0a0175
 int id noState 0x7f0a0176
 int id no_button 0x7f0a0177
@@ -3270,6 +3276,8 @@ int id tag_window_insets_animation_callback 0x7f0a0219
 int id text 0x7f0a021a
 int id text2 0x7f0a021b
 int id textEnd 0x7f0a021c
+int id textNoAds 0x7f0a0272
+int id textNoFav 0x7f0a0276
 int id textSpacerNoButtons 0x7f0a021d
 int id textSpacerNoTitle 0x7f0a021e
 int id textStart 0x7f0a021f
@@ -3494,7 +3502,8 @@ int layout design_text_input_start_icon 0x7f0d0035
 int layout exit_app_confirm 0x7f0d0036
 int layout fragment_app_info 0x7f0d0037
 int layout fragment_cared_pets 0x7f0d0038
-int layout fragment_favorites 0x7f0d0039
+int layout fragment_favorites_pet 0x7f0d0083
+int layout fragment_favorites_pet_sitters 0x7f0d0084
 int layout fragment_map 0x7f0d003a
 int layout fragment_norm_user_profile 0x7f0d003b
 int layout fragment_personal_ads 0x7f0d003c
@@ -3560,6 +3569,9 @@ int layout notification_template_custom_big 0x7f0d0076
 int layout notification_template_icon_group 0x7f0d0077
 int layout notification_template_part_chronometer 0x7f0d0078
 int layout notification_template_part_time 0x7f0d0079
+int layout personal_ads_toolbar 0x7f0d0082
+int layout pet_fav_toolbar 0x7f0d0085
+int layout pet_sit_fav_toolbar 0x7f0d0086
 int layout pet_sitter_single_item 0x7f0d007a
 int layout select_dialog_item_material 0x7f0d007b
 int layout select_dialog_multichoice_material 0x7f0d007c
@@ -3630,11 +3642,14 @@ int string error_icon_content_description 0x7f120037
 int string exposed_dropdown_menu_content_description 0x7f120038
 int string fab_transformation_scrim_behavior 0x7f120039
 int string fab_transformation_sheet_behavior 0x7f12003a
+int string favorites_frag_no_fav 0x7f120103
+int string favorites_frag_title 0x7f120104
+int string favorites_pet_sit_frag_subtitle 0x7f120105
+int string favorites_pets_frag_subtitle 0x7f120106
 int string find_button 0x7f12003b
 int string first_pet_name 0x7f12003c
 int string first_pet_name_input 0x7f12003d
 int string google_description 0x7f12003e
-int string hello_blank_fragment 0x7f120100
 int string hide_bottom_view_on_scroll_behavior 0x7f12003f
 int string icon_content_description 0x7f120040
 int string info_app_authors 0x7f120041
@@ -3757,6 +3772,8 @@ int string path_password_eye 0x7f1200b4
 int string path_password_eye_mask_strike_through 0x7f1200b5
 int string path_password_eye_mask_visible 0x7f1200b6
 int string path_password_strike_through 0x7f1200b7
+int string personal_ads_frag_no_ads 0x7f120101
+int string personal_ads_frag_title 0x7f120102
 int string personal_info_frag_title 0x7f1200b8
 int string pet_sitter_desc 0x7f1200b9
 int string pet_sitter_desc_input 0x7f1200ba

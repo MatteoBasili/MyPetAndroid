@@ -305,6 +305,16 @@
     <!-- Strings for personal info fragment: -->
     <string name="personal_info_frag_title">Personal informations</string>
 
+    <!-- Strings for personal ads fragment: -->
+    <string name="personal_ads_frag_title">Your ads</string>
+    <string name="personal_ads_frag_no_ads"><br>You have not\n</br><br>uploaded any ads</br></string>
+
+    <!-- Strings for personal ads fragment: -->
+    <string name="favorites_frag_title">Favorites</string>
+    <string name="favorites_pet_sit_frag_subtitle">Pet sitters</string>
+    <string name="favorites_frag_no_fav">No favorites</string>
+    <string name="favorites_pets_frag_subtitle">Pets</string>
+
     <!-- Strings for search fragment: -->
     <string name="search_frag_title">Home</string>
     <string name="search_frag_pet">Find Pet</string>
@@ -321,6 +331,7 @@
     <string name="pet_sitter_results_title">Results</string>
     <string name="pet_sitter_results_subtitle">Here are our pet sitters</string>
 
+
     <!-- Strings for pet sitter details fragment: -->
     <string name="pet_sitter_details_name">Name:</string>
     <string name="pet_sitter_details_place">Place:</string>
@@ -333,7 +344,5 @@
 
     <!-- Strings for map fragment: -->
     <string name="map_frag_title">Map</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

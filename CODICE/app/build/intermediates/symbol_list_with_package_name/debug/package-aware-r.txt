@@ -2607,13 +2607,16 @@ drawable google__g__logo_svg
 drawable google_map_segnali_1
 drawable hero_conad_petstore
 drawable ic_arrow_down
+drawable ic_baseline_add_24
 drawable ic_baseline_arrow_back_ios_24
 drawable ic_baseline_close_24
 drawable ic_baseline_favorite_24
 drawable ic_baseline_favorite_border_24
 drawable ic_baseline_info_24
 drawable ic_baseline_map_24
+drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
+drawable ic_baseline_pets_24
 drawable ic_baseline_save_24
 drawable ic_baseline_search_24
 drawable ic_baseline_thumb_down_alt_24
@@ -2932,6 +2935,8 @@ id expand_activities_button
 id expanded_menu
 id facebookLayout
 id fade
+id favorite_pet_sitters
+id favorite_pets
 id favorites
 id favorites_arrow
 id favorites_clicked
@@ -3099,6 +3104,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id new_ad
 id noScroll
 id noState
 id no_button
@@ -3271,6 +3277,8 @@ id tag_window_insets_animation_callback
 id text
 id text2
 id textEnd
+id textNoAds
+id textNoFav
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3495,7 +3503,8 @@ layout design_text_input_start_icon
 layout exit_app_confirm
 layout fragment_app_info
 layout fragment_cared_pets
-layout fragment_favorites
+layout fragment_favorites_pet
+layout fragment_favorites_pet_sitters
 layout fragment_map
 layout fragment_norm_user_profile
 layout fragment_personal_ads
@@ -3561,6 +3570,9 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout personal_ads_toolbar
+layout pet_fav_toolbar
+layout pet_sit_fav_toolbar
 layout pet_sitter_single_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -3631,11 +3643,14 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string favorites_frag_no_fav
+string favorites_frag_title
+string favorites_pet_sit_frag_subtitle
+string favorites_pets_frag_subtitle
 string find_button
 string first_pet_name
 string first_pet_name_input
 string google_description
-string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string info_app_authors
@@ -3758,6 +3773,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string personal_ads_frag_no_ads
+string personal_ads_frag_title
 string personal_info_frag_title
 string pet_sitter_desc
 string pet_sitter_desc_input
