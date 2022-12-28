@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "com.application.mypet.app-merged_res-29:/layout_fragment_favorites_pet_sitters.xml.flat",
+        "source": "com.application.mypet.app-main-31:/layouts/fragment/profile/layout/fragment_favorites_pet_sitters.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\font_acme.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\font\\acme.xml"
     },
@@ -228,10 +232,6 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\shapes\\drawable\\rounded_rect_logout.xml"
     },
     {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_pet_sit_fav_toolbar.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/toolbar/layout/pet_sit_fav_toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\xml\\data_extraction_rules.xml"
     },
@@ -288,10 +288,6 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_personal_ads_toolbar.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/toolbar/layout/personal_ads_toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_fragment_start_pet_sit_search.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\search\\petsitter\\layout\\fragment_start_pet_sit_search.xml"
     },
@@ -338,10 +334,6 @@
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_pet_fav_toolbar.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\pet_fav_toolbar.xml"
-    },
-    {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_pet_fav_toolbar.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/toolbar/layout/pet_fav_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\menu_bottom_nav_menu.xml.flat",
