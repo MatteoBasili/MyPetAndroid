@@ -3278,6 +3278,7 @@ int id text2 0x7f0a021b
 int id textEnd 0x7f0a021c
 int id textNoAds 0x7f0a0272
 int id textNoFav 0x7f0a0276
+int id textNoResults 0x7f0a0277
 int id textSpacerNoButtons 0x7f0a021d
 int id textSpacerNoTitle 0x7f0a021e
 int id textStart 0x7f0a021f
@@ -3786,6 +3787,7 @@ int string pet_sitter_details_phone 0x7f1200fd
 int string pet_sitter_details_place 0x7f1200fe
 int string pet_sitter_details_services 0x7f1200ff
 int string pet_sitter_result_place 0x7f1200bb
+int string pet_sitter_results_no_results_text 0x7f120107
 int string pet_sitter_results_subtitle 0x7f1200bc
 int string pet_sitter_results_title 0x7f1200bd
 int string phone_numb 0x7f1200be

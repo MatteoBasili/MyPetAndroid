@@ -3279,6 +3279,7 @@ id text2
 id textEnd
 id textNoAds
 id textNoFav
+id textNoResults
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3787,6 +3788,7 @@ string pet_sitter_details_phone
 string pet_sitter_details_place
 string pet_sitter_details_services
 string pet_sitter_result_place
+string pet_sitter_results_no_results_text
 string pet_sitter_results_subtitle
 string pet_sitter_results_title
 string phone_numb

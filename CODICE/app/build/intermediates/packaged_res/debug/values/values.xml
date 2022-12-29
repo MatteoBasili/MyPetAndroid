@@ -290,6 +290,7 @@
     <string name="pet_sitter_details_place">Place:</string>
     <string name="pet_sitter_details_services">Services</string>
     <string name="pet_sitter_result_place">Place</string>
+    <string name="pet_sitter_results_no_results_text">No results</string>
     <string name="pet_sitter_results_subtitle">Here are our pet sitters</string>
     <string name="pet_sitter_results_title">Results</string>
     <string name="phone_numb">Phone number*:</string>
