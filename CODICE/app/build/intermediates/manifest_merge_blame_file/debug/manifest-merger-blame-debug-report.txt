@@ -137,8 +137,8 @@
 75-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:69:9-77:20
 76            android:name="com.application.mypet.login.view.LoginActivity"
 76-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:70:13-53
-77            android:exported="true"
-77-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:71:13-36
+77            android:exported="false"
+77-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:71:13-37
 78            android:screenOrientation="portrait" >
 78-->D:\Matteo\ISPW-E-BD\ISPW\2021-22\Test\TestCodiceMyPet.git\trunk\CODICE\app\src\main\AndroidManifest.xml:72:13-49
 79            <meta-data
