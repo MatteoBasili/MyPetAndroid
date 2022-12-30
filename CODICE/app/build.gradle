@@ -2,6 +2,10 @@ plugins {
     id 'com.android.application'
 }
 
+def passwordsPropertiesFile = rootProject.file("app/passwords.properties")
+def passwordsProperties = new Properties()
+passwordsProperties.load(new FileInputStream(passwordsPropertiesFile))
+
 android {
     namespace 'com.application.mypet'
     compileSdk 33
@@ -12,6 +16,9 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
+
+        buildConfigField "String", "DB_PASSWORD", passwordsProperties['DB_PASSWORD']
+        buildConfigField "String", "EMAIL_PASSWORD", passwordsProperties['EMAIL_PASSWORD']
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -45,6 +52,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'io.github.cdimascio:dotenv-java:2.2.0'
     implementation files('libs/mysql-connector-java-5.1.49.jar')
     implementation files('libs/activation.jar')
     implementation files('libs/mail.jar')
