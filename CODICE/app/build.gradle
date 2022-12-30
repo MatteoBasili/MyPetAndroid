@@ -19,7 +19,6 @@ android {
 
         buildConfigField "String", "DB_PASSWORD", credentialsProperties['DB_PASSWORD']
         buildConfigField "String", "EMAIL_PASSWORD", credentialsProperties['EMAIL_PASSWORD']
-        buildConfigField "String", "IP_ADDRESS", credentialsProperties['IP_ADDRESS']
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
