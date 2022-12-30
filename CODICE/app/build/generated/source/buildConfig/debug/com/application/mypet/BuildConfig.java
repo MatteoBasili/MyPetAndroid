@@ -13,4 +13,6 @@ public final class BuildConfig {
   public static final String DB_PASSWORD = "Biblioteche.";
   // Field from default config.
   public static final String EMAIL_PASSWORD = "maorvnpzmssyyhse";
+  // Field from default config.
+  public static final String IP_ADDRESS = "192.168.1.153";
 }

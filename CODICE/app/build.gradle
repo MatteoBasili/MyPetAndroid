@@ -2,9 +2,9 @@ plugins {
     id 'com.android.application'
 }
 
-def passwordsPropertiesFile = rootProject.file("app/passwords.properties")
-def passwordsProperties = new Properties()
-passwordsProperties.load(new FileInputStream(passwordsPropertiesFile))
+def credentialsPropertiesFile = rootProject.file("app/credentials.properties")
+def credentialsProperties = new Properties()
+credentialsProperties.load(new FileInputStream(credentialsPropertiesFile))
 
 android {
     namespace 'com.application.mypet'
@@ -17,8 +17,9 @@ android {
         versionCode 1
         versionName "1.0"
 
-        buildConfigField "String", "DB_PASSWORD", passwordsProperties['DB_PASSWORD']
-        buildConfigField "String", "EMAIL_PASSWORD", passwordsProperties['EMAIL_PASSWORD']
+        buildConfigField "String", "DB_PASSWORD", credentialsProperties['DB_PASSWORD']
+        buildConfigField "String", "EMAIL_PASSWORD", credentialsProperties['EMAIL_PASSWORD']
+        buildConfigField "String", "IP_ADDRESS", credentialsProperties['IP_ADDRESS']
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
