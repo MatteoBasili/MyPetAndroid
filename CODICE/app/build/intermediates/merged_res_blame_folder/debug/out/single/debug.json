@@ -4,10 +4,6 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\other_icons\\drawable\\ic_baseline_favorite_border_24.xml"
     },
     {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_fragment_norm_user_profile.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/fragment/profile/layout/fragment_norm_user_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_toolbar_shape.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\shapes\\drawable\\toolbar_shape.xml"
     },
@@ -120,6 +116,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\shapes\\drawable\\rounded_rectangle_input.xml"
     },
     {
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_ic_baseline_logout_24.xml.flat",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\other_icons\\drawable\\ic_baseline_logout_24.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\xml\\backup_rules.xml"
     },
@@ -146,10 +146,6 @@
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_google_map_segnali_1.jpg.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\other_icons\\drawable\\google_map_segnali_1.jpg"
-    },
-    {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_fragment_pet_sit_profile.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/fragment/profile/layout/fragment_pet_sit_profile.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_shopping_cart.png.flat",
@@ -214,6 +210,10 @@
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_pet_shop_coming_soon.png.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\other_icons\\drawable\\pet_shop_coming_soon.png"
+    },
+    {
+        "merged": "com.application.mypet.app-merged_res-29:/layout_fragment_search.xml.flat",
+        "source": "com.application.mypet.app-main-31:/layouts/fragment/search/layout/fragment_search.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_exit_app_confirm.xml.flat",
@@ -284,10 +284,6 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_toolbar_with_logout.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/toolbar/layout/toolbar_with_logout.xml"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_fragment_start_pet_sit_search.xml.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\search\\petsitter\\layout\\fragment_start_pet_sit_search.xml"
     },
@@ -332,8 +328,8 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\other_icons\\drawable\\user.png"
     },
     {
-        "merged": "com.application.mypet.app-merged_res-29:/drawable_ic_baseline_logout_24.xml.flat",
-        "source": "com.application.mypet.app-main-31:/drawables/other_icons/drawable/ic_baseline_logout_24.xml"
+        "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_toolbar_with_logout.xml.flat",
+        "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\toolbar_with_logout.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_pet_fav_toolbar.xml.flat",

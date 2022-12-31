@@ -2952,6 +2952,7 @@ id find_pet_sitter_image
 id find_pet_sitter_text
 id find_pet_sitter_view
 id find_pet_text
+id find_pet_view
 id find_shop_image
 id find_shop_text
 id find_vet_image
@@ -3334,7 +3335,6 @@ id username
 id username_input
 id vertical_only
 id veterinarians_view
-id view
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner

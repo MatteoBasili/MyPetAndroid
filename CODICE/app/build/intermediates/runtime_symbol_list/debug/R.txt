@@ -2951,6 +2951,7 @@ int id find_pet_sitter_image 0x7f0a00e0
 int id find_pet_sitter_text 0x7f0a00e1
 int id find_pet_sitter_view 0x7f0a00e2
 int id find_pet_text 0x7f0a00e3
+int id find_pet_view 0x7f0a0275
 int id find_shop_image 0x7f0a00e4
 int id find_shop_text 0x7f0a00e5
 int id find_vet_image 0x7f0a00e6
@@ -3333,7 +3334,6 @@ int id username 0x7f0a025e
 int id username_input 0x7f0a025f
 int id vertical_only 0x7f0a0260
 int id veterinarians_view 0x7f0a0261
-int id view 0x7f0a0262
 int id view_offset_helper 0x7f0a0263
 int id view_transition 0x7f0a0264
 int id view_tree_lifecycle_owner 0x7f0a0265

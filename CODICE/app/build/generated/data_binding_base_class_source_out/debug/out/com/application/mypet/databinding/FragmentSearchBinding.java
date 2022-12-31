@@ -36,6 +36,9 @@ public final class FragmentSearchBinding implements ViewBinding {
   public final TextView findPetText;
 
   @NonNull
+  public final View findPetView;
+
+  @NonNull
   public final ImageView findShopImage;
 
   @NonNull
@@ -62,22 +65,20 @@ public final class FragmentSearchBinding implements ViewBinding {
   @NonNull
   public final View veterinariansView;
 
-  @NonNull
-  public final View view;
-
   private FragmentSearchBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView findPetImage,
       @NonNull ImageView findPetSitterImage, @NonNull TextView findPetSitterText,
-      @NonNull View findPetSitterView, @NonNull TextView findPetText,
+      @NonNull View findPetSitterView, @NonNull TextView findPetText, @NonNull View findPetView,
       @NonNull ImageView findShopImage, @NonNull TextView findShopText,
       @NonNull ImageView findVetImage, @NonNull TextView findVetText,
       @NonNull ConstraintLayout intConstLayout, @NonNull View shopsView, @NonNull TextView textView,
-      @NonNull DefaultToolbarBinding toolbar, @NonNull View veterinariansView, @NonNull View view) {
+      @NonNull DefaultToolbarBinding toolbar, @NonNull View veterinariansView) {
     this.rootView = rootView;
     this.findPetImage = findPetImage;
     this.findPetSitterImage = findPetSitterImage;
     this.findPetSitterText = findPetSitterText;
     this.findPetSitterView = findPetSitterView;
     this.findPetText = findPetText;
+    this.findPetView = findPetView;
     this.findShopImage = findShopImage;
     this.findShopText = findShopText;
     this.findVetImage = findVetImage;
@@ -87,7 +88,6 @@ public final class FragmentSearchBinding implements ViewBinding {
     this.textView = textView;
     this.toolbar = toolbar;
     this.veterinariansView = veterinariansView;
-    this.view = view;
   }
 
   @Override
@@ -147,6 +147,12 @@ public final class FragmentSearchBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.find_pet_view;
+      View findPetView = ViewBindings.findChildViewById(rootView, id);
+      if (findPetView == null) {
+        break missingId;
+      }
+
       id = R.id.find_shop_image;
       ImageView findShopImage = ViewBindings.findChildViewById(rootView, id);
       if (findShopImage == null) {
@@ -202,16 +208,10 @@ public final class FragmentSearchBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.view;
-      View view = ViewBindings.findChildViewById(rootView, id);
-      if (view == null) {
-        break missingId;
-      }
-
       return new FragmentSearchBinding((ConstraintLayout) rootView, findPetImage,
-          findPetSitterImage, findPetSitterText, findPetSitterView, findPetText, findShopImage,
-          findShopText, findVetImage, findVetText, intConstLayout, shopsView, textView,
-          binding_toolbar, veterinariansView, view);
+          findPetSitterImage, findPetSitterText, findPetSitterView, findPetText, findPetView,
+          findShopImage, findShopText, findVetImage, findVetText, intConstLayout, shopsView,
+          textView, binding_toolbar, veterinariansView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
