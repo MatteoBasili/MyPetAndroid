@@ -10,7 +10,7 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0";
   // Field from default config.
-  public static final String DB_PASSWORD = "Biblioteche.";
+  public static final String DB_WATCHWORD = "Biblioteche.";
   // Field from default config.
-  public static final String EMAIL_PASSWORD = "maorvnpzmssyyhse";
+  public static final String EMAIL_WATCHWORD = "maorvnpzmssyyhse";
 }

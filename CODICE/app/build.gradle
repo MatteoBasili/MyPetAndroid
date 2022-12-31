@@ -17,8 +17,8 @@ android {
         versionCode 1
         versionName "1.0"
 
-        buildConfigField "String", "DB_PASSWORD", credentialsProperties['DB_PASSWORD']
-        buildConfigField "String", "EMAIL_PASSWORD", credentialsProperties['EMAIL_PASSWORD']
+        buildConfigField "String", "DB_WATCHWORD", credentialsProperties['DB_WATCHWORD']
+        buildConfigField "String", "EMAIL_WATCHWORD", credentialsProperties['EMAIL_WATCHWORD']
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
