@@ -148,6 +148,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\other_icons\\drawable\\google_map_segnali_1.jpg"
     },
     {
+        "merged": "com.application.mypet.app-merged_res-29:/layout_fragment_pet_sit_profile.xml.flat",
+        "source": "com.application.mypet.app-main-31:/layouts/fragment/profile/layout/fragment_pet_sit_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\drawable_shopping_cart.png.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\drawables\\other_icons\\drawable\\shopping_cart.png"
     },
@@ -278,10 +282,6 @@
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-debug-30:\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "com.application.mypet.app-merged_res-29:/layout_toolbar_with_logout.xml.flat",
-        "source": "com.application.mypet.app-main-31:/layouts/toolbar/layout/toolbar_with_logout.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-merged_res-29:\\layout_fragment_start_pet_sit_search.xml.flat",
