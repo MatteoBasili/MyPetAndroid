@@ -2612,6 +2612,7 @@ int drawable ic_baseline_close_24 0x7f08008f
 int drawable ic_baseline_favorite_24 0x7f080090
 int drawable ic_baseline_favorite_border_24 0x7f080091
 int drawable ic_baseline_info_24 0x7f080092
+int drawable ic_baseline_logout_24 0x7f0800ff
 int drawable ic_baseline_map_24 0x7f080093
 int drawable ic_baseline_person_24 0x7f080094
 int drawable ic_baseline_person_outline_24 0x7f080095
@@ -3031,7 +3032,6 @@ int id listMode 0x7f0a0131
 int id list_item 0x7f0a0132
 int id load_progressBar 0x7f0a0133
 int id logout 0x7f0a0134
-int id logout_view 0x7f0a0135
 int id map_screen 0x7f0a0136
 int id marquee 0x7f0a0137
 int id masked 0x7f0a0138
@@ -3579,6 +3579,7 @@ int layout select_dialog_multichoice_material 0x7f0d0081
 int layout select_dialog_singlechoice_material 0x7f0d0082
 int layout support_simple_spinner_dropdown_item 0x7f0d0083
 int layout toolbar_with_back 0x7f0d0084
+int layout toolbar_with_logout 0x7f0d0086
 int layout zoom_image 0x7f0d0085
 int menu bottom_nav_menu 0x7f0f0000
 int mipmap ic_launcher 0x7f100000

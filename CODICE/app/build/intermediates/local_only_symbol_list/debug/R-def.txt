@@ -63,6 +63,7 @@ drawable ic_baseline_close_24
 drawable ic_baseline_favorite_24
 drawable ic_baseline_favorite_border_24
 drawable ic_baseline_info_24
+drawable ic_baseline_logout_24
 drawable ic_baseline_map_24
 drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
@@ -168,7 +169,6 @@ id line3
 id line4
 id load_progressBar
 id logout
-id logout_view
 id map_screen
 id name
 id name_input
@@ -284,6 +284,7 @@ layout pet_fav_toolbar
 layout pet_sit_fav_toolbar
 layout pet_sitter_single_item
 layout toolbar_with_back
+layout toolbar_with_logout
 layout zoom_image
 menu bottom_nav_menu
 mipmap ic_launcher
