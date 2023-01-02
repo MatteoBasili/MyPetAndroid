@@ -254,10 +254,9 @@ id username_input
 id veterinarians_view
 id yes_button
 layout activity_account_registration
+layout activity_home
 layout activity_login
-layout activity_norm_user_home
 layout activity_password_recovery
-layout activity_pet_sit_home
 layout activity_splash_screen
 layout confirm_dialog
 layout custom_spinner_list

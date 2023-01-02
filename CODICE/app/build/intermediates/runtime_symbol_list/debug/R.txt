@@ -3475,10 +3475,9 @@ int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_account_registration 0x7f0d001c
+int layout activity_home 0x7f0d0087
 int layout activity_login 0x7f0d001d
-int layout activity_norm_user_home 0x7f0d001e
 int layout activity_password_recovery 0x7f0d001f
-int layout activity_pet_sit_home 0x7f0d0020
 int layout activity_splash_screen 0x7f0d0021
 int layout confirm_dialog 0x7f0d0022
 int layout custom_dialog 0x7f0d0023

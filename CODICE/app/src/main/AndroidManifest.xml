@@ -28,15 +28,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".services.NormUserHomeActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".services.PetSitHomeActivity"
+            android:name=".services.HomeActivity"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data

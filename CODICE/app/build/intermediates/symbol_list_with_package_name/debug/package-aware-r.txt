@@ -3476,10 +3476,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_account_registration
+layout activity_home
 layout activity_login
-layout activity_norm_user_home
 layout activity_password_recovery
-layout activity_pet_sit_home
 layout activity_splash_screen
 layout confirm_dialog
 layout custom_dialog
