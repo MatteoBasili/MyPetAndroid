@@ -17,7 +17,12 @@ android {
         versionCode 1
         versionName "1.0"
 
+        buildConfigField "String", "IP_ADDRESS", credentialsProperties['IP_ADDRESS']
+        buildConfigField "String", "DB_PORT", credentialsProperties['DB_PORT']
+        buildConfigField "String", "DB_NAME", credentialsProperties['DB_NAME']
+        buildConfigField "String", "DB_USERNAME", credentialsProperties['DB_USERNAME']
         buildConfigField "String", "DB_WATCHWORD", credentialsProperties['DB_WATCHWORD']
+        buildConfigField "String", "EMAIL_USERNAME", credentialsProperties['EMAIL_USERNAME']
         buildConfigField "String", "EMAIL_WATCHWORD", credentialsProperties['EMAIL_WATCHWORD']
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
