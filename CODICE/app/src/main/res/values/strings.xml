@@ -309,11 +309,11 @@
     <string name="personal_ads_frag_title">Your ads</string>
     <string name="personal_ads_frag_no_ads"><br>You have not\n</br><br>uploaded any ads</br></string>
 
-    <!-- Strings for personal ads fragment: -->
+    <!-- Strings for favorites fragment: -->
     <string name="favorites_frag_title">Favorites</string>
     <string name="favorites_pet_sit_frag_subtitle">Pet sitters</string>
-    <string name="favorites_frag_no_fav">No favorites</string>
     <string name="favorites_pets_frag_subtitle">Pets</string>
+    <string name="favorites_frag_no_fav">No favorites</string>
 
     <!-- Strings for search fragment: -->
     <string name="search_frag_title">Home</string>
@@ -330,7 +330,6 @@
     <string name="pet_sitter_result_place">Place</string>
     <string name="pet_sitter_results_title">Results</string>
     <string name="pet_sitter_results_subtitle">Here are our pet sitters</string>
-    <string name="pet_sitter_results_no_results_text">No results</string>
 
 
     <!-- Strings for pet sitter details fragment: -->
