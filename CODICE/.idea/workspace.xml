@@ -265,7 +265,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationPresenterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationPresenterTest.isValidInputWhenDataIsCorrectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -278,7 +278,7 @@
           <list>
             <option value=":app:testDebugUnitTest" />
             <option value="--tests" />
-            <option value="&quot;com.application.mypet.registration.RegistrationPresenterTest&quot;" />
+            <option value="&quot;com.application.mypet.registration.data.RegistrationPresenterTest.isValidInputWhenDataIsCorrectTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -314,10 +314,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.RegistrationInteractorTest (1)" />
+        <item itemvalue="Gradle.RegistrationPresenterTest.isValidInputWhenDataIsCorrectTest" />
         <item itemvalue="Gradle.RegistrationInteractorTest" />
         <item itemvalue="Gradle.RegistrationInteractorTest.shouldShowErrorMessageWhenNameIsEmptyTest" />
         <item itemvalue="Gradle.RegistrationPresenterTest.shouldStartLoginActivityWhenDataIsCorrectTest" />
-        <item itemvalue="Gradle.RegistrationPresenterTest" />
       </list>
     </recent_temporary>
   </component>
