@@ -99,6 +99,7 @@ id address_input
 id ads
 id ads_arrow
 id ads_view
+id appInfoFragment
 id app_info_screen
 id back_arrow
 id bottomNavigationView
@@ -170,17 +171,20 @@ id line3
 id line4
 id load_progressBar
 id logout
+id mapFragment
 id map_screen
 id name
 id name_input
 id name_title
 id new_ad
 id no_button
+id normUserProfileFragment
 id offered_services
 id personal_info
 id personal_info_arrow
 id personal_info_view
 id petSitListView
+id petSitProfileFragment
 id pet_sitter_checkBox
 id pet_sitter_desc
 id pet_sitter_desc_input
@@ -207,6 +211,7 @@ id save_button
 id save_photo
 id save_progressBar
 id scrollView
+id searchFragment
 id search_screen
 id send_button
 id services

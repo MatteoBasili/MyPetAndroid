@@ -31,6 +31,9 @@ public final class FragmentMapBinding implements ViewBinding {
   public final ConstraintLayout intConstLayout;
 
   @NonNull
+  public final ConstraintLayout mapFragment;
+
+  @NonNull
   public final ScrollView scrollView;
 
   @NonNull
@@ -41,12 +44,13 @@ public final class FragmentMapBinding implements ViewBinding {
 
   private FragmentMapBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageViewCS,
       @NonNull ImageView imageViewMap, @NonNull ConstraintLayout intConstLayout,
-      @NonNull ScrollView scrollView, @NonNull TextView title,
-      @NonNull DefaultToolbarBinding toolbar) {
+      @NonNull ConstraintLayout mapFragment, @NonNull ScrollView scrollView,
+      @NonNull TextView title, @NonNull DefaultToolbarBinding toolbar) {
     this.rootView = rootView;
     this.imageViewCS = imageViewCS;
     this.imageViewMap = imageViewMap;
     this.intConstLayout = intConstLayout;
+    this.mapFragment = mapFragment;
     this.scrollView = scrollView;
     this.title = title;
     this.toolbar = toolbar;
@@ -97,6 +101,8 @@ public final class FragmentMapBinding implements ViewBinding {
         break missingId;
       }
 
+      ConstraintLayout mapFragment = (ConstraintLayout) rootView;
+
       id = R.id.scrollView;
       ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
       if (scrollView == null) {
@@ -117,7 +123,7 @@ public final class FragmentMapBinding implements ViewBinding {
       DefaultToolbarBinding binding_toolbar = DefaultToolbarBinding.bind(toolbar);
 
       return new FragmentMapBinding((ConstraintLayout) rootView, imageViewCS, imageViewMap,
-          intConstLayout, scrollView, title, binding_toolbar);
+          intConstLayout, mapFragment, scrollView, title, binding_toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -20,6 +20,9 @@ public final class FragmentAppInfoBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ConstraintLayout appInfoFragment;
+
+  @NonNull
   public final ConstraintLayout intConstLayout;
 
   @NonNull
@@ -47,11 +50,12 @@ public final class FragmentAppInfoBinding implements ViewBinding {
   public final DefaultToolbarBinding toolbar;
 
   private FragmentAppInfoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout intConstLayout, @NonNull TextView textView,
-      @NonNull TextView textView1, @NonNull TextView textView2, @NonNull TextView textView3,
-      @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView textView6,
-      @NonNull DefaultToolbarBinding toolbar) {
+      @NonNull ConstraintLayout appInfoFragment, @NonNull ConstraintLayout intConstLayout,
+      @NonNull TextView textView, @NonNull TextView textView1, @NonNull TextView textView2,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull TextView textView6, @NonNull DefaultToolbarBinding toolbar) {
     this.rootView = rootView;
+    this.appInfoFragment = appInfoFragment;
     this.intConstLayout = intConstLayout;
     this.textView = textView;
     this.textView1 = textView1;
@@ -90,6 +94,8 @@ public final class FragmentAppInfoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      ConstraintLayout appInfoFragment = (ConstraintLayout) rootView;
+
       id = R.id.int_const_layout;
       ConstraintLayout intConstLayout = ViewBindings.findChildViewById(rootView, id);
       if (intConstLayout == null) {
@@ -145,8 +151,9 @@ public final class FragmentAppInfoBinding implements ViewBinding {
       }
       DefaultToolbarBinding binding_toolbar = DefaultToolbarBinding.bind(toolbar);
 
-      return new FragmentAppInfoBinding((ConstraintLayout) rootView, intConstLayout, textView,
-          textView1, textView2, textView3, textView4, textView5, textView6, binding_toolbar);
+      return new FragmentAppInfoBinding((ConstraintLayout) rootView, appInfoFragment,
+          intConstLayout, textView, textView1, textView2, textView3, textView4, textView5,
+          textView6, binding_toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

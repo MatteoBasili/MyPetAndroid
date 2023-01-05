@@ -2809,6 +2809,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appInfoFragment
 id app_info_screen
 id arc
 id asConfigured
@@ -3034,6 +3035,7 @@ id listMode
 id list_item
 id load_progressBar
 id logout
+id mapFragment
 id map_screen
 id marquee
 id masked
@@ -3110,6 +3112,7 @@ id noScroll
 id noState
 id no_button
 id none
+id normUserProfileFragment
 id normal
 id north
 id notification_background
@@ -3137,6 +3140,7 @@ id personal_info
 id personal_info_arrow
 id personal_info_view
 id petSitListView
+id petSitProfileFragment
 id pet_sitter_checkBox
 id pet_sitter_desc
 id pet_sitter_desc_input
@@ -3188,6 +3192,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchFragment
 id search_badge
 id search_bar
 id search_button
