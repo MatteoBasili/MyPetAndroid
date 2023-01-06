@@ -31,6 +31,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[NZBEEIWGCIKNYLTS]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -135,7 +136,7 @@
       <recent name="com.application.mypet.services.profile.normaluser.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationInteractorTest.isValidInputWhenNameIsEmptyTest">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="MyPet.app.main" />
       <option name="DEPLOY" value="true" />
@@ -199,7 +200,7 @@
       <module name="MyPet.app.androidTest" />
       <option name="TESTING_TYPE" value="2" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.application.mypet.HomeActivityTest" />
+      <option name="CLASS_NAME" value="com.application.mypet.services.HomeActivityTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_NAME_REGEX" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
@@ -253,7 +254,7 @@
       <module name="MyPet.app.androidTest" />
       <option name="TESTING_TYPE" value="3" />
       <option name="METHOD_NAME" value="SearchFragmentIsDisplayedIfSearchButtonIsClickedTest" />
-      <option name="CLASS_NAME" value="com.application.mypet.HomeActivityTest" />
+      <option name="CLASS_NAME" value="com.application.mypet.services.HomeActivityTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_NAME_REGEX" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
@@ -307,7 +308,7 @@
       <module name="MyPet.app.androidTest" />
       <option name="TESTING_TYPE" value="3" />
       <option name="METHOD_NAME" value="normalUserProfileFragmentIsDisplayedIfLoginUserRoleIsPetSitterTest" />
-      <option name="CLASS_NAME" value="com.application.mypet.HomeActivityTest" />
+      <option name="CLASS_NAME" value="com.application.mypet.services.HomeActivityTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_NAME_REGEX" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
@@ -361,7 +362,7 @@
       <module name="MyPet.app.androidTest" />
       <option name="TESTING_TYPE" value="3" />
       <option name="METHOD_NAME" value="normalUserProfileFragmentIsDisplayedIfProfileButtonIsClickedWhenUserRoleIsNormalUserTest" />
-      <option name="CLASS_NAME" value="com.application.mypet.HomeActivityTest" />
+      <option name="CLASS_NAME" value="com.application.mypet.services.HomeActivityTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_NAME_REGEX" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
