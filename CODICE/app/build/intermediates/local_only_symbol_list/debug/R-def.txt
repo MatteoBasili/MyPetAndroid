@@ -170,6 +170,7 @@ id line2
 id line3
 id line4
 id load_progressBar
+id loginActivity
 id logout
 id mapFragment
 id map_screen
@@ -231,6 +232,9 @@ id sign_in_button
 id spinner_provinces
 id spinner_provinces_view
 id spinner_regions
+id splashScreen
+id splashScreenTitle
+id startPetSitSearch
 id subtitle
 id surname
 id surname_input
@@ -244,7 +248,6 @@ id textView11
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8

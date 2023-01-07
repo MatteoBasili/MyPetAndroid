@@ -3034,6 +3034,7 @@ id linear
 id listMode
 id list_item
 id load_progressBar
+id loginActivity
 id logout
 id mapFragment
 id map_screen
@@ -3242,6 +3243,8 @@ id special_effects_controller_view_tag
 id spinner_provinces
 id spinner_provinces_view
 id spinner_regions
+id splashScreen
+id splashScreenTitle
 id spline
 id split_action_bar
 id spread
@@ -3254,6 +3257,7 @@ id src_over
 id standard
 id start
 id startHorizontal
+id startPetSitSearch
 id startToEnd
 id startVertical
 id staticLayout
@@ -3297,7 +3301,6 @@ id textView11
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8

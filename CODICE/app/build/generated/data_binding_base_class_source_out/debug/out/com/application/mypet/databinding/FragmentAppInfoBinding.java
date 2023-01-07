@@ -26,6 +26,9 @@ public final class FragmentAppInfoBinding implements ViewBinding {
   public final ConstraintLayout intConstLayout;
 
   @NonNull
+  public final TextView splashScreenTitle;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
@@ -41,9 +44,6 @@ public final class FragmentAppInfoBinding implements ViewBinding {
   public final TextView textView4;
 
   @NonNull
-  public final TextView textView5;
-
-  @NonNull
   public final TextView textView6;
 
   @NonNull
@@ -51,18 +51,18 @@ public final class FragmentAppInfoBinding implements ViewBinding {
 
   private FragmentAppInfoBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout appInfoFragment, @NonNull ConstraintLayout intConstLayout,
-      @NonNull TextView textView, @NonNull TextView textView1, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull TextView splashScreenTitle, @NonNull TextView textView, @NonNull TextView textView1,
+      @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textView4,
       @NonNull TextView textView6, @NonNull DefaultToolbarBinding toolbar) {
     this.rootView = rootView;
     this.appInfoFragment = appInfoFragment;
     this.intConstLayout = intConstLayout;
+    this.splashScreenTitle = splashScreenTitle;
     this.textView = textView;
     this.textView1 = textView1;
     this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView4 = textView4;
-    this.textView5 = textView5;
     this.textView6 = textView6;
     this.toolbar = toolbar;
   }
@@ -102,6 +102,12 @@ public final class FragmentAppInfoBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.splashScreenTitle;
+      TextView splashScreenTitle = ViewBindings.findChildViewById(rootView, id);
+      if (splashScreenTitle == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -132,12 +138,6 @@ public final class FragmentAppInfoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
       id = R.id.textView6;
       TextView textView6 = ViewBindings.findChildViewById(rootView, id);
       if (textView6 == null) {
@@ -152,7 +152,7 @@ public final class FragmentAppInfoBinding implements ViewBinding {
       DefaultToolbarBinding binding_toolbar = DefaultToolbarBinding.bind(toolbar);
 
       return new FragmentAppInfoBinding((ConstraintLayout) rootView, appInfoFragment,
-          intConstLayout, textView, textView1, textView2, textView3, textView4, textView5,
+          intConstLayout, splashScreenTitle, textView, textView1, textView2, textView3, textView4,
           textView6, binding_toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);

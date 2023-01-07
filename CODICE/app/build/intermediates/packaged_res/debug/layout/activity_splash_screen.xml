@@ -2,13 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".utils.SplashScreen">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/splashScreenTitle"
         android:layout_width="310dp"
         android:layout_height="100dp"
         android:layout_marginTop="12dp"
@@ -37,7 +38,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/splashScreenTitle" />
 
     <ImageView
         android:id="@+id/imageView3"
