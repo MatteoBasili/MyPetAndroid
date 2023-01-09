@@ -1,0 +1,3 @@
+1.  As a new user, I want a mini tutorial, so that I can easily learn how to use the application.
+2.  As a user looking for a pet sitter, I want to be able to add a pet sitter's profile to my favorites, so that I can consult it more quickly at another time.
+3.  As a pet sitter, I want to see my number of likes and dislikes, so that I can understand what people think about me.
