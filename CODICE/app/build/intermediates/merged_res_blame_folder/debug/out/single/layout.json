@@ -52,6 +52,10 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\toolbar_with_logout.xml"
     },
     {
+        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/fragment_pet_sit_profile.xml",
+        "source": "com.application.mypet.app-main-31:/layouts/fragment/profile/layout/fragment_pet_sit_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_norm_user_profile.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\profile\\layout\\fragment_norm_user_profile.xml"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_personal_info.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\profile\\layout\\fragment_personal_info.xml"
+    },
+    {
+        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/fragment_pet_sitter_details.xml",
+        "source": "com.application.mypet.app-main-31:/layouts/fragment/search/petsitter/layout/fragment_pet_sitter_details.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_pet_sitter_results.xml",
@@ -108,16 +116,16 @@
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\toolbar\\layout\\default_toolbar.xml"
     },
     {
-        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/activity_splash_screen.xml",
-        "source": "com.application.mypet.app-main-31:/layouts/activity/layout/activity_splash_screen.xml"
-    },
-    {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\custom_spinner_list.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\other\\layout\\custom_spinner_list.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\fragment_services.xml",
         "source": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-main-31:\\layouts\\fragment\\profile\\layout\\fragment_services.xml"
+    },
+    {
+        "merged": "com.application.mypet.app-mergeDebugResources-28:/layout/fragment_norm_user_profile.xml",
+        "source": "com.application.mypet.app-main-31:/layouts/fragment/profile/layout/fragment_norm_user_profile.xml"
     },
     {
         "merged": "C:\\Users\\Matteo\\.gradle\\daemon\\7.4\\com.application.mypet.app-mergeDebugResources-28:\\layout\\pet_sitter_single_item.xml",

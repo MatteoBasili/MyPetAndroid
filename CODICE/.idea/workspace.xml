@@ -31,7 +31,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Matteo\.android\avd\4.7_WXGA_API_23.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[NZBEEIWGCIKNYLTS]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -62,10 +62,11 @@
       <list>
         <option value="resourceFile" />
         <option value="layoutResourceFile_vertical" />
-        <option value="Interface" />
         <option value="layoutResourceFile" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -99,6 +100,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="junit.framework.TestCase" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/application/mypet/registration" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.297945872">
@@ -138,10 +140,11 @@
       <recent name="com.application.mypet.registration.data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.application.mypet.utils.factory" />
       <recent name="com.application.mypet.services.profile.normaluser.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.All Tests">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="MyPet.app.main" />
       <option name="DEPLOY" value="true" />
@@ -442,11 +445,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android Instrumented Tests.All Tests" />
+        <item itemvalue="Gradle.SplashScreenTest" />
+        <item itemvalue="Android Instrumented Tests.loginActivityIsDisplayedAfterTimeoutTest()" />
         <item itemvalue="Android Instrumented Tests.SplashScreenTest" />
         <item itemvalue="Android Instrumented Tests.HomeActivityTest" />
-        <item itemvalue="Android Instrumented Tests.loginActivityIsDisplayedAfterTimeoutTest()" />
-        <item itemvalue="Gradle.SplashScreenTest" />
+        <item itemvalue="Android Instrumented Tests.All Tests" />
       </list>
     </recent_temporary>
   </component>
