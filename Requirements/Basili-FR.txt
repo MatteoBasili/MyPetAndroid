@@ -1,3 +1,0 @@
-1.  The system shall provide the registration as normal user and the registration as pet sitter.
-2.  The system shall provide a map for searching veterinarians and pet shops.
-3.  The system shall provide the recovery of the account password by sending the password to the e-mail of the account in question.
