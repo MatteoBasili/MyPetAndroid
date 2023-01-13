@@ -36,7 +36,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".login.view.PasswordRecoveryActivity"
+            android:name=".password_recovery.view.PasswordRecoveryActivity"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data
