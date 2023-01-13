@@ -91,8 +91,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/Matteo/ISPW-E-BD/ISPW/2021-22/Test/MyPet.git/trunk/CODICE"
   }
 }]]></component>
   <component name="RecentsManager">
