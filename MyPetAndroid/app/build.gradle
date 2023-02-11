@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.application'
+}
+
+def credentialsPropertiesFile = rootProject.file("app/app-credentials.properties")
+def credentialsProperties = new Properties()
+credentialsProperties.load(new FileInputStream(credentialsPropertiesFile))
+
+android {
+    namespace 'com.application.mypetandroid'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.application.mypetandroid"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField "String", "DB_IP_ADDRESS", credentialsProperties['DB_IP_ADDRESS']
+        buildConfigField "String", "DB_PORT", credentialsProperties['DB_PORT']
+        buildConfigField "String", "DB_NAME", credentialsProperties['DB_NAME']
+        buildConfigField "String", "DB_USERNAME", credentialsProperties['DB_USERNAME']
+        buildConfigField "String", "DB_WATCHWORD", credentialsProperties['DB_WATCHWORD']
+        buildConfigField "String", "EMAIL_USERNAME", credentialsProperties['EMAIL_USERNAME']
+        buildConfigField "String", "EMAIL_WATCHWORD", credentialsProperties['EMAIL_WATCHWORD']
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_14
+        targetCompatibility JavaVersion.VERSION_14
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    implementation files('libs/mail.jar')
+    implementation files('libs/mysql-connector-java-5.1.49.jar')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'log4j:log4j:1.2.17'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    androidTestImplementation 'androidx.test:rules:1.5.0'
+}
