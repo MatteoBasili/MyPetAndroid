@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_baseline_search_24" android:id="@+id/search_screen" android:title="@string/nav_buttons"/>
-    <item android:icon="@drawable/ic_baseline_map_24" android:id="@+id/map_screen" android:title="@string/nav_buttons"/>
-    <item android:icon="@drawable/ic_baseline_person_outline_24" android:id="@+id/profile_screen" android:title="@string/nav_buttons"/>
-    <item android:icon="@drawable/ic_baseline_info_24" android:id="@+id/app_info_screen" android:title="@string/nav_buttons"/>
-</menu>
